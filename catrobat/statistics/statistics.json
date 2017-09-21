@@ -1,11 +1,11 @@
 {
   "overall": {
-    "programs": 31330,
-    "programsWithMultipleScenes": 3043,
-    "programsWithGroups": 595,
-    "programsInLandscape": 8471,
+    "programs": 31410,
+    "programsWithMultipleScenes": 3054,
+    "programsWithGroups": 598,
+    "programsInLandscape": 8492,
     "languages": {
-      "0.993": 10891,
+      "0.993": 10903,
       "0.94": 14,
       "0.95": 415,
       "0.96": 821,
@@ -14,50 +14,50 @@
       "0.99": 3132,
       "0.991": 3721,
       "0.992": 7604,
-      "0.994": 647
+      "0.994": 715
     },
     "screenSizes": {
-      "960x540": 2217,
-      "1184x720": 1793,
-      "1920x1080": 4014,
-      "1280x720": 4847,
+      "960x540": 2221,
+      "1184x720": 1798,
+      "1920x1080": 4034,
+      "1280x720": 4857,
       "1824x1200": 481,
-      "800x480": 3478,
-      "1024x600": 463,
+      "800x480": 3482,
+      "1024x600": 464,
       "320x240": 63,
       "2392x1440": 303,
       "1776x1080": 771,
       "1368x900": 1,
       "1232x800": 1121,
       "1205x800": 81,
-      "1280x800": 1074,
+      "1280x800": 1077,
       "976x600": 1053,
-      "2560x1440": 887,
+      "2560x1440": 888,
       "480x320": 306,
-      "782x480": 1737,
-      "1216x800": 474,
+      "782x480": 1741,
+      "1216x800": 475,
       "1212x800": 22,
       "2560x1600": 130,
       "976x768": 135,
       "743x480": 2,
-      "854x480": 1950,
+      "854x480": 1955,
       "764x480": 39,
       "1280x768": 36,
-      "1184x768": 332,
-      "888x540": 386,
+      "1184x768": 333,
+      "888x540": 387,
       "1952x1536": 14,
       "1188x720": 92,
       "480x360": 76,
       "2464x1600": 10,
       "904x540": 41,
-      "1199x720": 46,
+      "1199x720": 47,
       "1200x720": 45,
       "1140x900": 1,
       "1152x672": 1,
       "786x480": 74,
       "886x540": 20,
       "744x480": 37,
-      "1104x720": 63,
+      "1104x720": 64,
       "1392x900": 21,
       "1848x1200": 111,
       "1104x648": 17,
@@ -66,20 +66,20 @@
       "1600x900": 2,
       "1794x1080": 182,
       "1232x720": 5,
-      "2048x1536": 87,
+      "2048x1536": 96,
       "752x480": 45,
       "1208x800": 19,
-      "1024x768": 475,
+      "1024x768": 476,
       "734x480": 34,
       "912x540": 16,
       "1196x720": 145,
-      "1812x1080": 260,
+      "1812x1080": 264,
       "1217x800": 10,
       "1834x1200": 10,
       "740x480": 1,
       "1318x768": 3,
       "1219x800": 18,
-      "1208x720": 212,
+      "1208x720": 213,
       "1320x768": 2,
       "2368x1440": 11,
       "1920x1200": 74,
@@ -105,7 +105,7 @@
       "1830x1200": 1,
       "1224x800": 1,
       "1202x800": 4,
-      "1187x720": 63,
+      "1187x720": 65,
       "1798x1080": 4,
       "785x480": 16,
       "1024x552": 116,
@@ -162,7 +162,7 @@
       "1280x737": 1,
       "1787x1080": 3,
       "1280x684": 4,
-      "2008x1080": 7,
+      "2008x1080": 8,
       "1976x1536": 1,
       "2678x1440": 2,
       "1920x1011": 1,
@@ -188,126 +188,126 @@
       "1216x720": 1
     },
     "platforms": {
-      "Android": 31271,
+      "Android": 31351,
       "iOS": 59
     },
-    "remixes": 8815,
-    "scenes": 32478,
-    "objects": 281380,
-    "groups": 4548,
-    "looks": 498118,
-    "sounds": 94272,
-    "bricks": 3781602,
+    "remixes": 8833,
+    "scenes": 32611,
+    "objects": 282030,
+    "groups": 4569,
+    "looks": 499069,
+    "sounds": 94436,
+    "bricks": 3789996,
     "brickUsage": {
       "StartScript": {
         "name": "When program starts",
         "color": "cf5717",
-        "count": 266531
+        "count": 267058
       },
       "BroadcastScript": {
         "name": "When you receive",
         "color": "cf5717",
-        "count": 293484
+        "count": 294038
       },
       "SetLookBrick": {
         "name": "Switch to look",
         "color": "6b9c49",
-        "count": 177458
+        "count": 177812
       },
       "SetVariableBrick": {
         "name": "Set variable",
         "color": "f24e50",
-        "count": 230436
+        "count": 231018
       },
       "BroadcastWaitBrick": {
         "name": "Broadcast and Wait",
         "color": "cf5717",
-        "count": 11521
+        "count": 11572
       },
       "ForeverBrick": {
         "name": "Forever",
         "color": "f99761",
-        "count": 102058
+        "count": 102281
       },
       "IfLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 184151
+        "count": 184677
       },
       "IfLogicElseBrick": {
         "name": "Else",
         "color": "f99761",
-        "count": 184165
+        "count": 184691
       },
       "IfLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 184158
+        "count": 184684
       },
       "LoopEndlessBrick": {
         "name": "Forever",
         "color": "f99761",
-        "count": 101120
+        "count": 101342
       },
       "PlaceAtBrick": {
         "name": "Place at",
         "color": "408ac5",
-        "count": 187401
+        "count": 187813
       },
       "SetSizeToBrick": {
         "name": "Set size",
         "color": "6b9c49",
-        "count": 149226
+        "count": 149548
       },
       "ChangeXByNBrick": {
         "name": "Change X",
         "color": "408ac5",
-        "count": 13719
+        "count": 13772
       },
       "ChangeYByNBrick": {
         "name": "Change Y",
         "color": "408ac5",
-        "count": 17799
+        "count": 17850
       },
       "ChangeVariableBrick": {
         "name": "Change variable",
         "color": "f24e50",
-        "count": 60202
+        "count": 60290
       },
       "WaitBrick": {
         "name": "Wait",
         "color": "f99761",
-        "count": 199549
+        "count": 199852
       },
       "PlaySoundBrick": {
         "name": "Start sound",
         "color": "8f4cba",
-        "count": 57466
+        "count": 57559
       },
       "NoteBrick": {
         "name": "Note",
         "color": "f99761",
-        "count": 18828
+        "count": 18918
       },
       "WhenScript": {
         "name": "When tapped",
         "color": "cf5717",
-        "count": 128927
+        "count": 129172
       },
       "ShowBrick": {
         "name": "Show",
         "color": "6b9c49",
-        "count": 155984
+        "count": 156276
       },
       "GlideToBrick": {
         "name": "Glide to",
         "color": "408ac5",
-        "count": 88283
+        "count": 88448
       },
       "HideBrick": {
         "name": "Hide",
         "color": "6b9c49",
-        "count": 264663
+        "count": 265128
       },
       "LegoNxtMotorStopBrick": {
         "name": "Stop NXT motor",
@@ -322,7 +322,7 @@
       "BroadcastBrick": {
         "name": "Broadcast",
         "color": "cf5717",
-        "count": 135604
+        "count": 135873
       },
       "LegoNxtPlayToneBrick": {
         "name": "Play NXT tone",
@@ -337,102 +337,102 @@
       "SetXBrick": {
         "name": "Set X",
         "color": "408ac5",
-        "count": 15469
+        "count": 15502
       },
       "SetYBrick": {
         "name": "Set Y",
         "color": "408ac5",
-        "count": 19212
+        "count": 19271
       },
       "SetTransparencyBrick": {
         "name": "Set transparency",
         "color": "6b9c49",
-        "count": 26167
+        "count": 26267
       },
       "NextLookBrick": {
         "name": "Next look",
         "color": "6b9c49",
-        "count": 32362
+        "count": 32422
       },
       "SpeakBrick": {
         "name": "Speak",
         "color": "8f4cba",
-        "count": 10621
+        "count": 10639
       },
       "RepeatBrick": {
         "name": "Repeat",
         "color": "f99761",
-        "count": 20942
+        "count": 20965
       },
       "ChangeTransparencyByNBrick": {
         "name": "Change transparency",
         "color": "6b9c49",
-        "count": 4415
+        "count": 4419
       },
       "LoopEndBrick": {
         "name": "End of Loop",
         "color": "f99761",
-        "count": 26306
+        "count": 26344
       },
       "ChangeSizeByNBrick": {
         "name": "Change size",
         "color": "6b9c49",
-        "count": 10176
+        "count": 10204
       },
       "AddItemToUserListBrick": {
         "name": "Add to list",
         "color": "f24e50",
-        "count": 25676
+        "count": 25679
       },
       "ComeToFrontBrick": {
         "name": "Come to front",
         "color": "408ac5",
-        "count": 16341
+        "count": 16374
       },
       "DeleteItemOfUserListBrick": {
         "name": "Delete from list",
         "color": "f24e50",
-        "count": 1233
+        "count": 1234
       },
       "MoveNStepsBrick": {
         "name": "Move _ steps",
         "color": "408ac5",
-        "count": 6762
+        "count": 6778
       },
       "IfOnEdgeBounceBrick": {
         "name": "If on edge, bounce",
         "color": "408ac5",
-        "count": 6257
+        "count": 6296
       },
       "TurnLeftBrick": {
         "name": "Turn left",
         "color": "408ac5",
-        "count": 7076
+        "count": 7091
       },
       "PointInDirectionBrick": {
         "name": "Point in direction",
         "color": "408ac5",
-        "count": 9065
+        "count": 9078
       },
       "PointToBrick": {
         "name": "Point to",
         "color": "408ac5",
-        "count": 2806
+        "count": 2826
       },
       "TurnRightBrick": {
         "name": "Turn right",
         "color": "408ac5",
-        "count": 5524
+        "count": 5544
       },
       "GoNStepsBackBrick": {
         "name": "Go back _ layers",
         "color": "408ac5",
-        "count": 5372
+        "count": 5390
       },
       "SetBrightnessBrick": {
         "name": "Set brightness",
         "color": "6b9c49",
-        "count": 5868
+        "count": 5869
       },
       "ChangeBrightnessByNBrick": {
         "name": "Change brightness",
@@ -442,27 +442,27 @@
       "SetVolumeToBrick": {
         "name": "Set volume",
         "color": "8f4cba",
-        "count": 2904
+        "count": 2918
       },
       "StopAllSoundsBrick": {
         "name": "Stop all sounds",
         "color": "8f4cba",
-        "count": 6633
+        "count": 6643
       },
       "ClearGraphicEffectBrick": {
         "name": "Clear",
         "color": "305716",
-        "count": 731
+        "count": 732
       },
       "ReplaceItemInUserListBrick": {
         "name": "Replace in list",
         "color": "f24e50",
-        "count": 1093
+        "count": 1094
       },
       "ChangeVolumeByNBrick": {
         "name": "Change volume",
         "color": "8f4cba",
-        "count": 407
+        "count": 408
       },
       "InsertItemIntoUserListBrick": {
         "name": "Insert into list",
@@ -472,17 +472,17 @@
       "ShowTextBrick": {
         "name": "Show variable",
         "color": "f24e50",
-        "count": 18818
+        "count": 18850
       },
       "HideTextBrick": {
         "name": "Hide variable",
         "color": "f24e50",
-        "count": 5863
+        "count": 5880
       },
       "SetRotationStyleBrick": {
         "name": "Set rotation style",
         "color": "408ac5",
-        "count": 1131
+        "count": 1135
       },
       "PhiroRGBLightBrick": {
         "name": "Set Phiro light",
@@ -502,7 +502,7 @@
       "VibrationBrick": {
         "name": "Vibrate",
         "color": "408ac5",
-        "count": 3529
+        "count": 3561
       },
       "ArduinoSendPWMValueBrick": {
         "name": "Set Arduino PWM~ pin",
@@ -532,17 +532,17 @@
       "ChooseCameraBrick": {
         "name": "Use front/back camera",
         "color": "6b9c49",
-        "count": 1144
+        "count": 1145
       },
       "FlashBrick": {
         "name": "Turn flashlight",
         "color": "6b9c49",
-        "count": 3533
+        "count": 3536
       },
       "CameraBrick": {
         "name": "Turn camera on/off",
         "color": "6b9c49",
-        "count": 1416
+        "count": 1417
       },
       "WhenNfcScript": {
         "name": "When NFC",
@@ -557,92 +557,92 @@
       "ChangeColorByNBrick": {
         "name": "Change color",
         "color": "6b9c49",
-        "count": 2010
+        "count": 2029
       },
       "SetPhysicsObjectTypeBrick": {
         "name": "Set motion type",
         "color": "408ac5",
-        "count": 8095
+        "count": 8122
       },
       "SetGravityBrick": {
         "name": "Set gravity",
         "color": "408ac5",
-        "count": 1210
+        "count": 1222
       },
       "SetMassBrick": {
         "name": "Set mass",
         "color": "408ac5",
-        "count": 588
+        "count": 590
       },
       "SetBounceBrick": {
         "name": "Set bounce factor",
         "color": "408ac5",
-        "count": 1147
+        "count": 1151
       },
       "SetVelocityBrick": {
         "name": "Set velocity",
         "color": "408ac5",
-        "count": 6252
+        "count": 6272
       },
       "TurnLeftSpeedBrick": {
         "name": "Rotate left speed",
         "color": "408ac5",
-        "count": 752
+        "count": 755
       },
       "TurnRightSpeedBrick": {
         "name": "Rotate right speed",
         "color": "408ac5",
-        "count": 567
+        "count": 570
       },
       "CollisionScript": {
         "name": "When physical collision with",
         "color": "cf5717",
-        "count": 4439
+        "count": 4476
       },
       "SetFrictionBrick": {
         "name": "Set friction",
         "color": "408ac5",
-        "count": 264
+        "count": 266
       },
       "SetColorBrick": {
         "name": "Set color",
         "color": "6b9c49",
-        "count": 2290
+        "count": 2294
       },
       "PlaySoundAndWaitBrick": {
         "name": "Start sound and wait",
         "color": "8f4cba",
-        "count": 4019
+        "count": 4036
       },
       "WhenTouchDownScript": {
         "name": "When screen is touched",
         "color": "cf5717",
-        "count": 10082
+        "count": 10095
       },
       "IfThenLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 54186
+        "count": 54347
       },
       "IfThenLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 54197
+        "count": 54358
       },
       "WaitUntilBrick": {
         "name": "Wait until _ is true",
         "color": "f99761",
-        "count": 2302
+        "count": 2320
       },
       "RepeatUntilBrick": {
         "name": "Repeat until _ is true",
         "color": "f99761",
-        "count": 4418
+        "count": 4433
       },
       "WhenConditionScript": {
         "name": "When _ becomes true",
         "color": "cf5717",
-        "count": 16887
+        "count": 16900
       },
       "RaspiInterruptScript": {
         "name": "When Raspberry Pi pin changes to",
@@ -667,12 +667,12 @@
       "AskBrick": {
         "name": "Ask",
         "color": "6b9c49",
-        "count": 4215
+        "count": 4220
       },
       "PenDownBrick": {
         "name": "Pen down",
         "color": "305716",
-        "count": 839
+        "count": 840
       },
       "SetPenColorBrick": {
         "name": "Set pen color",
@@ -687,47 +687,47 @@
       "SayBubbleBrick": {
         "name": "Say",
         "color": "6b9c49",
-        "count": 901
+        "count": 902
       },
       "SayForBubbleBrick": {
         "name": "Say for _ seconds",
         "color": "6b9c49",
-        "count": 4104
+        "count": 4121
       },
       "GoToBrick": {
         "name": "Go to",
         "color": "408ac5",
-        "count": 9133
+        "count": 9147
       },
       "WhenClonedScript": {
         "name": "When I start as a clone",
         "color": "cf5717",
-        "count": 2695
+        "count": 2715
       },
       "CloneBrick": {
         "name": "Create clone",
         "color": "f99761",
-        "count": 2585
+        "count": 2604
       },
       "WhenBackgroundChangesScript": {
         "name": "When background changes to",
         "color": "cf5717",
-        "count": 10396
+        "count": 10408
       },
       "DeleteThisCloneBrick": {
         "name": "Delete this clone",
         "color": "f99761",
-        "count": 1321
+        "count": 1335
       },
       "SetBackgroundAndWaitBrick": {
         "name": "Switch background and wait",
         "color": "6b9c49",
-        "count": 181
+        "count": 182
       },
       "SetBackgroundBrick": {
         "name": "Switch background",
         "color": "6b9c49",
-        "count": 14457
+        "count": 14475
       },
       "ThinkBubbleBrick": {
         "name": "Think",
@@ -737,7 +737,7 @@
       "StopScriptBrick": {
         "name": "Stop script",
         "color": "f99761",
-        "count": 3072
+        "count": 3109
       },
       "ClearBackgroundBrick": {
         "name": "Clear graphic effects",
@@ -757,22 +757,22 @@
       "SceneTransitionBrick": {
         "name": "Continue scene",
         "color": "f99761",
-        "count": 7559
+        "count": 7583
       },
       "SceneStartBrick": {
         "name": "Start scene",
         "color": "f99761",
-        "count": 17560
+        "count": 17612
       },
       "PreviousLookBrick": {
         "name": "Previous look",
         "color": "6b9c49",
-        "count": 1234
+        "count": 1238
       },
       "SpeakAndWaitBrick": {
         "name": "Speak and wait",
         "color": "8f4cba",
-        "count": 881
+        "count": 903
       },
       "ThinkForBubbleBrick": {
         "name": "Think for _ seconds",
@@ -787,7 +787,7 @@
       "AskSpeechBrick": {
         "name": "Ask speech",
         "color": "8f4cba",
-        "count": 256
+        "count": 259
       },
       "LegoEv3MotorMoveBrick": {
         "name": "Move EV3 motor",
@@ -822,7 +822,7 @@
       "SetBackgroundByIndexAndWaitBrick": {
         "name": "Switch background to # and wait",
         "color": "6b9c49",
-        "count": 3
+        "count": 4
       },
       "SetBackgroundByIndexBrick": {
         "name": "Switch background to #",
@@ -830,57 +830,56 @@
         "count": 6
       }
     },
-    "objectVariables": 200640,
-    "objectLists": 133542,
-    "programVariables": 78562,
-    "programLists": 1500
+    "objectVariables": 201102,
+    "objectLists": 133868,
+    "programVariables": 78726,
+    "programLists": 1503
   },
   "overallCurrentYear": {
-    "programs": 21355,
-    "programsWithMultipleScenes": 3043,
-    "programsWithGroups": 595,
-    "programsInLandscape": 6591,
+    "programs": 21392,
+    "programsWithMultipleScenes": 3054,
+    "programsWithGroups": 598,
+    "programsInLandscape": 6605,
     "languages": {
-      "0.993": 10891,
-      "0.99": 89,
-      "0.991": 2044,
-      "0.98": 62,
+      "0.993": 10903,
+      "0.99": 78,
+      "0.991": 2013,
+      "0.98": 61,
       "0.97": 14,
       "0.96": 3,
       "0.992": 7604,
       "0.95": 1,
-      "0.994": 647
+      "0.994": 715
     },
     "screenSizes": {
-      "960x540": 1388,
-      "1232x800": 655,
+      "960x540": 1390,
+      "1232x800": 654,
       "1824x1200": 218,
-      "2560x1440": 591,
-      "1184x768": 256,
-      "1920x1080": 2630,
-      "1280x720": 3654,
-      "1184x720": 1288,
-      "1776x1080": 485,
-      "782x480": 1037,
-      "854x480": 1468,
-      "800x480": 2235,
-      "1812x1080": 245,
-      "1280x768": 10,
-      "888x540": 223,
+      "2560x1440": 590,
+      "1184x768": 257,
+      "1920x1080": 2635,
+      "1280x720": 3658,
+      "800x480": 2234,
+      "888x540": 224,
+      "782x480": 1039,
       "1798x1080": 3,
       "1188x720": 72,
-      "1216x800": 295,
+      "854x480": 1470,
+      "1184x720": 1290,
+      "1776x1080": 484,
+      "1216x800": 296,
       "1794x1080": 159,
       "970x600": 2,
       "976x600": 695,
       "2560x1600": 79,
-      "1280x800": 773,
-      "1024x600": 274,
+      "1280x800": 776,
+      "1024x600": 275,
       "904x540": 23,
-      "1208x720": 204,
-      "1024x768": 357,
+      "1208x720": 205,
+      "1024x768": 358,
       "752x480": 25,
-      "1199x720": 41,
+      "1812x1080": 247,
+      "1199x720": 42,
       "1196x720": 133,
       "1920x1104": 10,
       "976x768": 88,
@@ -894,7 +893,7 @@
       "1280x752": 76,
       "786x480": 63,
       "897x540": 23,
-      "1187x720": 59,
+      "1187x720": 61,
       "1205x800": 20,
       "1104x648": 4,
       "1920x1128": 12,
@@ -903,7 +902,7 @@
       "1024x552": 100,
       "1834x1200": 8,
       "568x320": 21,
-      "2048x1536": 72,
+      "2048x1536": 81,
       "1848x1200": 75,
       "1821x1080": 5,
       "734x480": 14,
@@ -919,6 +918,7 @@
       "480x360": 73,
       "1219x800": 7,
       "1920x1114": 1,
+      "1280x768": 9,
       "958x600": 2,
       "982x600": 8,
       "1193x720": 54,
@@ -953,7 +953,7 @@
       "1813x1080": 1,
       "1920x1081": 4,
       "2464x1440": 9,
-      "1104x720": 1,
+      "1104x720": 2,
       "1830x1080": 7,
       "1202x800": 3,
       "1788x1080": 3,
@@ -972,7 +972,7 @@
       "1280x737": 1,
       "1787x1080": 3,
       "1280x684": 4,
-      "2008x1080": 7,
+      "2008x1080": 8,
       "1976x1536": 1,
       "2678x1440": 2,
       "1920x1011": 1,
@@ -1000,136 +1000,136 @@
       "1440x900": 1
     },
     "platforms": {
-      "Android": 21296,
+      "Android": 21333,
       "iOS": 59
     },
-    "remixes": 5741,
-    "scenes": 32478,
-    "objects": 213559,
-    "groups": 4548,
-    "looks": 361376,
-    "sounds": 67922,
-    "bricks": 2689056,
+    "remixes": 5750,
+    "scenes": 32611,
+    "objects": 213984,
+    "groups": 4569,
+    "looks": 361879,
+    "sounds": 67979,
+    "bricks": 2693498,
     "brickUsage": {
       "StartScript": {
         "name": "When program starts",
         "color": "cf5717",
-        "count": 201676
+        "count": 202033
       },
       "BroadcastScript": {
         "name": "When you receive",
         "color": "cf5717",
-        "count": 214329
+        "count": 214717
       },
       "SetLookBrick": {
         "name": "Switch to look",
         "color": "6b9c49",
-        "count": 112019
+        "count": 112172
       },
       "SetVariableBrick": {
         "name": "Set variable",
         "color": "f24e50",
-        "count": 146395
+        "count": 146535
       },
       "BroadcastWaitBrick": {
         "name": "Broadcast and Wait",
         "color": "cf5717",
-        "count": 6700
+        "count": 6726
       },
       "ForeverBrick": {
         "name": "Forever",
         "color": "f99761",
-        "count": 73066
+        "count": 73200
       },
       "IfLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 103169
+        "count": 103255
       },
       "IfLogicElseBrick": {
         "name": "Else",
         "color": "f99761",
-        "count": 103178
+        "count": 103264
       },
       "IfLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 103176
+        "count": 103262
       },
       "LoopEndlessBrick": {
         "name": "Forever",
         "color": "f99761",
-        "count": 72177
+        "count": 72310
       },
       "PlaceAtBrick": {
         "name": "Place at",
         "color": "408ac5",
-        "count": 136514
+        "count": 136795
       },
       "SetSizeToBrick": {
         "name": "Set size",
         "color": "6b9c49",
-        "count": 106043
+        "count": 106254
       },
       "ChangeXByNBrick": {
         "name": "Change X",
         "color": "408ac5",
-        "count": 9644
+        "count": 9688
       },
       "ChangeYByNBrick": {
         "name": "Change Y",
         "color": "408ac5",
-        "count": 11231
+        "count": 11258
       },
       "WhenScript": {
         "name": "When tapped",
         "color": "cf5717",
-        "count": 98360
+        "count": 98519
       },
       "SpeakBrick": {
         "name": "Speak",
         "color": "8f4cba",
-        "count": 6898
+        "count": 6905
       },
       "PlaySoundBrick": {
         "name": "Start sound",
         "color": "8f4cba",
-        "count": 41618
+        "count": 41654
       },
       "TurnLeftBrick": {
         "name": "Turn left",
         "color": "408ac5",
-        "count": 4919
+        "count": 4928
       },
       "MoveNStepsBrick": {
         "name": "Move _ steps",
         "color": "408ac5",
-        "count": 4612
+        "count": 4620
       },
       "IfOnEdgeBounceBrick": {
         "name": "If on edge, bounce",
         "color": "408ac5",
-        "count": 4410
+        "count": 4438
       },
       "SetXBrick": {
         "name": "Set X",
         "color": "408ac5",
-        "count": 10665
+        "count": 10647
       },
       "SetYBrick": {
         "name": "Set Y",
         "color": "408ac5",
-        "count": 13218
+        "count": 13213
       },
       "SetRotationStyleBrick": {
         "name": "Set rotation style",
         "color": "408ac5",
-        "count": 1128
+        "count": 1132
       },
       "WaitBrick": {
         "name": "Wait",
         "color": "f99761",
-        "count": 146621
+        "count": 146846
       },
       "ClearGraphicEffectBrick": {
         "name": "Clear",
@@ -1139,107 +1139,107 @@
       "ChangeColorByNBrick": {
         "name": "Change color",
         "color": "6b9c49",
-        "count": 1770
+        "count": 1780
       },
       "SetVolumeToBrick": {
         "name": "Set volume",
         "color": "8f4cba",
-        "count": 2130
+        "count": 2144
       },
       "BroadcastBrick": {
         "name": "Broadcast",
         "color": "cf5717",
-        "count": 96483
+        "count": 96632
       },
       "PlaySoundAndWaitBrick": {
         "name": "Start sound and wait",
         "color": "8f4cba",
-        "count": 4019
+        "count": 4036
       },
       "HideBrick": {
         "name": "Hide",
         "color": "6b9c49",
-        "count": 196398
+        "count": 196734
       },
       "ShowBrick": {
         "name": "Show",
         "color": "6b9c49",
-        "count": 113412
+        "count": 113589
       },
       "GlideToBrick": {
         "name": "Glide to",
         "color": "408ac5",
-        "count": 53719
+        "count": 53811
       },
       "NoteBrick": {
         "name": "Note",
         "color": "f99761",
-        "count": 14783
+        "count": 14844
       },
       "StopAllSoundsBrick": {
         "name": "Stop all sounds",
         "color": "8f4cba",
-        "count": 4863
+        "count": 4865
       },
       "ComeToFrontBrick": {
         "name": "Come to front",
         "color": "408ac5",
-        "count": 11165
+        "count": 11185
       },
       "RepeatBrick": {
         "name": "Repeat",
         "color": "f99761",
-        "count": 15401
+        "count": 15400
       },
       "NextLookBrick": {
         "name": "Next look",
         "color": "6b9c49",
-        "count": 23444
+        "count": 23462
       },
       "LoopEndBrick": {
         "name": "End of Loop",
         "color": "f99761",
-        "count": 20646
+        "count": 20660
       },
       "ChangeVariableBrick": {
         "name": "Change variable",
         "color": "f24e50",
-        "count": 45522
+        "count": 45538
       },
       "WhenTouchDownScript": {
         "name": "When screen is touched",
         "color": "cf5717",
-        "count": 9842
+        "count": 9852
       },
       "WhenConditionScript": {
         "name": "When _ becomes true",
         "color": "cf5717",
-        "count": 16887
+        "count": 16900
       },
       "IfThenLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 53784
+        "count": 53945
       },
       "IfThenLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 53795
+        "count": 53956
       },
       "WaitUntilBrick": {
         "name": "Wait until _ is true",
         "color": "f99761",
-        "count": 2229
+        "count": 2247
       },
       "SetTransparencyBrick": {
         "name": "Set transparency",
         "color": "6b9c49",
-        "count": 16078
+        "count": 16158
       },
       "VibrationBrick": {
         "name": "Vibrate",
         "color": "408ac5",
-        "count": 2746
+        "count": 2776
       },
       "SetBrightnessBrick": {
         "name": "Set brightness",
@@ -1249,47 +1249,47 @@
       "RepeatUntilBrick": {
         "name": "Repeat until _ is true",
         "color": "f99761",
-        "count": 4350
+        "count": 4365
       },
       "ChangeSizeByNBrick": {
         "name": "Change size",
         "color": "6b9c49",
-        "count": 8461
+        "count": 8487
       },
       "PointInDirectionBrick": {
         "name": "Point in direction",
         "color": "408ac5",
-        "count": 5932
+        "count": 5926
       },
       "SetVelocityBrick": {
         "name": "Set velocity",
         "color": "408ac5",
-        "count": 5731
+        "count": 5744
       },
       "PointToBrick": {
         "name": "Point to",
         "color": "408ac5",
-        "count": 1847
+        "count": 1864
       },
       "CollisionScript": {
         "name": "When physical collision with",
         "color": "cf5717",
-        "count": 3548
+        "count": 3575
       },
       "ShowTextBrick": {
         "name": "Show variable",
         "color": "f24e50",
-        "count": 15489
+        "count": 15515
       },
       "SetGravityBrick": {
         "name": "Set gravity",
         "color": "408ac5",
-        "count": 968
+        "count": 976
       },
       "SetPhysicsObjectTypeBrick": {
         "name": "Set motion type",
         "color": "408ac5",
-        "count": 6821
+        "count": 6832
       },
       "TurnLeftSpeedBrick": {
         "name": "Rotate left speed",
@@ -1299,82 +1299,77 @@
       "SetMassBrick": {
         "name": "Set mass",
         "color": "408ac5",
-        "count": 528
+        "count": 530
       },
       "SetBounceBrick": {
         "name": "Set bounce factor",
         "color": "408ac5",
-        "count": 890
+        "count": 891
       },
       "ChangeTransparencyByNBrick": {
         "name": "Change transparency",
         "color": "6b9c49",
-        "count": 3135
-      },
-      "TurnRightSpeedBrick": {
-        "name": "Rotate right speed",
-        "color": "408ac5",
-        "count": 410
-      },
-      "FlashBrick": {
-        "name": "Turn flashlight",
-        "color": "6b9c49",
-        "count": 2753
-      },
-      "ChangeBrightnessByNBrick": {
-        "name": "Change brightness",
-        "color": "6b9c49",
-        "count": 1912
-      },
-      "CameraBrick": {
-        "name": "Turn camera on/off",
-        "color": "6b9c49",
-        "count": 1014
-      },
-      "TurnRightBrick": {
-        "name": "Turn right",
-        "color": "408ac5",
-        "count": 3671
+        "count": 3134
       },
       "GoNStepsBackBrick": {
         "name": "Go back _ layers",
         "color": "408ac5",
-        "count": 3124
+        "count": 3135
       },
-      "DeleteItemOfUserListBrick": {
-        "name": "Delete from list",
-        "color": "f24e50",
-        "count": 683
+      "FlashBrick": {
+        "name": "Turn flashlight",
+        "color": "6b9c49",
+        "count": 2747
       },
-      "AddItemToUserListBrick": {
-        "name": "Add to list",
-        "color": "f24e50",
-        "count": 24332
+      "TurnRightBrick": {
+        "name": "Turn right",
+        "color": "408ac5",
+        "count": 3688
       },
       "SetFrictionBrick": {
         "name": "Set friction",
         "color": "408ac5",
-        "count": 201
+        "count": 203
+      },
+      "ChangeBrightnessByNBrick": {
+        "name": "Change brightness",
+        "color": "6b9c49",
+        "count": 1911
       },
       "ChangeVolumeByNBrick": {
         "name": "Change volume",
         "color": "8f4cba",
-        "count": 296
+        "count": 297
+      },
+      "TurnRightSpeedBrick": {
+        "name": "Rotate right speed",
+        "color": "408ac5",
+        "count": 412
       },
       "ChooseCameraBrick": {
         "name": "Use front/back camera",
         "color": "6b9c49",
-        "count": 783
+        "count": 784
+      },
+      "CameraBrick": {
+        "name": "Turn camera on/off",
+        "color": "6b9c49",
+        "count": 1013
       },
       "SetColorBrick": {
         "name": "Set color",
         "color": "6b9c49",
-        "count": 2229
+        "count": 2233
       },
       "HideTextBrick": {
         "name": "Hide variable",
         "color": "f24e50",
-        "count": 4678
+        "count": 4695
+      },
+      "AddItemToUserListBrick": {
+        "name": "Add to list",
+        "color": "f24e50",
+        "count": 24331
       },
       "ArduinoSendPWMValueBrick": {
         "name": "Set Arduino PWM~ pin",
@@ -1389,12 +1384,17 @@
       "ReplaceItemInUserListBrick": {
         "name": "Replace in list",
         "color": "f24e50",
-        "count": 950
+        "count": 951
       },
       "InsertItemIntoUserListBrick": {
         "name": "Insert into list",
         "color": "f24e50",
         "count": 226
+      },
+      "DeleteItemOfUserListBrick": {
+        "name": "Delete from list",
+        "color": "f24e50",
+        "count": 671
       },
       "PhiroPlayToneBrick": {
         "name": "Play Phiro music tone",
@@ -1424,7 +1424,7 @@
       "AskBrick": {
         "name": "Ask",
         "color": "6b9c49",
-        "count": 4215
+        "count": 4220
       },
       "PhiroRGBLightBrick": {
         "name": "Set Phiro light",
@@ -1454,7 +1454,7 @@
       "PenDownBrick": {
         "name": "Pen down",
         "color": "305716",
-        "count": 839
+        "count": 840
       },
       "SetPenColorBrick": {
         "name": "Set pen color",
@@ -1469,32 +1469,32 @@
       "SayBubbleBrick": {
         "name": "Say",
         "color": "6b9c49",
-        "count": 901
+        "count": 902
       },
       "SayForBubbleBrick": {
         "name": "Say for _ seconds",
         "color": "6b9c49",
-        "count": 4104
+        "count": 4121
       },
       "GoToBrick": {
         "name": "Go to",
         "color": "408ac5",
-        "count": 9133
+        "count": 9147
       },
       "WhenClonedScript": {
         "name": "When I start as a clone",
         "color": "cf5717",
-        "count": 2695
+        "count": 2715
       },
       "CloneBrick": {
         "name": "Create clone",
         "color": "f99761",
-        "count": 2585
+        "count": 2604
       },
       "WhenBackgroundChangesScript": {
         "name": "When background changes to",
         "color": "cf5717",
-        "count": 10396
+        "count": 10408
       },
       "UserBrick": {
         "name": "My bricks",
@@ -1504,17 +1504,17 @@
       "DeleteThisCloneBrick": {
         "name": "Delete this clone",
         "color": "f99761",
-        "count": 1321
+        "count": 1335
       },
       "SetBackgroundAndWaitBrick": {
         "name": "Switch background and wait",
         "color": "6b9c49",
-        "count": 181
+        "count": 182
       },
       "SetBackgroundBrick": {
         "name": "Switch background",
         "color": "6b9c49",
-        "count": 14457
+        "count": 14475
       },
       "ThinkBubbleBrick": {
         "name": "Think",
@@ -1524,7 +1524,7 @@
       "StopScriptBrick": {
         "name": "Stop script",
         "color": "f99761",
-        "count": 3072
+        "count": 3109
       },
       "ClearBackgroundBrick": {
         "name": "Clear graphic effects",
@@ -1544,22 +1544,22 @@
       "SceneTransitionBrick": {
         "name": "Continue scene",
         "color": "f99761",
-        "count": 7559
+        "count": 7583
       },
       "SceneStartBrick": {
         "name": "Start scene",
         "color": "f99761",
-        "count": 17560
+        "count": 17612
       },
       "PreviousLookBrick": {
         "name": "Previous look",
         "color": "6b9c49",
-        "count": 1234
+        "count": 1238
       },
       "SpeakAndWaitBrick": {
         "name": "Speak and wait",
         "color": "8f4cba",
-        "count": 881
+        "count": 903
       },
       "ThinkForBubbleBrick": {
         "name": "Think for _ seconds",
@@ -1599,7 +1599,7 @@
       "AskSpeechBrick": {
         "name": "Ask speech",
         "color": "8f4cba",
-        "count": 256
+        "count": 259
       },
       "LegoEv3MotorMoveBrick": {
         "name": "Move EV3 motor",
@@ -1634,7 +1634,7 @@
       "SetBackgroundByIndexAndWaitBrick": {
         "name": "Switch background to # and wait",
         "color": "6b9c49",
-        "count": 3
+        "count": 4
       },
       "SetBackgroundByIndexBrick": {
         "name": "Switch background to #",
@@ -1642,48 +1642,48 @@
         "count": 6
       }
     },
-    "objectVariables": 156424,
-    "objectLists": 112523,
-    "programVariables": 51329,
-    "programLists": 974
+    "objectVariables": 156761,
+    "objectLists": 112780,
+    "programVariables": 51390,
+    "programLists": 976
   },
   "overallLastYear": {
-    "programs": 9489,
+    "programs": 9525,
     "programsWithMultipleScenes": 0,
     "programsWithGroups": 0,
-    "programsInLandscape": 1880,
+    "programsInLandscape": 1887,
     "languages": {
-      "0.96": 745,
-      "0.95": 15,
+      "0.96": 739,
+      "0.95": 14,
       "0.97": 1685,
-      "0.98": 2324,
-      "0.99": 3043,
-      "0.991": 1677
+      "0.98": 2325,
+      "0.99": 3054,
+      "0.991": 1708
     },
     "screenSizes": {
-      "1024x600": 175,
-      "1184x720": 472,
-      "1199x720": 5,
-      "960x540": 788,
-      "800x480": 1209,
+      "800x480": 1212,
       "1216x800": 167,
       "976x600": 333,
       "480x360": 1,
+      "1199x720": 3,
       "1824x1200": 217,
-      "1920x1080": 1322,
-      "1280x720": 1155,
+      "1920x1080": 1337,
+      "1280x720": 1161,
       "1280x800": 285,
-      "782x480": 686,
+      "782x480": 688,
       "1200x720": 8,
-      "1280x768": 25,
+      "1280x768": 26,
       "480x320": 121,
+      "1024x600": 174,
+      "1184x720": 474,
+      "960x540": 789,
       "1184x768": 47,
-      "2560x1440": 291,
-      "1232x800": 441,
+      "2560x1440": 293,
+      "1232x800": 442,
       "320x240": 24,
-      "1776x1080": 263,
+      "1776x1080": 264,
       "976x768": 41,
-      "854x480": 469,
+      "854x480": 472,
       "1205x800": 45,
       "1140x900": 1,
       "1152x672": 1,
@@ -1713,7 +1713,7 @@
       "734x480": 20,
       "912x540": 10,
       "1196x720": 12,
-      "1812x1080": 15,
+      "1812x1080": 17,
       "1217x800": 2,
       "1188x720": 19,
       "1834x1200": 2,
@@ -1766,220 +1766,200 @@
       "1200x800": 1
     },
     "platforms": {
-      "Android": 9489
+      "Android": 9525
     },
-    "remixes": 2934,
+    "remixes": 2940,
     "scenes": 0,
-    "objects": 64875,
+    "objects": 64973,
     "groups": 0,
-    "looks": 128869,
-    "sounds": 25328,
-    "bricks": 1043333,
+    "looks": 128538,
+    "sounds": 25421,
+    "bricks": 1040542,
     "brickUsage": {
-      "StartScript": {
-        "name": "When program starts",
-        "color": "cf5717",
-        "count": 62140
-      },
-      "SpeakBrick": {
-        "name": "Speak",
-        "color": "8f4cba",
-        "count": 3515
-      },
-      "ClearGraphicEffectBrick": {
-        "name": "Clear",
-        "color": "305716",
-        "count": 176
-      },
       "WhenScript": {
         "name": "When tapped",
         "color": "cf5717",
-        "count": 29146
-      },
-      "SetLookBrick": {
-        "name": "Switch to look",
-        "color": "6b9c49",
-        "count": 60919
-      },
-      "PlaySoundBrick": {
-        "name": "Start sound",
-        "color": "8f4cba",
-        "count": 15080
-      },
-      "ChangeYByNBrick": {
-        "name": "Change Y",
-        "color": "408ac5",
-        "count": 6342
-      },
-      "WaitBrick": {
-        "name": "Wait",
-        "color": "f99761",
-        "count": 49599
-      },
-      "PointInDirectionBrick": {
-        "name": "Point in direction",
-        "color": "408ac5",
-        "count": 2927
-      },
-      "SetRotationStyleBrick": {
-        "name": "Set rotation style",
-        "color": "408ac5",
-        "count": 3
-      },
-      "RepeatBrick": {
-        "name": "Repeat",
-        "color": "f99761",
-        "count": 5207
-      },
-      "TurnLeftBrick": {
-        "name": "Turn left",
-        "color": "408ac5",
-        "count": 2048
-      },
-      "LoopEndBrick": {
-        "name": "End of Loop",
-        "color": "f99761",
-        "count": 5313
-      },
-      "SetSizeToBrick": {
-        "name": "Set size",
-        "color": "6b9c49",
-        "count": 41358
-      },
-      "ShowTextBrick": {
-        "name": "Show variable",
-        "color": "f24e50",
-        "count": 3323
-      },
-      "ForeverBrick": {
-        "name": "Forever",
-        "color": "f99761",
-        "count": 27995
-      },
-      "SetVariableBrick": {
-        "name": "Set variable",
-        "color": "f24e50",
-        "count": 80137
-      },
-      "LoopEndlessBrick": {
-        "name": "Forever",
-        "color": "f99761",
-        "count": 27959
+        "count": 29121
       },
       "BroadcastScript": {
         "name": "When you receive",
         "color": "cf5717",
-        "count": 75533
+        "count": 74778
       },
-      "PlaceAtBrick": {
-        "name": "Place at",
+      "StartScript": {
+        "name": "When program starts",
+        "color": "cf5717",
+        "count": 62198
+      },
+      "SetLookBrick": {
+        "name": "Switch to look",
+        "color": "6b9c49",
+        "count": 59964
+      },
+      "ForeverBrick": {
+        "name": "Forever",
+        "color": "f99761",
+        "count": 28083
+      },
+      "PointInDirectionBrick": {
+        "name": "Point in direction",
         "color": "408ac5",
-        "count": 48889
+        "count": 2941
       },
-      "HideBrick": {
-        "name": "Hide",
-        "color": "6b9c49",
-        "count": 65251
-      },
-      "IfLogicBeginBrick": {
-        "name": "If",
+      "LoopEndlessBrick": {
+        "name": "Forever",
         "color": "f99761",
-        "count": 77489
-      },
-      "ShowBrick": {
-        "name": "Show",
-        "color": "6b9c49",
-        "count": 40923
-      },
-      "IfLogicElseBrick": {
-        "name": "Else",
-        "color": "f99761",
-        "count": 77494
-      },
-      "IfLogicEndBrick": {
-        "name": "End If",
-        "color": "f99761",
-        "count": 77489
+        "count": 28047
       },
       "BroadcastBrick": {
         "name": "Broadcast",
         "color": "cf5717",
-        "count": 37475
+        "count": 37267
       },
-      "BroadcastWaitBrick": {
-        "name": "Broadcast and Wait",
-        "color": "cf5717",
-        "count": 4176
+      "WaitBrick": {
+        "name": "Wait",
+        "color": "f99761",
+        "count": 48668
       },
-      "ChangeVariableBrick": {
-        "name": "Change variable",
-        "color": "f24e50",
-        "count": 14186
-      },
-      "SetTransparencyBrick": {
-        "name": "Set transparency",
+      "ShowBrick": {
+        "name": "Show",
         "color": "6b9c49",
-        "count": 9904
+        "count": 40899
       },
-      "SetYBrick": {
-        "name": "Set Y",
-        "color": "408ac5",
-        "count": 5693
-      },
-      "ComeToFrontBrick": {
-        "name": "Come to front",
-        "color": "408ac5",
-        "count": 4974
-      },
-      "StopAllSoundsBrick": {
-        "name": "Stop all sounds",
-        "color": "8f4cba",
-        "count": 1727
+      "HideBrick": {
+        "name": "Hide",
+        "color": "6b9c49",
+        "count": 64720
       },
       "ChangeXByNBrick": {
         "name": "Change X",
         "color": "408ac5",
-        "count": 3865
+        "count": 3874
+      },
+      "ChangeYByNBrick": {
+        "name": "Change Y",
+        "color": "408ac5",
+        "count": 6250
+      },
+      "PlaySoundBrick": {
+        "name": "Start sound",
+        "color": "8f4cba",
+        "count": 15126
       },
       "SetXBrick": {
         "name": "Set X",
         "color": "408ac5",
-        "count": 4493
+        "count": 4544
+      },
+      "SetYBrick": {
+        "name": "Set Y",
+        "color": "408ac5",
+        "count": 5755
+      },
+      "SetVariableBrick": {
+        "name": "Set variable",
+        "color": "f24e50",
+        "count": 80290
+      },
+      "SetSizeToBrick": {
+        "name": "Set size",
+        "color": "6b9c49",
+        "count": 41336
+      },
+      "PlaceAtBrick": {
+        "name": "Place at",
+        "color": "408ac5",
+        "count": 48894
       },
       "GlideToBrick": {
         "name": "Glide to",
         "color": "408ac5",
-        "count": 33688
+        "count": 33761
       },
       "SetVolumeToBrick": {
         "name": "Set volume",
         "color": "8f4cba",
         "count": 752
       },
+      "RepeatBrick": {
+        "name": "Repeat",
+        "color": "f99761",
+        "count": 5230
+      },
       "NextLookBrick": {
         "name": "Next look",
         "color": "6b9c49",
-        "count": 8477
+        "count": 8519
+      },
+      "LoopEndBrick": {
+        "name": "End of Loop",
+        "color": "f99761",
+        "count": 5336
+      },
+      "ComeToFrontBrick": {
+        "name": "Come to front",
+        "color": "408ac5",
+        "count": 4986
+      },
+      "IfLogicBeginBrick": {
+        "name": "If",
+        "color": "f99761",
+        "count": 77443
+      },
+      "IfLogicElseBrick": {
+        "name": "Else",
+        "color": "f99761",
+        "count": 77448
+      },
+      "IfLogicEndBrick": {
+        "name": "End If",
+        "color": "f99761",
+        "count": 77443
       },
       "IfOnEdgeBounceBrick": {
         "name": "If on edge, bounce",
         "color": "408ac5",
-        "count": 1766
+        "count": 1777
+      },
+      "SpeakBrick": {
+        "name": "Speak",
+        "color": "8f4cba",
+        "count": 3525
       },
       "MoveNStepsBrick": {
         "name": "Move _ steps",
         "color": "408ac5",
-        "count": 2038
+        "count": 2046
       },
       "TurnRightBrick": {
         "name": "Turn right",
         "color": "408ac5",
-        "count": 1691
+        "count": 1694
+      },
+      "TurnLeftBrick": {
+        "name": "Turn left",
+        "color": "408ac5",
+        "count": 2052
       },
       "NoteBrick": {
         "name": "Note",
         "color": "f99761",
-        "count": 3831
+        "count": 3860
+      },
+      "ChangeVariableBrick": {
+        "name": "Change variable",
+        "color": "f24e50",
+        "count": 14133
+      },
+      "ShowTextBrick": {
+        "name": "Show variable",
+        "color": "f24e50",
+        "count": 3328
+      },
+      "StopAllSoundsBrick": {
+        "name": "Stop all sounds",
+        "color": "8f4cba",
+        "count": 1733
       },
       "ChangeVolumeByNBrick": {
         "name": "Change volume",
@@ -1999,37 +1979,52 @@
       "GoNStepsBackBrick": {
         "name": "Go back _ layers",
         "color": "408ac5",
-        "count": 2165
+        "count": 2172
       },
       "PointToBrick": {
         "name": "Point to",
         "color": "408ac5",
-        "count": 922
+        "count": 925
+      },
+      "BroadcastWaitBrick": {
+        "name": "Broadcast and Wait",
+        "color": "cf5717",
+        "count": 4178
       },
       "ChangeSizeByNBrick": {
         "name": "Change size",
         "color": "6b9c49",
-        "count": 1584
+        "count": 1586
+      },
+      "SetTransparencyBrick": {
+        "name": "Set transparency",
+        "color": "6b9c49",
+        "count": 9923
       },
       "ChangeTransparencyByNBrick": {
         "name": "Change transparency",
         "color": "6b9c49",
-        "count": 1233
+        "count": 1238
+      },
+      "ClearGraphicEffectBrick": {
+        "name": "Clear",
+        "color": "305716",
+        "count": 176
       },
       "SetBrightnessBrick": {
         "name": "Set brightness",
         "color": "6b9c49",
-        "count": 498
+        "count": 499
       },
       "ChangeBrightnessByNBrick": {
         "name": "Change brightness",
         "color": "6b9c49",
-        "count": 126
+        "count": 127
       },
       "DeleteItemOfUserListBrick": {
         "name": "Delete from list",
         "color": "f24e50",
-        "count": 546
+        "count": 559
       },
       "InsertItemIntoUserListBrick": {
         "name": "Insert into list",
@@ -2039,7 +2034,7 @@
       "AddItemToUserListBrick": {
         "name": "Add to list",
         "color": "f24e50",
-        "count": 1323
+        "count": 1327
       },
       "ReplaceItemInUserListBrick": {
         "name": "Replace in list",
@@ -2064,7 +2059,7 @@
       "VibrationBrick": {
         "name": "Vibrate",
         "color": "408ac5",
-        "count": 783
+        "count": 785
       },
       "ArduinoSendPWMValueBrick": {
         "name": "Set Arduino PWM~ pin",
@@ -2114,12 +2109,12 @@
       "FlashBrick": {
         "name": "Turn flashlight",
         "color": "6b9c49",
-        "count": 780
+        "count": 789
       },
       "CameraBrick": {
         "name": "Turn camera on/off",
         "color": "6b9c49",
-        "count": 402
+        "count": 404
       },
       "WhenNfcScript": {
         "name": "When NFC",
@@ -2134,17 +2129,17 @@
       "ChangeColorByNBrick": {
         "name": "Change color",
         "color": "6b9c49",
-        "count": 240
+        "count": 249
       },
       "SetPhysicsObjectTypeBrick": {
         "name": "Set motion type",
         "color": "408ac5",
-        "count": 1274
+        "count": 1290
       },
       "SetGravityBrick": {
         "name": "Set gravity",
         "color": "408ac5",
-        "count": 242
+        "count": 246
       },
       "SetMassBrick": {
         "name": "Set mass",
@@ -2154,27 +2149,27 @@
       "SetBounceBrick": {
         "name": "Set bounce factor",
         "color": "408ac5",
-        "count": 257
+        "count": 260
       },
       "SetVelocityBrick": {
         "name": "Set velocity",
         "color": "408ac5",
-        "count": 521
+        "count": 528
       },
       "TurnLeftSpeedBrick": {
         "name": "Rotate left speed",
         "color": "408ac5",
-        "count": 173
+        "count": 176
       },
       "TurnRightSpeedBrick": {
         "name": "Rotate right speed",
         "color": "408ac5",
-        "count": 157
+        "count": 158
       },
       "CollisionScript": {
         "name": "When physical collision with",
         "color": "cf5717",
-        "count": 891
+        "count": 901
       },
       "SetFrictionBrick": {
         "name": "Set friction",
@@ -2189,7 +2184,7 @@
       "WhenTouchDownScript": {
         "name": "When screen is touched",
         "color": "cf5717",
-        "count": 240
+        "count": 243
       },
       "IfThenLogicBeginBrick": {
         "name": "If",
@@ -2232,55 +2227,52 @@
         "count": 1
       }
     },
-    "objectVariables": 42061,
-    "objectLists": 19956,
-    "programVariables": 26098,
-    "programLists": 514
+    "objectVariables": 42071,
+    "objectLists": 19955,
+    "programVariables": 26139,
+    "programLists": 515
   },
   "overallCurrentMonth": {
-    "programs": 1666,
-    "programsWithMultipleScenes": 315,
-    "programsWithGroups": 73,
-    "programsInLandscape": 589,
+    "programs": 1699,
+    "programsWithMultipleScenes": 314,
+    "programsWithGroups": 72,
+    "programsInLandscape": 590,
     "languages": {
-      "0.993": 1012,
-      "0.994": 646,
-      "0.99": 6,
-      "0.992": 2
+      "0.993": 981,
+      "0.994": 714,
+      "0.992": 2,
+      "0.99": 2
     },
     "screenSizes": {
-      "2560x1440": 32,
-      "1280x720": 323,
+      "2560x1440": 33,
+      "1280x720": 325,
       "960x540": 104,
-      "1920x1080": 287,
+      "1920x1080": 297,
       "2392x1440": 18,
-      "976x600": 51,
+      "976x600": 49,
       "1776x1080": 23,
-      "854x480": 123,
+      "854x480": 126,
       "1196x720": 8,
       "800x480": 157,
-      "1184x720": 83,
-      "1812x1080": 18,
+      "1184x720": 84,
+      "1812x1080": 21,
       "480x360": 8,
-      "1232x800": 24,
       "1280x752": 5,
       "1320x768": 1,
-      "1848x1200": 12,
-      "1280x800": 58,
-      "782x480": 76,
-      "1920x1200": 17,
-      "1920x1128": 2,
+      "782x480": 79,
+      "1280x800": 57,
+      "1232x800": 22,
       "480x320": 11,
-      "888x540": 14,
-      "1208x720": 19,
-      "1024x768": 36,
+      "888x540": 15,
+      "1208x720": 20,
+      "1024x768": 37,
       "1188x720": 9,
       "976x768": 1,
-      "1216x800": 22,
-      "1024x600": 20,
+      "1216x800": 23,
+      "1024x600": 21,
       "1824x1200": 5,
       "320x240": 3,
-      "1187x720": 6,
+      "1187x720": 8,
       "1800x1080": 4,
       "784x480": 2,
       "1794x1080": 9,
@@ -2289,14 +2281,17 @@
       "786x480": 7,
       "1200x720": 1,
       "2560x1600": 4,
+      "1920x1200": 16,
       "1192x720": 4,
       "2094x1080": 2,
       "1244x720": 1,
-      "1199x720": 2,
+      "1199x720": 3,
       "1193x720": 3,
       "791x480": 6,
-      "2048x1536": 2,
+      "2048x1536": 11,
       "1205x800": 1,
+      "1920x1128": 1,
+      "1848x1200": 9,
       "792x480": 2,
       "1212x800": 3,
       "1798x1080": 1,
@@ -2311,194 +2306,196 @@
       "752x480": 1,
       "1216x720": 1,
       "1194x720": 3,
-      "1184x768": 3,
+      "1184x768": 4,
       "1222x800": 1,
       "2768x1440": 1,
       "1440x900": 1,
       "886x540": 1,
       "2076x1080": 1,
-      "797x480": 1
+      "797x480": 1,
+      "2008x1080": 1,
+      "1104x720": 1
     },
     "platforms": {
-      "Android": 1666
+      "Android": 1699
     },
-    "remixes": 464,
-    "scenes": 3513,
-    "objects": 18783,
-    "groups": 600,
-    "looks": 30336,
-    "sounds": 6890,
-    "bricks": 243625,
+    "remixes": 465,
+    "scenes": 3536,
+    "objects": 18681,
+    "groups": 490,
+    "looks": 30253,
+    "sounds": 6892,
+    "bricks": 239712,
     "brickUsage": {
       "StartScript": {
         "name": "When program starts",
         "color": "cf5717",
-        "count": 19257
+        "count": 19013
       },
       "BroadcastScript": {
         "name": "When you receive",
         "color": "cf5717",
-        "count": 16622
+        "count": 16070
       },
       "WhenScript": {
         "name": "When tapped",
         "color": "cf5717",
-        "count": 8837
+        "count": 8597
       },
       "SetLookBrick": {
         "name": "Switch to look",
         "color": "6b9c49",
-        "count": 9055
+        "count": 9173
       },
       "StopAllSoundsBrick": {
         "name": "Stop all sounds",
         "color": "8f4cba",
-        "count": 531
+        "count": 532
       },
       "PlaySoundBrick": {
         "name": "Start sound",
         "color": "8f4cba",
-        "count": 4235
+        "count": 4271
       },
       "ForeverBrick": {
         "name": "Forever",
         "color": "f99761",
-        "count": 8384
+        "count": 8372
       },
       "LoopEndlessBrick": {
         "name": "Forever",
         "color": "f99761",
-        "count": 8161
+        "count": 8148
       },
       "HideBrick": {
         "name": "Hide",
         "color": "6b9c49",
-        "count": 16150
+        "count": 15818
       },
       "ShowBrick": {
         "name": "Show",
         "color": "6b9c49",
-        "count": 9706
+        "count": 9406
       },
       "WaitBrick": {
         "name": "Wait",
         "color": "f99761",
-        "count": 14664
+        "count": 14590
       },
       "BroadcastBrick": {
         "name": "Broadcast",
         "color": "cf5717",
-        "count": 7433
+        "count": 7217
       },
       "ComeToFrontBrick": {
         "name": "Come to front",
         "color": "408ac5",
-        "count": 1178
+        "count": 1196
       },
       "RepeatBrick": {
         "name": "Repeat",
         "color": "f99761",
-        "count": 1520
+        "count": 1499
       },
       "NextLookBrick": {
         "name": "Next look",
         "color": "6b9c49",
-        "count": 2063
+        "count": 2034
       },
       "LoopEndBrick": {
         "name": "End of Loop",
         "color": "f99761",
-        "count": 2575
+        "count": 2457
       },
       "CollisionScript": {
         "name": "When physical collision with",
         "color": "cf5717",
-        "count": 238
+        "count": 268
       },
       "SetSizeToBrick": {
         "name": "Set size",
         "color": "6b9c49",
-        "count": 9916
+        "count": 9740
       },
       "ChangeXByNBrick": {
         "name": "Change X",
         "color": "408ac5",
-        "count": 834
+        "count": 863
       },
       "IfLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 7569
+        "count": 7542
       },
       "BroadcastWaitBrick": {
         "name": "Broadcast and Wait",
         "color": "cf5717",
-        "count": 496
+        "count": 477
       },
       "IfLogicElseBrick": {
         "name": "Else",
         "color": "f99761",
-        "count": 7569
+        "count": 7542
       },
       "IfLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 7569
+        "count": 7542
       },
       "PointToBrick": {
         "name": "Point to",
         "color": "408ac5",
-        "count": 171
+        "count": 189
       },
       "PlaceAtBrick": {
         "name": "Place at",
         "color": "408ac5",
-        "count": 11648
+        "count": 11406
       },
       "SetVariableBrick": {
         "name": "Set variable",
         "color": "f24e50",
-        "count": 12801
+        "count": 12180
       },
       "SetXBrick": {
         "name": "Set X",
         "color": "408ac5",
-        "count": 905
+        "count": 934
       },
       "SetYBrick": {
         "name": "Set Y",
         "color": "408ac5",
-        "count": 813
+        "count": 861
       },
       "GlideToBrick": {
         "name": "Glide to",
         "color": "408ac5",
-        "count": 4703
+        "count": 4809
       },
       "NoteBrick": {
         "name": "Note",
         "color": "f99761",
-        "count": 1303
+        "count": 1384
       },
       "ChangeVariableBrick": {
         "name": "Change variable",
         "color": "f24e50",
-        "count": 4232
+        "count": 3899
       },
       "SetBackgroundBrick": {
         "name": "Switch background",
         "color": "6b9c49",
-        "count": 1545
+        "count": 1544
       },
       "SetTransparencyBrick": {
         "name": "Set transparency",
         "color": "6b9c49",
-        "count": 1450
+        "count": 1511
       },
       "TurnRightBrick": {
         "name": "Turn right",
         "color": "408ac5",
-        "count": 258
+        "count": 274
       },
       "TurnLeftBrick": {
         "name": "Turn left",
@@ -2508,77 +2505,77 @@
       "ShowTextBrick": {
         "name": "Show variable",
         "color": "f24e50",
-        "count": 1552
+        "count": 1284
       },
       "HideTextBrick": {
         "name": "Hide variable",
         "color": "f24e50",
-        "count": 495
+        "count": 496
       },
       "IfOnEdgeBounceBrick": {
         "name": "If on edge, bounce",
         "color": "408ac5",
-        "count": 312
+        "count": 304
       },
       "GoNStepsBackBrick": {
         "name": "Go back _ layers",
         "color": "408ac5",
-        "count": 270
+        "count": 284
       },
       "ChangeYByNBrick": {
         "name": "Change Y",
         "color": "408ac5",
-        "count": 1091
+        "count": 1134
       },
       "ChangeSizeByNBrick": {
         "name": "Change size",
         "color": "6b9c49",
-        "count": 615
+        "count": 509
       },
       "WhenBackgroundChangesScript": {
         "name": "When background changes to",
         "color": "cf5717",
-        "count": 1946
+        "count": 1956
       },
       "WhenConditionScript": {
         "name": "When _ becomes true",
         "color": "cf5717",
-        "count": 1963
+        "count": 1932
       },
       "SetVolumeToBrick": {
         "name": "Set volume",
         "color": "8f4cba",
-        "count": 220
+        "count": 223
       },
       "PlaySoundAndWaitBrick": {
         "name": "Start sound and wait",
         "color": "8f4cba",
-        "count": 572
+        "count": 558
       },
       "SceneStartBrick": {
         "name": "Start scene",
         "color": "f99761",
-        "count": 2106
+        "count": 2060
       },
       "IfThenLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 7744
+        "count": 7643
       },
       "IfThenLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 7744
+        "count": 7643
       },
       "TurnRightSpeedBrick": {
         "name": "Rotate right speed",
         "color": "408ac5",
-        "count": 70
+        "count": 73
       },
       "SceneTransitionBrick": {
         "name": "Continue scene",
         "color": "f99761",
-        "count": 1348
+        "count": 1328
       },
       "AskBrick": {
         "name": "Ask",
@@ -2588,37 +2585,37 @@
       "PreviousLookBrick": {
         "name": "Previous look",
         "color": "6b9c49",
-        "count": 63
+        "count": 40
       },
       "WhenClonedScript": {
         "name": "When I start as a clone",
         "color": "cf5717",
-        "count": 211
+        "count": 230
       },
       "SetVelocityBrick": {
         "name": "Set velocity",
         "color": "408ac5",
-        "count": 520
+        "count": 412
       },
       "SetColorBrick": {
         "name": "Set color",
         "color": "6b9c49",
-        "count": 75
+        "count": 78
       },
       "CloneBrick": {
         "name": "Create clone",
         "color": "f99761",
-        "count": 235
+        "count": 252
       },
       "SetPenColorBrick": {
         "name": "Set pen color",
         "color": "305716",
-        "count": 44
+        "count": 42
       },
       "SetPenSizeBrick": {
         "name": "Set pen size",
         "color": "305716",
-        "count": 31
+        "count": 28
       },
       "PenDownBrick": {
         "name": "Pen down",
@@ -2628,117 +2625,117 @@
       "PenUpBrick": {
         "name": "Pen up",
         "color": "305716",
-        "count": 38
+        "count": 37
       },
       "ClearBackgroundBrick": {
         "name": "Clear graphic effects",
         "color": "6b9c49",
-        "count": 54
+        "count": 53
       },
       "WhenTouchDownScript": {
         "name": "When screen is touched",
         "color": "cf5717",
-        "count": 543
+        "count": 541
       },
       "ChangeColorByNBrick": {
         "name": "Change color",
         "color": "6b9c49",
-        "count": 223
+        "count": 227
       },
       "ChangeTransparencyByNBrick": {
         "name": "Change transparency",
         "color": "6b9c49",
-        "count": 287
+        "count": 274
       },
       "ChangeBrightnessByNBrick": {
         "name": "Change brightness",
         "color": "6b9c49",
-        "count": 189
+        "count": 186
       },
       "SetBrightnessBrick": {
         "name": "Set brightness",
         "color": "6b9c49",
-        "count": 305
+        "count": 302
       },
       "WaitUntilBrick": {
         "name": "Wait until _ is true",
         "color": "f99761",
-        "count": 337
+        "count": 283
       },
       "RepeatUntilBrick": {
         "name": "Repeat until _ is true",
         "color": "f99761",
-        "count": 831
+        "count": 734
       },
       "SpeakBrick": {
         "name": "Speak",
         "color": "8f4cba",
-        "count": 374
+        "count": 388
       },
       "PointInDirectionBrick": {
         "name": "Point in direction",
         "color": "408ac5",
-        "count": 362
+        "count": 372
       },
       "GoToBrick": {
         "name": "Go to",
         "color": "408ac5",
-        "count": 617
+        "count": 583
       },
       "VibrationBrick": {
         "name": "Vibrate",
         "color": "408ac5",
-        "count": 380
+        "count": 355
       },
       "StopScriptBrick": {
         "name": "Stop script",
         "color": "f99761",
-        "count": 264
+        "count": 299
       },
       "MoveNStepsBrick": {
         "name": "Move _ steps",
         "color": "408ac5",
-        "count": 260
+        "count": 272
       },
       "AskSpeechBrick": {
         "name": "Ask speech",
         "color": "8f4cba",
-        "count": 31
+        "count": 26
       },
       "SayForBubbleBrick": {
         "name": "Say for _ seconds",
         "color": "6b9c49",
-        "count": 261
+        "count": 276
       },
       "SetRotationStyleBrick": {
         "name": "Set rotation style",
         "color": "408ac5",
-        "count": 95
+        "count": 99
       },
       "CameraBrick": {
         "name": "Turn camera on/off",
         "color": "6b9c49",
-        "count": 63
+        "count": 46
       },
       "FlashBrick": {
         "name": "Turn flashlight",
         "color": "6b9c49",
-        "count": 89
+        "count": 90
       },
       "ChooseCameraBrick": {
         "name": "Use front/back camera",
         "color": "6b9c49",
-        "count": 28
+        "count": 17
       },
       "SpeakAndWaitBrick": {
         "name": "Speak and wait",
         "color": "8f4cba",
-        "count": 158
+        "count": 104
       },
       "ReplaceItemInUserListBrick": {
         "name": "Replace in list",
         "color": "f24e50",
-        "count": 114
+        "count": 115
       },
       "InsertItemIntoUserListBrick": {
         "name": "Insert into list",
@@ -2748,12 +2745,12 @@
       "DeleteItemOfUserListBrick": {
         "name": "Delete from list",
         "color": "f24e50",
-        "count": 62
+        "count": 63
       },
       "StampBrick": {
         "name": "Stamp",
         "color": "305716",
-        "count": 7
+        "count": 6
       },
       "ChangeVolumeByNBrick": {
         "name": "Change volume",
@@ -2763,47 +2760,47 @@
       "SetPhysicsObjectTypeBrick": {
         "name": "Set motion type",
         "color": "408ac5",
-        "count": 385
+        "count": 412
       },
       "SayBubbleBrick": {
         "name": "Say",
         "color": "6b9c49",
-        "count": 75
-      },
-      "AddItemToUserListBrick": {
-        "name": "Add to list",
-        "color": "f24e50",
-        "count": 1968
+        "count": 68
       },
       "DeleteThisCloneBrick": {
         "name": "Delete this clone",
         "color": "f99761",
-        "count": 169
+        "count": 183
       },
       "SetFrictionBrick": {
         "name": "Set friction",
         "color": "408ac5",
-        "count": 8
+        "count": 10
       },
       "SetBounceBrick": {
         "name": "Set bounce factor",
         "color": "408ac5",
-        "count": 45
+        "count": 49
       },
       "SetMassBrick": {
         "name": "Set mass",
         "color": "408ac5",
-        "count": 23
+        "count": 25
       },
       "TurnLeftSpeedBrick": {
         "name": "Rotate left speed",
         "color": "408ac5",
-        "count": 24
+        "count": 27
+      },
+      "AddItemToUserListBrick": {
+        "name": "Add to list",
+        "color": "f24e50",
+        "count": 1970
       },
       "SetGravityBrick": {
         "name": "Set gravity",
         "color": "408ac5",
-        "count": 38
+        "count": 50
       },
       "ThinkBubbleBrick": {
         "name": "Think",
@@ -2813,12 +2810,12 @@
       "SetBackgroundAndWaitBrick": {
         "name": "Switch background and wait",
         "color": "6b9c49",
-        "count": 3
+        "count": 4
       },
       "ClearGraphicEffectBrick": {
         "name": "Clear",
         "color": "305716",
-        "count": 12
+        "count": 13
       },
       "ArduinoSendDigitalValueBrick": {
         "name": "Set Arduino digital pin",
@@ -2853,7 +2850,7 @@
       "SetBackgroundByIndexAndWaitBrick": {
         "name": "Switch background to # and wait",
         "color": "6b9c49",
-        "count": 3
+        "count": 4
       },
       "SetBackgroundByIndexBrick": {
         "name": "Switch background to #",
@@ -2886,71 +2883,69 @@
         "count": 1
       }
     },
-    "objectVariables": 14752,
-    "objectLists": 10920,
-    "programVariables": 3860,
-    "programLists": 96
+    "objectVariables": 14457,
+    "objectLists": 10718,
+    "programVariables": 3872,
+    "programLists": 95
   },
   "overallLastMonth": {
-    "programs": 1743,
-    "programsWithMultipleScenes": 331,
-    "programsWithGroups": 71,
-    "programsInLandscape": 568,
+    "programs": 1726,
+    "programsWithMultipleScenes": 326,
+    "programsWithGroups": 73,
+    "programsInLandscape": 572,
     "languages": {
-      "0.993": 1742,
-      "0.992": 1
+      "0.993": 1722,
+      "0.99": 4
     },
     "screenSizes": {
-      "2560x1440": 25,
-      "1920x1080": 342,
-      "1280x800": 53,
+      "1920x1080": 348,
+      "1280x800": 56,
       "1196x720": 18,
-      "480x320": 9,
-      "854x480": 90,
-      "1280x720": 325,
+      "480x320": 8,
+      "1280x720": 317,
       "1280x736": 3,
-      "976x600": 81,
-      "1193x720": 6,
+      "976x600": 80,
+      "1193x720": 5,
       "1184x720": 96,
-      "1216x800": 26,
-      "1776x1080": 43,
-      "960x540": 119,
-      "888x540": 11,
-      "800x480": 183,
-      "976x768": 3,
-      "2392x1440": 35,
-      "782x480": 56,
-      "1024x552": 6,
-      "1794x1080": 7,
-      "2008x1080": 4,
-      "320x240": 2,
+      "854x480": 86,
+      "1216x800": 25,
+      "1776x1080": 41,
+      "960x540": 120,
       "1778x1080": 1,
+      "2392x1440": 28,
       "1208x720": 17,
+      "782x480": 54,
+      "800x480": 184,
+      "2560x1440": 23,
       "1187x720": 7,
       "1024x600": 21,
       "1024x768": 14,
       "2048x1536": 11,
-      "1812x1080": 27,
+      "1812x1080": 28,
       "480x360": 3,
-      "1232x800": 18,
+      "1232x800": 20,
       "1217x800": 3,
       "897x540": 2,
       "1188x720": 6,
       "2560x1600": 3,
+      "1024x552": 5,
       "2416x1440": 8,
+      "888x540": 10,
       "1824x1200": 5,
       "791x480": 3,
       "2792x1440": 1,
-      "1920x1200": 10,
+      "1920x1200": 11,
+      "1794x1080": 6,
       "982x600": 2,
       "1184x768": 2,
+      "2008x1080": 2,
       "1202x720": 2,
       "792x480": 2,
       "2768x1440": 1,
       "2478x1600": 3,
       "786x480": 1,
       "1280x752": 2,
-      "1920x1128": 1,
+      "1920x1128": 2,
       "2560x1518": 1,
       "2094x1080": 4,
       "784x480": 4,
@@ -2958,503 +2953,450 @@
       "1202x800": 1,
       "1280x684": 3,
       "1199x720": 3,
-      "1848x1200": 2,
+      "976x768": 2,
+      "1848x1200": 5,
       "1172x720": 1,
       "2678x1440": 1,
       "1205x800": 1,
       "960x600": 1,
-      "1758x1080": 1
+      "1758x1080": 1,
+      "320x240": 1
     },
     "platforms": {
-      "Android": 1743
+      "Android": 1726
     },
-    "remixes": 490,
-    "scenes": 3473,
-    "objects": 19065,
-    "groups": 451,
-    "looks": 31153,
-    "sounds": 5600,
-    "bricks": 232735,
+    "remixes": 489,
+    "scenes": 3291,
+    "objects": 18541,
+    "groups": 571,
+    "looks": 30493,
+    "sounds": 5542,
+    "bricks": 235270,
     "brickUsage": {
       "StartScript": {
         "name": "When program starts",
         "color": "cf5717",
-        "count": 16985
+        "count": 16841
       },
       "BroadcastScript": {
         "name": "When you receive",
         "color": "cf5717",
-        "count": 20966
-      },
-      "WhenScript": {
-        "name": "When tapped",
-        "color": "cf5717",
-        "count": 8642
-      },
-      "ForeverBrick": {
-        "name": "Forever",
-        "color": "f99761",
-        "count": 5862
-      },
-      "BroadcastBrick": {
-        "name": "Broadcast",
-        "color": "cf5717",
-        "count": 9177
-      },
-      "WaitBrick": {
-        "name": "Wait",
-        "color": "f99761",
-        "count": 14233
-      },
-      "LoopEndlessBrick": {
-        "name": "Forever",
-        "color": "f99761",
-        "count": 5818
-      },
-      "IfLogicBeginBrick": {
-        "name": "If",
-        "color": "f99761",
-        "count": 8014
-      },
-      "IfLogicElseBrick": {
-        "name": "Else",
-        "color": "f99761",
-        "count": 8014
-      },
-      "IfLogicEndBrick": {
-        "name": "End If",
-        "color": "f99761",
-        "count": 8014
-      },
-      "SetVariableBrick": {
-        "name": "Set variable",
-        "color": "f24e50",
-        "count": 12046
-      },
-      "ShowTextBrick": {
-        "name": "Show variable",
-        "color": "f24e50",
-        "count": 1378
-      },
-      "SetSizeToBrick": {
-        "name": "Set size",
-        "color": "6b9c49",
-        "count": 8805
-      },
-      "PointToBrick": {
-        "name": "Point to",
-        "color": "408ac5",
-        "count": 238
-      },
-      "PlaceAtBrick": {
-        "name": "Place at",
-        "color": "408ac5",
-        "count": 11403
-      },
-      "ChangeVariableBrick": {
-        "name": "Change variable",
-        "color": "f24e50",
-        "count": 3821
-      },
-      "MoveNStepsBrick": {
-        "name": "Move _ steps",
-        "color": "408ac5",
-        "count": 272
-      },
-      "SetLookBrick": {
-        "name": "Switch to look",
-        "color": "6b9c49",
-        "count": 8628
-      },
-      "GlideToBrick": {
-        "name": "Glide to",
-        "color": "408ac5",
-        "count": 4298
-      },
-      "HideTextBrick": {
-        "name": "Hide variable",
-        "color": "f24e50",
-        "count": 678
+        "count": 21620
       },
       "WhenTouchDownScript": {
         "name": "When screen is touched",
         "color": "cf5717",
-        "count": 540
+        "count": 494
       },
       "HideBrick": {
         "name": "Hide",
         "color": "6b9c49",
-        "count": 17994
+        "count": 18248
+      },
+      "SetSizeToBrick": {
+        "name": "Set size",
+        "color": "6b9c49",
+        "count": 8863
       },
       "GoToBrick": {
         "name": "Go to",
         "color": "408ac5",
-        "count": 621
+        "count": 588
+      },
+      "SetVariableBrick": {
+        "name": "Set variable",
+        "color": "f24e50",
+        "count": 12837
       },
       "SetGravityBrick": {
         "name": "Set gravity",
         "color": "408ac5",
-        "count": 111
+        "count": 106
       },
       "SetPhysicsObjectTypeBrick": {
         "name": "Set motion type",
         "color": "408ac5",
-        "count": 699
+        "count": 625
       },
       "BroadcastWaitBrick": {
         "name": "Broadcast and Wait",
         "color": "cf5717",
-        "count": 508
+        "count": 576
+      },
+      "PointToBrick": {
+        "name": "Point to",
+        "color": "408ac5",
+        "count": 232
+      },
+      "MoveNStepsBrick": {
+        "name": "Move _ steps",
+        "color": "408ac5",
+        "count": 259
       },
       "ShowBrick": {
         "name": "Show",
         "color": "6b9c49",
-        "count": 10390
+        "count": 10684
       },
       "RepeatUntilBrick": {
         "name": "Repeat until _ is true",
         "color": "f99761",
-        "count": 388
+        "count": 488
       },
       "IfThenLogicBeginBrick": {
         "name": "If",
         "color": "f99761",
-        "count": 4343
+        "count": 4548
+      },
+      "IfLogicBeginBrick": {
+        "name": "If",
+        "color": "f99761",
+        "count": 8420
       },
       "PointInDirectionBrick": {
         "name": "Point in direction",
         "color": "408ac5",
-        "count": 393
+        "count": 377
+      },
+      "IfLogicElseBrick": {
+        "name": "Else",
+        "color": "f99761",
+        "count": 8420
+      },
+      "IfLogicEndBrick": {
+        "name": "End If",
+        "color": "f99761",
+        "count": 8420
+      },
+      "WaitBrick": {
+        "name": "Wait",
+        "color": "f99761",
+        "count": 13739
       },
       "IfThenLogicEndBrick": {
         "name": "End If",
         "color": "f99761",
-        "count": 4343
+        "count": 4548
       },
       "LoopEndBrick": {
         "name": "End of Loop",
         "color": "f99761",
-        "count": 2047
+        "count": 2138
       },
       "NextLookBrick": {
         "name": "Next look",
         "color": "6b9c49",
-        "count": 2223
+        "count": 2165
       },
       "StampBrick": {
         "name": "Stamp",
         "color": "305716",
-        "count": 13
+        "count": 10
+      },
+      "PlaceAtBrick": {
+        "name": "Place at",
+        "color": "408ac5",
+        "count": 11548
+      },
+      "WhenScript": {
+        "name": "When tapped",
+        "color": "cf5717",
+        "count": 8478
       },
       "SetBackgroundBrick": {
         "name": "Switch background",
         "color": "6b9c49",
-        "count": 1508
+        "count": 1494
+      },
+      "BroadcastBrick": {
+        "name": "Broadcast",
+        "color": "cf5717",
+        "count": 9471
       },
       "WhenConditionScript": {
         "name": "When _ becomes true",
         "color": "cf5717",
-        "count": 1820
+        "count": 1737
       },
       "ChangeSizeByNBrick": {
         "name": "Change size",
         "color": "6b9c49",
-        "count": 721
+        "count": 796
+      },
+      "ForeverBrick": {
+        "name": "Forever",
+        "color": "f99761",
+        "count": 5666
       },
       "IfOnEdgeBounceBrick": {
         "name": "If on edge, bounce",
         "color": "408ac5",
-        "count": 366
+        "count": 398
+      },
+      "LoopEndlessBrick": {
+        "name": "Forever",
+        "color": "f99761",
+        "count": 5622
       },
       "PlaySoundBrick": {
         "name": "Start sound",
         "color": "8f4cba",
-        "count": 3422
+        "count": 3339
       },
       "TurnRightSpeedBrick": {
         "name": "Rotate right speed",
         "color": "408ac5",
-        "count": 34
+        "count": 27
       },
       "SetYBrick": {
         "name": "Set Y",
         "color": "408ac5",
-        "count": 1133
+        "count": 1107
       },
       "ChangeYByNBrick": {
         "name": "Change Y",
         "color": "408ac5",
-        "count": 968
+        "count": 938
+      },
+      "HideTextBrick": {
+        "name": "Hide variable",
+        "color": "f24e50",
+        "count": 681
+      },
+      "ChangeVariableBrick": {
+        "name": "Change variable",
+        "color": "f24e50",
+        "count": 3979
+      },
+      "ShowTextBrick": {
+        "name": "Show variable",
+        "color": "f24e50",
+        "count": 1632
       },
       "WaitUntilBrick": {
         "name": "Wait until _ is true",
         "color": "f99761",
-        "count": 280
+        "count": 333
+      },
+      "SetLookBrick": {
+        "name": "Switch to look",
+        "color": "6b9c49",
+        "count": 8688
+      },
+      "GlideToBrick": {
+        "name": "Glide to",
+        "color": "408ac5",
+        "count": 4174
       },
       "SetXBrick": {
         "name": "Set X",
         "color": "408ac5",
-        "count": 695
+        "count": 669
       },
       "StopAllSoundsBrick": {
         "name": "Stop all sounds",
         "color": "8f4cba",
-        "count": 422
-      },
-      "WhenClonedScript": {
-        "name": "When I start as a clone",
-        "color": "cf5717",
-        "count": 188
-      },
-      "CollisionScript": {
-        "name": "When physical collision with",
-        "color": "cf5717",
-        "count": 417
-      },
-      "SceneStartBrick": {
-        "name": "Start scene",
-        "color": "f99761",
-        "count": 2148
-      },
-      "DeleteThisCloneBrick": {
-        "name": "Delete this clone",
-        "color": "f99761",
-        "count": 78
-      },
-      "ChangeXByNBrick": {
-        "name": "Change X",
-        "color": "408ac5",
-        "count": 779
-      },
-      "SetMassBrick": {
-        "name": "Set mass",
-        "color": "408ac5",
-        "count": 56
-      },
-      "SetFrictionBrick": {
-        "name": "Set friction",
-        "color": "408ac5",
-        "count": 12
-      },
-      "SetBounceBrick": {
-        "name": "Set bounce factor",
-        "color": "408ac5",
-        "count": 144
-      },
-      "SetColorBrick": {
-        "name": "Set color",
-        "color": "6b9c49",
-        "count": 343
-      },
-      "CloneBrick": {
-        "name": "Create clone",
-        "color": "f99761",
-        "count": 157
-      },
-      "SetTransparencyBrick": {
-        "name": "Set transparency",
-        "color": "6b9c49",
-        "count": 2102
-      },
-      "TurnRightBrick": {
-        "name": "Turn right",
-        "color": "408ac5",
-        "count": 349
-      },
-      "SetVelocityBrick": {
-        "name": "Set velocity",
-        "color": "408ac5",
-        "count": 528
-      },
-      "TurnLeftSpeedBrick": {
-        "name": "Rotate left speed",
-        "color": "408ac5",
-        "count": 61
-      },
-      "ChangeColorByNBrick": {
-        "name": "Change color",
-        "color": "6b9c49",
-        "count": 282
-      },
-      "SetVolumeToBrick": {
-        "name": "Set volume",
-        "color": "8f4cba",
-        "count": 144
-      },
-      "RepeatBrick": {
-        "name": "Repeat",
-        "color": "f99761",
-        "count": 1615
-      },
-      "SetBrightnessBrick": {
-        "name": "Set brightness",
-        "color": "6b9c49",
-        "count": 455
-      },
-      "GoNStepsBackBrick": {
-        "name": "Go back _ layers",
-        "color": "408ac5",
-        "count": 348
-      },
-      "ChangeBrightnessByNBrick": {
-        "name": "Change brightness",
-        "color": "6b9c49",
-        "count": 538
-      },
-      "ChangeTransparencyByNBrick": {
-        "name": "Change transparency",
-        "color": "6b9c49",
-        "count": 393
-      },
-      "TurnLeftBrick": {
-        "name": "Turn left",
-        "color": "408ac5",
-        "count": 399
-      },
-      "VibrationBrick": {
-        "name": "Vibrate",
-        "color": "408ac5",
-        "count": 621
+        "count": 416
       },
       "WhenBackgroundChangesScript": {
         "name": "When background changes to",
         "color": "cf5717",
-        "count": 697
+        "count": 683
       },
       "PlaySoundAndWaitBrick": {
         "name": "Start sound and wait",
         "color": "8f4cba",
-        "count": 432
+        "count": 445
+      },
+      "RepeatBrick": {
+        "name": "Repeat",
+        "color": "f99761",
+        "count": 1606
+      },
+      "ChangeTransparencyByNBrick": {
+        "name": "Change transparency",
+        "color": "6b9c49",
+        "count": 396
+      },
+      "SceneStartBrick": {
+        "name": "Start scene",
+        "color": "f99761",
+        "count": 1910
+      },
+      "SetVolumeToBrick": {
+        "name": "Set volume",
+        "color": "8f4cba",
+        "count": 146
+      },
+      "ChangeXByNBrick": {
+        "name": "Change X",
+        "color": "408ac5",
+        "count": 766
       },
       "SpeakBrick": {
         "name": "Speak",
         "color": "8f4cba",
-        "count": 433
+        "count": 431
       },
       "StopScriptBrick": {
         "name": "Stop script",
         "color": "f99761",
-        "count": 426
+        "count": 416
+      },
+      "SetBrightnessBrick": {
+        "name": "Set brightness",
+        "color": "6b9c49",
+        "count": 383
       },
       "ComeToFrontBrick": {
         "name": "Come to front",
         "color": "408ac5",
-        "count": 1157
+        "count": 1162
+      },
+      "GoNStepsBackBrick": {
+        "name": "Go back _ layers",
+        "color": "408ac5",
+        "count": 345
+      },
+      "SetTransparencyBrick": {
+        "name": "Set transparency",
+        "color": "6b9c49",
+        "count": 2088
       },
       "SceneTransitionBrick": {
         "name": "Continue scene",
         "color": "f99761",
-        "count": 933
+        "count": 845
+      },
+      "TurnLeftBrick": {
+        "name": "Turn left",
+        "color": "408ac5",
+        "count": 404
+      },
+      "ChangeColorByNBrick": {
+        "name": "Change color",
+        "color": "6b9c49",
+        "count": 249
+      },
+      "TurnRightBrick": {
+        "name": "Turn right",
+        "color": "408ac5",
+        "count": 341
       },
       "SetPenColorBrick": {
         "name": "Set pen color",
         "color": "305716",
-        "count": 72
+        "count": 54
       },
       "SetPenSizeBrick": {
         "name": "Set pen size",
         "color": "305716",
-        "count": 58
+        "count": 41
       },
       "PenDownBrick": {
         "name": "Pen down",
         "color": "305716",
-        "count": 50
+        "count": 31
       },
       "ClearBackgroundBrick": {
         "name": "Clear graphic effects",
         "color": "6b9c49",
-        "count": 40
+        "count": 39
       },
       "PenUpBrick": {
         "name": "Pen up",
         "color": "305716",
-        "count": 56
+        "count": 16
+      },
+      "SetColorBrick": {
+        "name": "Set color",
+        "color": "6b9c49",
+        "count": 267
       },
       "AskBrick": {
         "name": "Ask",
         "color": "6b9c49",
-        "count": 349
+        "count": 345
+      },
+      "CollisionScript": {
+        "name": "When physical collision with",
+        "color": "cf5717",
+        "count": 390
       },
       "SayForBubbleBrick": {
         "name": "Say for _ seconds",
         "color": "6b9c49",
-        "count": 121
+        "count": 123
+      },
+      "TurnLeftSpeedBrick": {
+        "name": "Rotate left speed",
+        "color": "408ac5",
+        "count": 60
+      },
+      "VibrationBrick": {
+        "name": "Vibrate",
+        "color": "408ac5",
+        "count": 675
+      },
+      "ChangeBrightnessByNBrick": {
+        "name": "Change brightness",
+        "color": "6b9c49",
+        "count": 497
       },
       "PreviousLookBrick": {
         "name": "Previous look",
         "color": "6b9c49",
-        "count": 67
+        "count": 93
+      },
+      "WhenClonedScript": {
+        "name": "When I start as a clone",
+        "color": "cf5717",
+        "count": 111
+      },
+      "CloneBrick": {
+        "name": "Create clone",
+        "color": "f99761",
+        "count": 114
+      },
+      "DeleteThisCloneBrick": {
+        "name": "Delete this clone",
+        "color": "f99761",
+        "count": 48
+      },
+      "SetVelocityBrick": {
+        "name": "Set velocity",
+        "color": "408ac5",
+        "count": 639
       },
       "AddItemToUserListBrick": {
         "name": "Add to list",
         "color": "f24e50",
-        "count": 471
+        "count": 467
       },
       "SayBubbleBrick": {
         "name": "Say",
         "color": "6b9c49",
-        "count": 87
+        "count": 90
       },
       "ReplaceItemInUserListBrick": {
         "name": "Replace in list",
         "color": "f24e50",
         "count": 91
       },
-      "PhiroRGBLightBrick": {
-        "name": "Set Phiro light",
-        "color": "6b9c49",
-        "count": 1
-      },
-      "CameraBrick": {
-        "name": "Turn camera on/off",
-        "color": "6b9c49",
-        "count": 39
-      },
-      "ChooseCameraBrick": {
-        "name": "Use front/back camera",
-        "color": "6b9c49",
-        "count": 38
-      },
       "NoteBrick": {
         "name": "Note",
         "color": "f99761",
-        "count": 735
+        "count": 730
       },
-      "ClearGraphicEffectBrick": {
-        "name": "Clear",
-        "color": "305716",
-        "count": 47
+      "SpeakAndWaitBrick": {
+        "name": "Speak and wait",
+        "color": "8f4cba",
+        "count": 147
       },
       "FlashBrick": {
         "name": "Turn flashlight",
         "color": "6b9c49",
         "count": 563
-      },
-      "SetRotationStyleBrick": {
-        "name": "Set rotation style",
-        "color": "408ac5",
-        "count": 77
-      },
-      "SetNfcTagBrick": {
-        "name": "Set next NFC tag",
-        "color": "f99761",
-        "count": 7
-      },
-      "ChangeVolumeByNBrick": {
-        "name": "Change volume",
-        "color": "8f4cba",
-        "count": 14
-      },
-      "DeleteItemOfUserListBrick": {
-        "name": "Delete from list",
-        "color": "f24e50",
-        "count": 44
-      },
-      "SpeakAndWaitBrick": {
-        "name": "Speak and wait",
-        "color": "8f4cba",
-        "count": 71
       },
       "ThinkForBubbleBrick": {
         "name": "Think for _ seconds",
@@ -3466,6 +3408,16 @@
         "color": "6b9c49",
         "count": 21
       },
+      "SetRotationStyleBrick": {
+        "name": "Set rotation style",
+        "color": "408ac5",
+        "count": 76
+      },
+      "CameraBrick": {
+        "name": "Turn camera on/off",
+        "color": "6b9c49",
+        "count": 56
+      },
       "InsertItemIntoUserListBrick": {
         "name": "Insert into list",
         "color": "f24e50",
@@ -3474,23 +3426,63 @@
       "AskSpeechBrick": {
         "name": "Ask speech",
         "color": "8f4cba",
-        "count": 35
+        "count": 43
+      },
+      "ChangeVolumeByNBrick": {
+        "name": "Change volume",
+        "color": "8f4cba",
+        "count": 13
+      },
+      "SetMassBrick": {
+        "name": "Set mass",
+        "color": "408ac5",
+        "count": 43
       },
       "SetBackgroundAndWaitBrick": {
         "name": "Switch background and wait",
         "color": "6b9c49",
         "count": 8
       },
+      "ChooseCameraBrick": {
+        "name": "Use front/back camera",
+        "color": "6b9c49",
+        "count": 49
+      },
+      "SetBounceBrick": {
+        "name": "Set bounce factor",
+        "color": "408ac5",
+        "count": 129
+      },
+      "DeleteItemOfUserListBrick": {
+        "name": "Delete from list",
+        "color": "f24e50",
+        "count": 31
+      },
+      "SetFrictionBrick": {
+        "name": "Set friction",
+        "color": "408ac5",
+        "count": 11
+      },
+      "ClearGraphicEffectBrick": {
+        "name": "Clear",
+        "color": "305716",
+        "count": 35
+      },
       "UserBrick": {
         "name": "My bricks",
         "color": "98c204",
         "count": 20
+      },
+      "SetNfcTagBrick": {
+        "name": "Set next NFC tag",
+        "color": "f99761",
+        "count": 5
       }
     },
-    "objectVariables": 13962,
-    "objectLists": 11476,
-    "programVariables": 4065,
-    "programLists": 114
+    "objectVariables": 13886,
+    "objectLists": 11482,
+    "programVariables": 4031,
+    "programLists": 116
   },
   "timeline": {
     "2017 week#15": {
@@ -3586,9 +3578,9 @@
       "remixes": 97
     },
     "2017 week#38": {
-      "new": 108,
-      "remixes": 35
+      "new": 170,
+      "remixes": 53
     }
   },
-  "updated": "2017-09-20T12:54:32.400Z"
+  "updated": "2017-09-21T14:08:10.658Z"
 }
