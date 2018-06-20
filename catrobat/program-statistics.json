@@ -1,0 +1,4164 @@
+{
+  "display": {
+    "features": {
+      "list": {
+        "name": "List",
+        "color": "f24e50"
+      },
+      "variable": {
+        "name": "Variable",
+        "color": "f24e50"
+      },
+      "text": {
+        "name": "Text",
+        "color": "f99761"
+      },
+      "clone": {
+        "name": "Clone",
+        "color": "f99761"
+      },
+      "pen": {
+        "name": "Pen",
+        "color": "305716"
+      },
+      "physics": {
+        "name": "Physics",
+        "color": "408ac5"
+      },
+      "touch": {
+        "name": "Touch",
+        "color": "6b72cc"
+      },
+      "finger": {
+        "name": "Finger",
+        "color": "6b72cc"
+      },
+      "faceDetection": {
+        "name": "Face detection",
+        "color": "6b72cc"
+      },
+      "dateTime": {
+        "name": "Date-Time",
+        "color": "6b72cc"
+      },
+      "textToSpeech": {
+        "name": "Text to speech",
+        "color": "f24e50"
+      },
+      "cast": {
+        "name": "Cast",
+        "color": "f99761"
+      },
+      "userBrick": {
+        "name": "User Brick",
+        "color": "98c204"
+      },
+      "hardware": {
+        "name": "Hardware",
+        "color": "ff0000,"
+      },
+      "externalHardware": {
+        "name": "External hardware",
+        "color": "ff0000,"
+      },
+      "internalHardware": {
+        "name": "Internal hardware",
+        "color": "ff0000,"
+      },
+      "bluetooth": {
+        "name": "Bluetooth",
+        "color": "26a6ae"
+      },
+      "wlan": {
+        "name": "WLAN",
+        "color": "26a6ae"
+      },
+      "nfc": {
+        "name": "NFC",
+        "color": "26a6ae"
+      },
+      "camera": {
+        "name": "Camera",
+        "color": "6b72cc"
+      },
+      "flash": {
+        "name": "Flash",
+        "color": "6b72cc"
+      },
+      "location": {
+        "name": "Location",
+        "color": "6b72cc"
+      },
+      "phoneSensor": {
+        "name": "Phone sensor",
+        "color": "6b72cc"
+      },
+      "arduino": {
+        "name": "Arduino",
+        "color": "26a6ae"
+      },
+      "drone": {
+        "name": "Drone",
+        "color": "26a6ae"
+      },
+      "lego": {
+        "name": "Lego",
+        "color": "fccb41"
+      },
+      "phiro": {
+        "name": "Phiro",
+        "color": "fccb41"
+      },
+      "raspberryPi": {
+        "name": "Raspberry Pi",
+        "color": "26a6ae"
+      }
+    },
+    "bricks": {
+      "StartScript": {
+        "name": "When program starts",
+        "color": "cf5717"
+      },
+      "WhenScript": {
+        "name": "When tapped",
+        "color": "cf5717"
+      },
+      "WhenTouchDownScript": {
+        "name": "When screen is touched",
+        "color": "cf5717"
+      },
+      "BroadcastScript": {
+        "name": "When you receive",
+        "color": "cf5717"
+      },
+      "BroadcastBrick": {
+        "name": "Broadcast",
+        "color": "cf5717"
+      },
+      "BroadcastWaitBrick": {
+        "name": "Broadcast and Wait",
+        "color": "cf5717"
+      },
+      "WhenConditionScript": {
+        "name": "When _ becomes true",
+        "color": "cf5717"
+      },
+      "CollisionScript": {
+        "name": "When physical collision with",
+        "color": "cf5717"
+      },
+      "WhenBackgroundChangesScript": {
+        "name": "When background changes to",
+        "color": "cf5717"
+      },
+      "WhenClonedScript": {
+        "name": "When I start as a clone",
+        "color": "cf5717"
+      },
+      "WhenNfcScript": {
+        "name": "When NFC",
+        "color": "cf5717"
+      },
+      "RaspiInterruptScript": {
+        "name": "When Raspberry Pi pin changes to",
+        "color": "cf5717"
+      },
+      "WhenGamepadButtonScript": {
+        "name": "When gamepad button",
+        "color": "cf5717"
+      },
+      "WaitBrick": {
+        "name": "Wait",
+        "color": "f99761"
+      },
+      "NoteBrick": {
+        "name": "Note",
+        "color": "f99761"
+      },
+      "ForeverBrick": {
+        "name": "Forever",
+        "color": "f99761"
+      },
+      "LoopEndBrick": {
+        "name": "End of Loop",
+        "color": "f99761"
+      },
+      "IfLogicBeginBrick": {
+        "name": "If",
+        "color": "f99761"
+      },
+      "IfLogicElseBrick": {
+        "name": "Else",
+        "color": "f99761"
+      },
+      "IfLogicEndBrick": {
+        "name": "End If",
+        "color": "f99761"
+      },
+      "WaitUntilBrick": {
+        "name": "Wait until _ is true",
+        "color": "f99761"
+      },
+      "RepeatBrick": {
+        "name": "Repeat",
+        "color": "f99761"
+      },
+      "RepeatUntilBrick": {
+        "name": "Repeat until _ is true",
+        "color": "f99761"
+      },
+      "SceneStartBrick": {
+        "name": "Start scene",
+        "color": "f99761"
+      },
+      "SceneTransitionBrick": {
+        "name": "Continue scene",
+        "color": "f99761"
+      },
+      "PhiroIfLogicBeginBrick": {
+        "name": "If Phiro sensor is activated",
+        "color": "f99761"
+      },
+      "StopScriptBrick": {
+        "name": "Stop script",
+        "color": "f99761"
+      },
+      "CloneBrick": {
+        "name": "Create clone",
+        "color": "f99761"
+      },
+      "DeleteThisCloneBrick": {
+        "name": "Delete this clone",
+        "color": "f99761"
+      },
+      "SetNfcTagBrick": {
+        "name": "Set next NFC tag",
+        "color": "f99761"
+      },
+      "RaspiIfLogicBeginBrick": {
+        "name": "If Raspberry Pi pin is true",
+        "color": "f99761"
+      },
+      "PlaceAtBrick": {
+        "name": "Place at",
+        "color": "408ac5"
+      },
+      "SetXBrick": {
+        "name": "Set X",
+        "color": "408ac5"
+      },
+      "SetYBrick": {
+        "name": "Set Y",
+        "color": "408ac5"
+      },
+      "ChangeXByNBrick": {
+        "name": "Change X",
+        "color": "408ac5"
+      },
+      "ChangeYByNBrick": {
+        "name": "Change Y",
+        "color": "408ac5"
+      },
+      "GoToBrick": {
+        "name": "Go to",
+        "color": "408ac5"
+      },
+      "IfOnEdgeBounceBrick": {
+        "name": "If on edge, bounce",
+        "color": "408ac5"
+      },
+      "MoveNStepsBrick": {
+        "name": "Move _ steps",
+        "color": "408ac5"
+      },
+      "TurnLeftBrick": {
+        "name": "Turn left",
+        "color": "408ac5"
+      },
+      "TurnRightBrick": {
+        "name": "Turn right",
+        "color": "408ac5"
+      },
+      "PointInDirectionBrick": {
+        "name": "Point in direction",
+        "color": "408ac5"
+      },
+      "PointToBrick": {
+        "name": "Point to",
+        "color": "408ac5"
+      },
+      "SetRotationStyleBrick": {
+        "name": "Set rotation style",
+        "color": "408ac5"
+      },
+      "GlideToBrick": {
+        "name": "Glide to",
+        "color": "408ac5"
+      },
+      "GoNStepsBackBrick": {
+        "name": "Go back _ layers",
+        "color": "408ac5"
+      },
+      "ComeToFrontBrick": {
+        "name": "Come to front",
+        "color": "408ac5"
+      },
+      "VibrationBrick": {
+        "name": "Vibrate",
+        "color": "408ac5"
+      },
+      "SetPhysicsObjectTypeBrick": {
+        "name": "Set motion type",
+        "color": "408ac5"
+      },
+      "SetVelocityBrick": {
+        "name": "Set velocity",
+        "color": "408ac5"
+      },
+      "TurnLeftSpeedBrick": {
+        "name": "Rotate left speed",
+        "color": "408ac5"
+      },
+      "TurnRightSpeedBrick": {
+        "name": "Rotate right speed",
+        "color": "408ac5"
+      },
+      "SetGravityBrick": {
+        "name": "Set gravity",
+        "color": "408ac5"
+      },
+      "SetMassBrick": {
+        "name": "Set mass",
+        "color": "408ac5"
+      },
+      "SetBounceBrick": {
+        "name": "Set bounce factor",
+        "color": "408ac5"
+      },
+      "SetFrictionBrick": {
+        "name": "Set friction",
+        "color": "408ac5"
+      },
+      "PlaySoundBrick": {
+        "name": "Start sound",
+        "color": "8f4cba"
+      },
+      "PlaySoundAndWaitBrick": {
+        "name": "Start sound and wait",
+        "color": "8f4cba"
+      },
+      "StopAllSoundsBrick": {
+        "name": "Stop all sounds",
+        "color": "8f4cba"
+      },
+      "SetVolumeToBrick": {
+        "name": "Set volume",
+        "color": "8f4cba"
+      },
+      "ChangeVolumeByNBrick": {
+        "name": "Change volume",
+        "color": "8f4cba"
+      },
+      "SpeakBrick": {
+        "name": "Speak",
+        "color": "8f4cba"
+      },
+      "SpeakAndWaitBrick": {
+        "name": "Speak and wait",
+        "color": "8f4cba"
+      },
+      "PhiroPlayToneBrick": {
+        "name": "Play Phiro music tone",
+        "color": "8f4cba"
+      },
+      "AskSpeechBrick": {
+        "name": "Ask speech",
+        "color": "8f4cba"
+      },
+      "SetLookBrick": {
+        "name": "Switch to look",
+        "color": "6b9c49"
+      },
+      "SetLookByIndexBrick": {
+        "name": "Switch to look #",
+        "color": "6b9c49"
+      },
+      "NextLookBrick": {
+        "name": "Next look",
+        "color": "6b9c49"
+      },
+      "PreviousLookBrick": {
+        "name": "Previous look",
+        "color": "6b9c49"
+      },
+      "SetSizeToBrick": {
+        "name": "Set size",
+        "color": "6b9c49"
+      },
+      "ChangeSizeByNBrick": {
+        "name": "Change size",
+        "color": "6b9c49"
+      },
+      "HideBrick": {
+        "name": "Hide",
+        "color": "6b9c49"
+      },
+      "ShowBrick": {
+        "name": "Show",
+        "color": "6b9c49"
+      },
+      "AskBrick": {
+        "name": "Ask",
+        "color": "6b9c49"
+      },
+      "SayBubbleBrick": {
+        "name": "Say",
+        "color": "6b9c49"
+      },
+      "SayForBubbleBrick": {
+        "name": "Say for _ seconds",
+        "color": "6b9c49"
+      },
+      "ThinkBubbleBrick": {
+        "name": "Think",
+        "color": "6b9c49"
+      },
+      "ThinkForBubbleBrick": {
+        "name": "Think for _ seconds",
+        "color": "6b9c49"
+      },
+      "SetTransparencyBrick": {
+        "name": "Set transparency",
+        "color": "6b9c49"
+      },
+      "ChangeTransparencyByNBrick": {
+        "name": "Change transparency",
+        "color": "6b9c49"
+      },
+      "SetBrightnessBrick": {
+        "name": "Set brightness",
+        "color": "6b9c49"
+      },
+      "ChangeBrightnessByNBrick": {
+        "name": "Change brightness",
+        "color": "6b9c49"
+      },
+      "SetColorBrick": {
+        "name": "Set color",
+        "color": "6b9c49"
+      },
+      "ChangeColorByNBrick": {
+        "name": "Change color",
+        "color": "6b9c49"
+      },
+      "ClearBackgroundBrick": {
+        "name": "Clear graphic effects",
+        "color": "6b9c49"
+      },
+      "SetBackgroundBrick": {
+        "name": "Switch background",
+        "color": "6b9c49"
+      },
+      "SetBackgroundAndWaitBrick": {
+        "name": "Switch background and wait",
+        "color": "6b9c49"
+      },
+      "SetBackgroundByIndexBrick": {
+        "name": "Switch background to #",
+        "color": "6b9c49"
+      },
+      "SetBackgroundByIndexAndWaitBrick": {
+        "name": "Switch background to # and wait",
+        "color": "6b9c49"
+      },
+      "CameraBrick": {
+        "name": "Turn camera on/off",
+        "color": "6b9c49"
+      },
+      "ChooseCameraBrick": {
+        "name": "Use front/back camera",
+        "color": "6b9c49"
+      },
+      "FlashBrick": {
+        "name": "Turn flashlight",
+        "color": "6b9c49"
+      },
+      "PhiroRGBLightBrick": {
+        "name": "Set Phiro light",
+        "color": "6b9c49"
+      },
+      "PenDownBrick": {
+        "name": "Pen down",
+        "color": "305716"
+      },
+      "PenUpBrick": {
+        "name": "Pen up",
+        "color": "305716"
+      },
+      "SetPenSizeBrick": {
+        "name": "Set pen size",
+        "color": "305716"
+      },
+      "SetPenColorBrick": {
+        "name": "Set pen color",
+        "color": "305716"
+      },
+      "StampBrick": {
+        "name": "Stamp",
+        "color": "305716"
+      },
+      "ClearGraphicEffectBrick": {
+        "name": "Clear",
+        "color": "305716"
+      },
+      "SetVariableBrick": {
+        "name": "Set variable",
+        "color": "f24e50"
+      },
+      "ChangeVariableBrick": {
+        "name": "Change variable",
+        "color": "f24e50"
+      },
+      "ShowTextBrick": {
+        "name": "Show variable",
+        "color": "f24e50"
+      },
+      "HideTextBrick": {
+        "name": "Hide variable",
+        "color": "f24e50"
+      },
+      "AddItemToUserListBrick": {
+        "name": "Add to list",
+        "color": "f24e50"
+      },
+      "DeleteItemOfUserListBrick": {
+        "name": "Delete from list",
+        "color": "f24e50"
+      },
+      "InsertItemIntoUserListBrick": {
+        "name": "Insert into list",
+        "color": "f24e50"
+      },
+      "ReplaceItemInUserListBrick": {
+        "name": "Replace in list",
+        "color": "f24e50"
+      },
+      "LegoNxtMotorMoveBrick": {
+        "name": "Move NXT motor",
+        "color": "fccb41"
+      },
+      "LegoNxtMotorStopBrick": {
+        "name": "Stop NXT motor",
+        "color": "fccb41"
+      },
+      "LegoNxtMotorTurnAngleBrick": {
+        "name": "Turn NXT motor",
+        "color": "fccb41"
+      },
+      "LegoNxtPlayToneBrick": {
+        "name": "Play NXT tone",
+        "color": "fccb41"
+      },
+      "LegoEv3MotorTurnAngleBrick": {
+        "name": "Turn EV3 motor",
+        "color": "fccb41"
+      },
+      "LegoEv3MotorMoveBrick": {
+        "name": "Move EV3 motor",
+        "color": "fccb41"
+      },
+      "LegoEv3MotorStopBrick": {
+        "name": "Stop EV3 motor",
+        "color": "fccb41"
+      },
+      "LegoEv3PlayToneBrick": {
+        "name": "Play EV3 tone",
+        "color": "fccb41"
+      },
+      "LegoEv3SetLedBrick": {
+        "name": "Set EV3 LED Status",
+        "color": "fccb41"
+      },
+      "UserBrick": {
+        "name": "My bricks",
+        "color": "98c204"
+      },
+      "DroneTakeOffLandBrick": {
+        "name": "Take off / Land",
+        "color": "aea626"
+      },
+      "DroneFlipBrick": {
+        "name": "Flip",
+        "color": "aea626"
+      },
+      "DroneEmergencyBrick": {
+        "name": "Emergency",
+        "color": "aea626"
+      },
+      "DroneMoveUpBrick": {
+        "name": "Move up",
+        "color": "aea626"
+      },
+      "DroneMoveDownBrick": {
+        "name": "Move down",
+        "color": "aea626"
+      },
+      "DroneMoveLeftBrick": {
+        "name": "Move left",
+        "color": "aea626"
+      },
+      "DroneMoveRightBrick": {
+        "name": "Move right",
+        "color": "aea626"
+      },
+      "DroneMoveForwardBrick": {
+        "name": "Move forward",
+        "color": "aea626"
+      },
+      "DroneMoveBackwardBrick": {
+        "name": "Move backward",
+        "color": "aea626"
+      },
+      "DroneTurnLeftBrick": {
+        "name": "Turn left",
+        "color": "aea626"
+      },
+      "DroneTurnRightBrick": {
+        "name": "Turn right",
+        "color": "aea626"
+      },
+      "DroneSwitchCameraBrick": {
+        "name": "Switch drone camera",
+        "color": "aea626"
+      },
+      "DroneTurnLeftMagnetoBrick": {
+        "name": "Turn left magneto",
+        "color": "aea626"
+      },
+      "DroneTurnRightMagnetoBrick": {
+        "name": "Turn right magneto",
+        "color": "aea626"
+      },
+      "DronePlayLedAnimationBrick": {
+        "name": "Play LED animation",
+        "color": "aea626"
+      },
+      "PhiroMotorMoveBackwardBrick": {
+        "name": "Move Phiro motor backward",
+        "color": "26a6ae"
+      },
+      "PhiroMotorMoveForwardBrick": {
+        "name": "Move Phiro motor forward",
+        "color": "26a6ae"
+      },
+      "PhiroMotorStopBrick": {
+        "name": "Stop Phiro motor",
+        "color": "26a6ae"
+      },
+      "ArduinoSendDigitalValueBrick": {
+        "name": "Set Arduino digital pin",
+        "color": "26a6ae"
+      },
+      "ArduinoSendPWMValueBrick": {
+        "name": "Set Arduino PWM~ pin",
+        "color": "26a6ae"
+      },
+      "RaspiPwmBrick": {
+        "name": "Set Raspberry Pi PWM pin",
+        "color": "26a6ae"
+      },
+      "RaspiSendDigitalValueBrick": {
+        "name": "Set Raspberry Pi pin",
+        "color": "26a6ae"
+      }
+    },
+    "formulas": {
+      "NUMBER": {
+        "name": "Number",
+        "color": "f99761"
+      },
+      "STRING": {
+        "name": "Text",
+        "color": "f99761"
+      },
+      "BRACKET": {
+        "name": "()",
+        "color": "f99761"
+      },
+      "USER_LIST": {
+        "name": "List",
+        "color": "f24e50"
+      },
+      "USER_VARIABLE": {
+        "name": "Variable",
+        "color": "f24e50"
+      },
+      "COLLISION_FORMULA": {
+        "name": "touches_object",
+        "color": "cf5717"
+      },
+      "FUNCTION_ABS": {
+        "name": "abs",
+        "color": "f99761"
+      },
+      "FUNCTION_ARCCOS": {
+        "name": "arccos",
+        "color": "f99761"
+      },
+      "FUNCTION_ARCSIN": {
+        "name": "arcsin",
+        "color": "f99761"
+      },
+      "FUNCTION_ARCTAN": {
+        "name": "arctan",
+        "color": "f99761"
+      },
+      "FUNCTION_CEIL": {
+        "name": "ceil",
+        "color": "f99761"
+      },
+      "FUNCTION_COS": {
+        "name": "cos",
+        "color": "f99761"
+      },
+      "FUNCTION_EXP": {
+        "name": "exp",
+        "color": "f99761"
+      },
+      "FUNCTION_FALSE": {
+        "name": "FALSE",
+        "color": "f99761"
+      },
+      "FUNCTION_FLOOR": {
+        "name": "floor",
+        "color": "f99761"
+      },
+      "FUNCTION_LN": {
+        "name": "ln",
+        "color": "f99761"
+      },
+      "FUNCTION_LOG": {
+        "name": "log",
+        "color": "f99761"
+      },
+      "FUNCTION_MAX": {
+        "name": "max",
+        "color": "f99761"
+      },
+      "FUNCTION_MIN": {
+        "name": "min",
+        "color": "f99761"
+      },
+      "FUNCTION_MOD": {
+        "name": "mod",
+        "color": "f99761"
+      },
+      "FUNCTION_PI": {
+        "name": "PI",
+        "color": "f99761"
+      },
+      "FUNCTION_POWER": {
+        "name": "power",
+        "color": "f99761"
+      },
+      "FUNCTION_RAND": {
+        "name": "rand",
+        "color": "f99761"
+      },
+      "FUNCTION_ROUND": {
+        "name": "round",
+        "color": "f99761"
+      },
+      "FUNCTION_SIN": {
+        "name": "sin",
+        "color": "f99761"
+      },
+      "FUNCTION_SQRT": {
+        "name": "sqrt",
+        "color": "f99761"
+      },
+      "FUNCTION_TAN": {
+        "name": "tan",
+        "color": "f99761"
+      },
+      "FUNCTION_TRUE": {
+        "name": "TRUE",
+        "color": "f99761"
+      },
+      "FUNCTION_JOIN": {
+        "name": "join",
+        "color": "f99761"
+      },
+      "FUNCTION_LENGTH": {
+        "name": "length",
+        "color": "f99761"
+      },
+      "FUNCTION_LETTER": {
+        "name": "letter",
+        "color": "f99761"
+      },
+      "FUNCTION_CONTAINS": {
+        "name": "contains",
+        "color": "f24e50"
+      },
+      "FUNCTION_LIST_ITEM": {
+        "name": "element",
+        "color": "f24e50"
+      },
+      "FUNCTION_NUMBER_OF_ITEMS": {
+        "name": "number_of_items",
+        "color": "f24e50"
+      },
+      "FUNCTION_MULTI_FINGER_TOUCHED": {
+        "name": "screen_is_touched",
+        "color": "6b72cc"
+      },
+      "FUNCTION_MULTI_FINGER_X": {
+        "name": "screen_touch_x",
+        "color": "6b72cc"
+      },
+      "FUNCTION_MULTI_FINGER_Y": {
+        "name": "screen_touch_y",
+        "color": "6b72cc"
+      },
+      "FUNCTION_ARDUINOANALOG": {
+        "name": "arduino_analog_pin",
+        "color": "26a6ae"
+      },
+      "FUNCTION_ARDUINODIGITAL": {
+        "name": "arduino_digital_pin",
+        "color": "26a6ae"
+      },
+      "FUNCTION_RASPIDIGITAL": {
+        "name": "raspberry_pi_pin",
+        "color": "26a6ae"
+      },
+      "OPERATOR_DIVIDE": {
+        "name": "÷",
+        "color": "f99761"
+      },
+      "OPERATOR_EQUAL": {
+        "name": "=",
+        "color": "f99761"
+      },
+      "OPERATOR_GREATER_OR_EQUAL": {
+        "name": "≥",
+        "color": "f99761"
+      },
+      "OPERATOR_GREATER_THAN": {
+        "name": ">",
+        "color": "f99761"
+      },
+      "OPERATOR_LOGICAL_AND": {
+        "name": "AND",
+        "color": "f99761"
+      },
+      "OPERATOR_LOGICAL_NOT": {
+        "name": "NOT",
+        "color": "f99761"
+      },
+      "OPERATOR_LOGICAL_OR": {
+        "name": "OR",
+        "color": "f99761"
+      },
+      "OPERATOR_MINUS": {
+        "name": "-",
+        "color": "f99761"
+      },
+      "OPERATOR_MULT": {
+        "name": "×",
+        "color": "f99761"
+      },
+      "OPERATOR_NOT_EQUAL": {
+        "name": "≠",
+        "color": "f99761"
+      },
+      "OPERATOR_PLUS": {
+        "name": "+",
+        "color": "f99761"
+      },
+      "OPERATOR_SMALLER_OR_EQUAL": {
+        "name": "≤",
+        "color": "f99761"
+      },
+      "OPERATOR_SMALLER_THAN": {
+        "name": "<",
+        "color": "f99761"
+      },
+      "SENSOR_LOUDNESS": {
+        "name": "loudness",
+        "color": "8f4cba"
+      },
+      "SENSOR_OBJECT_BACKGROUND_NAME": {
+        "name": "background_name",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_BACKGROUND_NUMBER": {
+        "name": "background_number",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_BRIGHTNESS": {
+        "name": "brightness",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_COLOR": {
+        "name": "color",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_LAYER": {
+        "name": "layer",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_LOOK_NAME": {
+        "name": "look_name",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_LOOK_NUMBER": {
+        "name": "look_number",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_ROTATION": {
+        "name": "rotation",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_SIZE": {
+        "name": "size",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_TRANSPARENCY": {
+        "name": "transparency",
+        "color": "6b9c49"
+      },
+      "SENSOR_OBJECT_X": {
+        "name": "position_x",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_Y": {
+        "name": "position_y",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_DISTANCE_TO": {
+        "name": "distance_to",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_ANGULAR_VELOCITY": {
+        "name": "angular_velocity",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_X_VELOCITY": {
+        "name": "x_velocity",
+        "color": "408ac5"
+      },
+      "SENSOR_OBJECT_Y_VELOCITY": {
+        "name": "y_velocity",
+        "color": "408ac5"
+      },
+      "SENSOR_COLLIDES_WITH_EDGE": {
+        "name": "touches_edge",
+        "color": "cf5717"
+      },
+      "SENSOR_COLLIDES_WITH_FINGER": {
+        "name": "touches_finger",
+        "color": "cf5717"
+      },
+      "SENSOR_FINGER_TOUCHED": {
+        "name": "screen_is_touched",
+        "color": "cf5717"
+      },
+      "SENSOR_FINGER_X": {
+        "name": "screen_touch_x",
+        "color": "6b72cc"
+      },
+      "SENSOR_FINGER_Y": {
+        "name": "screen_touch_y",
+        "color": "6b72cc"
+      },
+      "SENSOR_LAST_FINGER_INDEX": {
+        "name": "last_screen_touch_index",
+        "color": "6b72cc"
+      },
+      "SENSOR_DATE_DAY": {
+        "name": "day",
+        "color": "6b72cc"
+      },
+      "SENSOR_DATE_MONTH": {
+        "name": "month",
+        "color": "6b72cc"
+      },
+      "SENSOR_DATE_WEEKDAY": {
+        "name": "weekday",
+        "color": "6b72cc"
+      },
+      "SENSOR_DATE_YEAR": {
+        "name": "year",
+        "color": "6b72cc"
+      },
+      "SENSOR_TIME_HOUR": {
+        "name": "hour",
+        "color": "6b72cc"
+      },
+      "SENSOR_TIME_MINUTE": {
+        "name": "minute",
+        "color": "6b72cc"
+      },
+      "SENSOR_TIME_SECOND": {
+        "name": "second",
+        "color": "6b72cc"
+      },
+      "SENSOR_FACE_DETECTED": {
+        "name": "face_is_visible",
+        "color": "6b72cc"
+      },
+      "SENSOR_FACE_SIZE": {
+        "name": "face_size",
+        "color": "6b72cc"
+      },
+      "SENSOR_FACE_X_POSITION": {
+        "name": "face_x_position",
+        "color": "6b72cc"
+      },
+      "SENSOR_FACE_Y_POSITION": {
+        "name": "face_y_position",
+        "color": "6b72cc"
+      },
+      "SENSOR_X_ACCELERATION": {
+        "name": "acceleration_x",
+        "color": "6b72cc"
+      },
+      "SENSOR_X_INCLINATION": {
+        "name": "inclination_x",
+        "color": "6b72cc"
+      },
+      "SENSOR_Y_ACCELERATION": {
+        "name": "acceleration_y",
+        "color": "6b72cc"
+      },
+      "SENSOR_Y_INCLINATION": {
+        "name": "inclination_y",
+        "color": "6b72cc"
+      },
+      "SENSOR_Z_ACCELERATION": {
+        "name": "acceleration_z",
+        "color": "6b72cc"
+      },
+      "SENSOR_ALTITUDE": {
+        "name": "altitude",
+        "color": "6b72cc"
+      },
+      "SENSOR_LONGITUDE": {
+        "name": "longitude",
+        "color": "6b72cc"
+      },
+      "SENSOR_COMPASS_DIRECTION": {
+        "name": "compass_direction",
+        "color": "6b72cc"
+      },
+      "SENSOR_LATITUDE": {
+        "name": "latitude",
+        "color": "6b72cc"
+      },
+      "SENSOR_LOCATION_ACCURACY": {
+        "name": "location_accuracy",
+        "color": "6b72cc"
+      },
+      "SENSOR_DRONE_BATTERY_STATUS": {
+        "name": "drone_battery_status",
+        "color": "aea626"
+      },
+      "SENSOR_EV3_SENSOR_1": {
+        "name": "EV3_sensor_1",
+        "color": "fccb41"
+      },
+      "SENSOR_EV3_SENSOR_3": {
+        "name": "EV3_sensor_3",
+        "color": "fccb41"
+      },
+      "SENSOR_EV3_SENSOR_4": {
+        "name": "EV3_sensor_4",
+        "color": "fccb41"
+      },
+      "SENSOR_NXT_SENSOR_1": {
+        "name": "NXT_sensor_1",
+        "color": "fccb41"
+      },
+      "SENSOR_NXT_SENSOR_2": {
+        "name": "NXT_sensor_2",
+        "color": "fccb41"
+      },
+      "SENSOR_NXT_SENSOR_3": {
+        "name": "NXT_sensor_3",
+        "color": "fccb41"
+      },
+      "SENSOR_NXT_SENSOR_4": {
+        "name": "NXT_sensor_4",
+        "color": "fccb41"
+      },
+      "SENSOR_PHIRO_BOTTOM_LEFT": {
+        "name": "phiro_bottom_left",
+        "color": "26a6ae"
+      },
+      "SENSOR_PHIRO_BOTTOM_RIGHT": {
+        "name": "phiro_bottom_right",
+        "color": "26a6ae"
+      },
+      "SENSOR_PHIRO_FRONT_LEFT": {
+        "name": "phiro_front_left",
+        "color": "26a6ae"
+      },
+      "SENSOR_PHIRO_FRONT_RIGHT": {
+        "name": "phiro_front_right",
+        "color": "26a6ae"
+      },
+      "SENSOR_PHIRO_SIDE_LEFT": {
+        "name": "phiro_side_left",
+        "color": "26a6ae"
+      },
+      "SENSOR_PHIRO_SIDE_RIGHT": {
+        "name": "phiro_side_right",
+        "color": "26a6ae"
+      }
+    }
+  },
+  "overall": {
+    "programs": 49218,
+    "programsWithMultipleScenes": 7930,
+    "programsWithGroups": 1437,
+    "programsInLandscape": 15173,
+    "languages": {
+      "0.994": 4667,
+      "0.992": 7622,
+      "0.993": 11005,
+      "0.95": 415,
+      "0.991": 3726,
+      "0.97": 1707,
+      "0.96": 820,
+      "0.99": 3141,
+      "0.94": 14,
+      "0.98": 2387,
+      "0.995": 13714
+    },
+    "screenSizes": {
+      "800x480": 4873,
+      "1184x720": 3054,
+      "960x540": 3063,
+      "1920x1080": 6151,
+      "1824x1200": 904,
+      "1184x768": 388,
+      "1280x720": 8502,
+      "1024x600": 701,
+      "2560x1600": 179,
+      "1104x720": 64,
+      "1205x800": 109,
+      "320x240": 77,
+      "2392x1440": 405,
+      "1776x1080": 1182,
+      "1368x900": 3,
+      "1232x800": 1430,
+      "1280x800": 1524,
+      "976x600": 1512,
+      "2560x1440": 1207,
+      "480x320": 367,
+      "782x480": 2485,
+      "1216x800": 744,
+      "1212x800": 28,
+      "976x768": 165,
+      "743x480": 2,
+      "854x480": 3119,
+      "764x480": 46,
+      "1280x768": 42,
+      "888x540": 507,
+      "1952x1536": 21,
+      "1188x720": 148,
+      "480x360": 424,
+      "2464x1600": 10,
+      "904x540": 52,
+      "1199x720": 80,
+      "1200x720": 60,
+      "1140x900": 1,
+      "1152x672": 1,
+      "1392x900": 21,
+      "786x480": 101,
+      "886x540": 24,
+      "744x480": 43,
+      "1848x1200": 189,
+      "1104x648": 20,
+      "1440x900": 16,
+      "1152x720": 1,
+      "1600x900": 4,
+      "1794x1080": 278,
+      "1232x720": 5,
+      "2048x1536": 180,
+      "752x480": 49,
+      "1208x800": 26,
+      "1024x768": 635,
+      "734x480": 51,
+      "912x540": 16,
+      "1196x720": 246,
+      "1812x1080": 667,
+      "1217x800": 18,
+      "1834x1200": 11,
+      "740x480": 1,
+      "1318x768": 8,
+      "1219x800": 29,
+      "1208x720": 500,
+      "1320x768": 3,
+      "2368x1440": 26,
+      "1920x1200": 188,
+      "1232x768": 1,
+      "988x600": 1,
+      "1788x1080": 24,
+      "1800x1080": 9,
+      "1836x1200": 5,
+      "728x480": 10,
+      "952x600": 9,
+      "1821x1080": 6,
+      "967x600": 2,
+      "736x480": 1,
+      "1194x720": 18,
+      "968x600": 1,
+      "952x768": 1,
+      "970x600": 7,
+      "1969x1536": 1,
+      "1193x720": 186,
+      "754x480": 1,
+      "784x480": 34,
+      "772x480": 5,
+      "1830x1200": 17,
+      "1224x800": 1,
+      "1202x800": 5,
+      "1187x720": 225,
+      "1798x1080": 18,
+      "785x480": 16,
+      "1024x552": 186,
+      "791x480": 140,
+      "800x444": 2,
+      "1280x736": 104,
+      "1803x1080": 7,
+      "1280x739": 4,
+      "2560x1532": 6,
+      "897x540": 43,
+      "1280x752": 126,
+      "1872x1080": 1,
+      "1196x768": 2,
+      "1824x1080": 24,
+      "1200x800": 6,
+      "1920x1104": 30,
+      "667x375": 30,
+      "1920x1128": 18,
+      "568x320": 21,
+      "758x480": 3,
+      "762x480": 3,
+      "1920x1114": 1,
+      "958x600": 2,
+      "982x600": 15,
+      "960x600": 11,
+      "640x360": 14,
+      "745x480": 1,
+      "1844x1200": 1,
+      "1803x1200": 1,
+      "1007x600": 3,
+      "1024x720": 9,
+      "1220x800": 31,
+      "2454x1600": 4,
+      "2048x1440": 3,
+      "1752x1080": 13,
+      "800x400": 1,
+      "2560x1536": 1,
+      "1024x540": 7,
+      "1220x720": 2,
+      "1222x800": 3,
+      "1836x1280": 1,
+      "1813x1080": 1,
+      "1920x1081": 4,
+      "2464x1440": 9,
+      "1830x1080": 9,
+      "1831x1200": 4,
+      "800x432": 6,
+      "1806x1080": 7,
+      "1202x720": 4,
+      "493x320": 1,
+      "797x480": 2,
+      "1710x962": 1,
+      "973x600": 1,
+      "2560x1504": 2,
+      "1280x737": 2,
+      "1787x1080": 7,
+      "1280x684": 4,
+      "2008x1080": 47,
+      "1976x1536": 2,
+      "2678x1440": 19,
+      "1920x1011": 1,
+      "1778x1080": 4,
+      "792x480": 57,
+      "1080x830": 1,
+      "2094x1080": 35,
+      "2076x1080": 59,
+      "2478x1600": 5,
+      "2416x1440": 32,
+      "985x600": 1,
+      "2672x1440": 15,
+      "2768x1440": 10,
+      "2792x1440": 10,
+      "2560x1518": 2,
+      "1848x1080": 1,
+      "1172x720": 4,
+      "1758x1080": 8,
+      "1192x720": 45,
+      "1244x720": 3,
+      "1195x720": 3,
+      "1198x720": 16,
+      "1216x720": 6,
+      "1223x800": 9,
+      "986x600": 2,
+      "1384x720": 3,
+      "970x576": 2,
+      "1372x720": 2,
+      "1280x742": 2,
+      "720x405": 16,
+      "1190x720": 2,
+      "1366x736": 3,
+      "2220x1080": 2,
+      "1280x732": 1,
+      "1849x1200": 1,
+      "1795x1080": 1,
+      "1920x1008": 4,
+      "1152x600": 1,
+      "1024x576": 6,
+      "1273x766": 1,
+      "1396x720": 27,
+      "1239x800": 1,
+      "1820x1080": 1,
+      "1235x800": 5,
+      "798x480": 1,
+      "1280x755": 1,
+      "1356x720": 9,
+      "2257x1312": 1,
+      "1280x672": 1,
+      "2960x1440": 2,
+      "2016x1080": 7,
+      "732x412": 11,
+      "1020x607": 3,
+      "1280x740": 4,
+      "970x768": 2,
+      "2034x1080": 7,
+      "2448x1800": 53,
+      "1226x800": 1,
+      "1023x540": 1,
+      "816x486": 2,
+      "1020x618": 3,
+      "2040x1080": 15,
+      "1808x1080": 3,
+      "790x480": 2,
+      "1204x720": 1,
+      "2009x1080": 15,
+      "1344x720": 1,
+      "979x600": 5,
+      "1823x1080": 1,
+      "1839x1200": 2,
+      "1320x720": 5,
+      "2004x1080": 2,
+      "1980x1080": 4,
+      "1024x558": 1,
+      "1842x1080": 1,
+      "1440x828": 1,
+      "2118x1080": 2,
+      "1992x1080": 1,
+      "1852x1200": 3,
+      "1920x1132": 1,
+      "2400x1440": 1,
+      "793x480": 1,
+      "1184x640": 1,
+      "1328x720": 1,
+      "1600x960": 2,
+      "1332x720": 1,
+      "1201x676": 1,
+      "2032x1080": 3,
+      "1434x720": 2,
+      "1280x640": 1,
+      "1358x720": 1,
+      "2240x1080": 4,
+      "2376x1440": 1,
+      "2116x1080": 4,
+      "1913x1080": 1,
+      "2050x1080": 1,
+      "2150x1080": 1,
+      "2461x1600": 1,
+      "1270x760": 1,
+      "2046x1080": 1,
+      "1280x760": 1
+    },
+    "platforms": {
+      "Android": 49158,
+      "iOS": 60
+    },
+    "remixes": 13289,
+    "scenes": 72351,
+    "objects": 521982,
+    "groups": 11465,
+    "looks": 935478,
+    "sounds": 177721,
+    "bricks": 6719250,
+    "brickUsage": {
+      "StartScript": 498034,
+      "BroadcastScript": 527780,
+      "WhenScript": 235468,
+      "SetYBrick": 31428,
+      "GlideToBrick": 129567,
+      "SetVariableBrick": 358601,
+      "BroadcastBrick": 229693,
+      "IfLogicBeginBrick": 366846,
+      "IfLogicEndBrick": 366874,
+      "RepeatBrick": 43872,
+      "DeleteItemOfUserListBrick": 1842,
+      "LoopEndBrick": 240399,
+      "AddItemToUserListBrick": 30636,
+      "ChangeVariableBrick": 101103,
+      "BroadcastWaitBrick": 15731,
+      "IfLogicElseBrick": 253709,
+      "PlaySoundBrick": 109356,
+      "SetXBrick": 31359,
+      "SetLookByIndexBrick": 4975,
+      "HideBrick": 487563,
+      "PlaceAtBrick": 331517,
+      "SetLookBrick": 303803,
+      "NextLookBrick": 59377,
+      "ShowBrick": 284847,
+      "WaitBrick": 404002,
+      "ForeverBrick": 182551,
+      "WhenTouchDownScript": 17105,
+      "ChangeSizeByNBrick": 24469,
+      "ComeToFrontBrick": 29210,
+      "PointInDirectionBrick": 14113,
+      "TurnLeftBrick": 11225,
+      "SetTransparencyBrick": 44897,
+      "GoNStepsBackBrick": 9318,
+      "ChangeTransparencyByNBrick": 8084,
+      "SetSizeToBrick": 273671,
+      "ChangeXByNBrick": 31887,
+      "ChangeYByNBrick": 33789,
+      "WhenClonedScript": 7355,
+      "RepeatUntilBrick": 13969,
+      "CloneBrick": 16871,
+      "DeleteThisCloneBrick": 3638,
+      "PointToBrick": 5480,
+      "MoveNStepsBrick": 11250,
+      "TurnRightBrick": 10597,
+      "StopScriptBrick": 8632,
+      "NoteBrick": 28035,
+      "IfOnEdgeBounceBrick": 10836,
+      "StopAllSoundsBrick": 12690,
+      "SetVolumeToBrick": 7279,
+      "ShowTextBrick": 36643,
+      "HideTextBrick": 12473,
+      "SpeakBrick": 15387,
+      "ChangeVolumeByNBrick": 1277,
+      "ClearGraphicEffectBrick": 1195,
+      "LegoNxtMotorStopBrick": 160,
+      "LegoNxtMotorMoveBrick": 283,
+      "LegoNxtPlayToneBrick": 46,
+      "LegoNxtMotorTurnAngleBrick": 136,
+      "SetBrightnessBrick": 19378,
+      "ChangeBrightnessByNBrick": 4654,
+      "InsertItemIntoUserListBrick": 2198,
+      "ReplaceItemInUserListBrick": 1769,
+      "WaitUntilBrick": 9869,
+      "SetRotationStyleBrick": 3580,
+      "PhiroRGBLightBrick": 271,
+      "PhiroMotorMoveForwardBrick": 259,
+      "PhiroPlayToneBrick": 33,
+      "VibrationBrick": 7650,
+      "UserBrick": 2225,
+      "ArduinoSendPWMValueBrick": 848,
+      "ArduinoSendDigitalValueBrick": 124,
+      "PhiroMotorStopBrick": 257,
+      "PhiroMotorMoveBackwardBrick": 125,
+      "WhenConditionScript": 56715,
+      "SceneStartBrick": 47533,
+      "SetBackgroundBrick": 38205,
+      "ChooseCameraBrick": 1498,
+      "FlashBrick": 4846,
+      "CameraBrick": 1825,
+      "WhenNfcScript": 203,
+      "PhiroIfLogicBeginBrick": 10,
+      "ChangeColorByNBrick": 5326,
+      "SetPhysicsObjectTypeBrick": 15397,
+      "CollisionScript": 9179,
+      "SetGravityBrick": 2517,
+      "TurnLeftSpeedBrick": 1320,
+      "SetVelocityBrick": 13887,
+      "SetMassBrick": 1106,
+      "SetBounceBrick": 2405,
+      "TurnRightSpeedBrick": 1319,
+      "SetFrictionBrick": 732,
+      "SetColorBrick": 3450,
+      "PlaySoundAndWaitBrick": 13283,
+      "SceneTransitionBrick": 19027,
+      "AskSpeechBrick": 627,
+      "AskBrick": 8112,
+      "RaspiInterruptScript": 6,
+      "RaspiSendDigitalValueBrick": 137,
+      "RaspiPwmBrick": 13,
+      "RaspiIfLogicBeginBrick": 8,
+      "PreviousLookBrick": 3101,
+      "WhenBackgroundChangesScript": 34824,
+      "SetPenSizeBrick": 1245,
+      "SetPenColorBrick": 1677,
+      "PenDownBrick": 1834,
+      "ClearBackgroundBrick": 1860,
+      "SayForBubbleBrick": 9207,
+      "StampBrick": 1145,
+      "SayBubbleBrick": 2726,
+      "GoToBrick": 20746,
+      "SetBackgroundAndWaitBrick": 568,
+      "ThinkBubbleBrick": 324,
+      "PenUpBrick": 1233,
+      "SpeakAndWaitBrick": 1632,
+      "ThinkForBubbleBrick": 1318,
+      "LegoEv3MotorStopBrick": 48,
+      "LegoEv3MotorMoveBrick": 57,
+      "LegoEv3PlayToneBrick": 12,
+      "LegoEv3SetLedBrick": 14,
+      "SetNfcTagBrick": 26,
+      "SetBackgroundByIndexAndWaitBrick": 73,
+      "SetBackgroundByIndexBrick": 686,
+      "WhenGamepadButtonScript": 4,
+      "DroneTakeOffLandBrick": 3,
+      "DroneSwitchCameraBrick": 4,
+      "DroneMoveUpBrick": 3,
+      "DroneMoveDownBrick": 2,
+      "DroneMoveForwardBrick": 2,
+      "DroneMoveBackwardBrick": 2,
+      "DroneMoveLeftBrick": 2,
+      "DroneMoveRightBrick": 2,
+      "DroneTurnLeftBrick": 2,
+      "DroneTurnRightBrick": 2,
+      "DroneEmergencyBrick": 2
+    },
+    "formulaUsage": {
+      "NUMBER": 3144985,
+      "OPERATOR_MINUS": 574931,
+      "SENSOR_OBJECT_Y": 49945,
+      "FUNCTION_TRUE": 42528,
+      "FUNCTION_RAND": 119684,
+      "USER_VARIABLE": 716611,
+      "OPERATOR_PLUS": 60803,
+      "OPERATOR_SMALLER_THAN": 60046,
+      "OPERATOR_GREATER_THAN": 54844,
+      "FUNCTION_FALSE": 42264,
+      "OPERATOR_EQUAL": 341218,
+      "FUNCTION_LIST_ITEM": 6789,
+      "USER_LIST": 9794,
+      "SENSOR_OBJECT_X": 42076,
+      "SENSOR_OBJECT_LAYER": 90,
+      "FUNCTION_ROUND": 2248,
+      "OPERATOR_DIVIDE": 22022,
+      "OPERATOR_MULT": 63442,
+      "SENSOR_X_INCLINATION": 7298,
+      "FUNCTION_ABS": 6272,
+      "SENSOR_Y_INCLINATION": 4964,
+      "OPERATOR_LOGICAL_AND": 90076,
+      "BRACKET": 106124,
+      "OPERATOR_SMALLER_OR_EQUAL": 14127,
+      "OPERATOR_GREATER_OR_EQUAL": 28754,
+      "OPERATOR_LOGICAL_NOT": 14815,
+      "SENSOR_FINGER_TOUCHED": 9237,
+      "FUNCTION_POWER": 1319,
+      "FUNCTION_SQRT": 1419,
+      "SENSOR_OBJECT_ROTATION": 1310,
+      "OPERATOR_LOGICAL_OR": 27825,
+      "FUNCTION_SIN": 732,
+      "FUNCTION_COS": 625,
+      "STRING": 114000,
+      "SENSOR_OBJECT_SIZE": 3404,
+      "FUNCTION_MOD": 10671,
+      "OPERATOR_NOT_EQUAL": 10449,
+      "SENSOR_X_ACCELERATION": 235,
+      "SENSOR_Y_ACCELERATION": 188,
+      "SENSOR_Z_ACCELERATION": 122,
+      "SENSOR_NXT_SENSOR_4": 58,
+      "SENSOR_NXT_SENSOR_2": 6,
+      "SENSOR_NXT_SENSOR_1": 49,
+      "FUNCTION_MIN": 278,
+      "FUNCTION_MAX": 410,
+      "SENSOR_NXT_SENSOR_3": 27,
+      "SENSOR_FACE_X_POSITION": 114,
+      "SENSOR_FACE_Y_POSITION": 93,
+      "SENSOR_FACE_DETECTED": 254,
+      "FUNCTION_NUMBER_OF_ITEMS": 1571,
+      "SENSOR_OBJECT_BRIGHTNESS": 148,
+      "SENSOR_OBJECT_TRANSPARENCY": 521,
+      "SENSOR_COMPASS_DIRECTION": 365,
+      "SENSOR_LOUDNESS": 704,
+      "FUNCTION_CONTAINS": 1286,
+      "FUNCTION_LENGTH": 310,
+      "FUNCTION_JOIN": 4613,
+      "FUNCTION_LETTER": 1719,
+      "SENSOR_OBJECT_COLOR": 136,
+      "COLLISION_FORMULA": 24728,
+      "FUNCTION_FLOOR": 478,
+      "FUNCTION_PI": 22,
+      "SENSOR_PHIRO_BOTTOM_RIGHT": 9,
+      "SENSOR_FACE_SIZE": 64,
+      "FUNCTION_CEIL": 61,
+      "FUNCTION_ARDUINOANALOG": 30,
+      "FUNCTION_LOG": 69,
+      "SENSOR_COLLIDES_WITH_EDGE": 1165,
+      "SENSOR_OBJECT_LOOK_NAME": 1147,
+      "FUNCTION_ARCTAN": 75,
+      "FUNCTION_ARDUINODIGITAL": 49,
+      "SENSOR_PHIRO_FRONT_LEFT": 6,
+      "SENSOR_PHIRO_SIDE_LEFT": 6,
+      "SENSOR_OBJECT_X_VELOCITY": 367,
+      "SENSOR_OBJECT_Y_VELOCITY": 236,
+      "SENSOR_FINGER_X": 3554,
+      "FUNCTION_MULTI_FINGER_X": 479,
+      "SENSOR_OBJECT_ANGULAR_VELOCITY": 24,
+      "SENSOR_PHIRO_BOTTOM_LEFT": 6,
+      "FUNCTION_MULTI_FINGER_TOUCHED": 316,
+      "SENSOR_LAST_FINGER_INDEX": 554,
+      "FUNCTION_MULTI_FINGER_Y": 315,
+      "SENSOR_FINGER_Y": 3084,
+      "SENSOR_COLLIDES_WITH_FINGER": 4822,
+      "FUNCTION_EXP": 60,
+      "FUNCTION_LN": 51,
+      "FUNCTION_TAN": 20,
+      "FUNCTION_ARCSIN": 7,
+      "SENSOR_TIME_HOUR": 445,
+      "SENSOR_TIME_MINUTE": 541,
+      "SENSOR_TIME_SECOND": 574,
+      "SENSOR_OBJECT_LOOK_NUMBER": 4945,
+      "SENSOR_LOCATION_ACCURACY": 37,
+      "SENSOR_ALTITUDE": 17,
+      "SENSOR_LATITUDE": 33,
+      "SENSOR_LONGITUDE": 33,
+      "SENSOR_OBJECT_BACKGROUND_NAME": 125,
+      "SENSOR_OBJECT_BACKGROUND_NUMBER": 191,
+      "SENSOR_DATE_YEAR": 157,
+      "SENSOR_DATE_MONTH": 821,
+      "SENSOR_DATE_DAY": 222,
+      "SENSOR_DATE_WEEKDAY": 125,
+      "SENSOR_PHIRO_SIDE_RIGHT": 8,
+      "SENSOR_EV3_SENSOR_1": 13,
+      "SENSOR_PHIRO_FRONT_RIGHT": 4,
+      "SENSOR_EV3_SENSOR_4": 15,
+      "SENSOR_EV3_SENSOR_3": 42,
+      "FUNCTION_ARCCOS": 12,
+      "FUNCTION_RASPIDIGITAL": 3,
+      "SENSOR_DRONE_BATTERY_STATUS": 1
+    },
+    "featureUsage": {
+      "variable": 21525,
+      "list": 1052,
+      "phoneSensor": 4173,
+      "internalHardware": 6856,
+      "hardware": 7041,
+      "clone": 2169,
+      "finger": 3551,
+      "text": 13424,
+      "lego": 87,
+      "bluetooth": 242,
+      "wlan": 106,
+      "externalHardware": 258,
+      "faceDetection": 265,
+      "location": 304,
+      "touch": 3445,
+      "phiro": 96,
+      "userBrick": 131,
+      "arduino": 90,
+      "camera": 1252,
+      "flash": 1502,
+      "nfc": 79,
+      "physics": 5361,
+      "textToSpeech": 439,
+      "raspberryPi": 18,
+      "pen": 1584,
+      "dateTime": 367,
+      "cast": 3,
+      "drone": 4
+    },
+    "objectVariables": 389744,
+    "objectLists": 263487,
+    "programVariables": 123410,
+    "programLists": 2567,
+    "timeline": {
+      "2017-11": {
+        "remixes": 589,
+        "new": 1261
+      },
+      "2016-10": {
+        "remixes": 583,
+        "new": 1609
+      },
+      "2017-04": {
+        "remixes": 334,
+        "new": 1169
+      },
+      "2016-11": {
+        "remixes": 538,
+        "new": 1289
+      },
+      "2015-07": {
+        "remixes": 46,
+        "new": 85
+      },
+      "2016-08": {
+        "remixes": 481,
+        "new": 945
+      },
+      "2015-09": {
+        "remixes": 53,
+        "new": 126
+      },
+      "2015-08": {
+        "remixes": 38,
+        "new": 121
+      },
+      "2015-12": {
+        "remixes": 165,
+        "new": 354
+      },
+      "2015-10": {
+        "remixes": 138,
+        "new": 266
+      },
+      "2016-07": {
+        "remixes": 381,
+        "new": 750
+      },
+      "2015-11": {
+        "remixes": 131,
+        "new": 299
+      },
+      "2015-04": {
+        "remixes": 0,
+        "new": 2
+      },
+      "2015-05": {
+        "remixes": 3,
+        "new": 9
+      },
+      "2016-06": {
+        "remixes": 325,
+        "new": 808
+      },
+      "2015-06": {
+        "remixes": 17,
+        "new": 47
+      },
+      "2016-01": {
+        "remixes": 161,
+        "new": 367
+      },
+      "2016-05": {
+        "remixes": 277,
+        "new": 638
+      },
+      "2017-09": {
+        "remixes": 403,
+        "new": 1222
+      },
+      "2017-03": {
+        "remixes": 547,
+        "new": 1437
+      },
+      "2016-04": {
+        "remixes": 245,
+        "new": 511
+      },
+      "2016-03": {
+        "remixes": 207,
+        "new": 525
+      },
+      "2016-02": {
+        "remixes": 142,
+        "new": 394
+      },
+      "2017-05": {
+        "remixes": 533,
+        "new": 1456
+      },
+      "2016-12": {
+        "remixes": 495,
+        "new": 1232
+      },
+      "2016-09": {
+        "remixes": 328,
+        "new": 814
+      },
+      "2017-10": {
+        "remixes": 474,
+        "new": 1465
+      },
+      "2017-02": {
+        "remixes": 458,
+        "new": 1398
+      },
+      "2018-03": {
+        "remixes": 599,
+        "new": 1630
+      },
+      "2018-06": {
+        "remixes": 308,
+        "new": 965
+      },
+      "2017-06": {
+        "remixes": 452,
+        "new": 1180
+      },
+      "2017-01": {
+        "remixes": 491,
+        "new": 1419
+      },
+      "2017-07": {
+        "remixes": 466,
+        "new": 1220
+      },
+      "2018-01": {
+        "remixes": 499,
+        "new": 1426
+      },
+      "2017-08": {
+        "remixes": 481,
+        "new": 1235
+      },
+      "2018-04": {
+        "remixes": 457,
+        "new": 1658
+      },
+      "2018-05": {
+        "remixes": 452,
+        "new": 1590
+      },
+      "2018-02": {
+        "remixes": 396,
+        "new": 1238
+      },
+      "2017-12": {
+        "remixes": 596,
+        "new": 1769
+      }
+    }
+  },
+  "currentYear": {
+    "programs": 22910,
+    "programsWithMultipleScenes": 5821,
+    "programsWithGroups": 1048,
+    "programsInLandscape": 8398,
+    "languages": {
+      "0.994": 4666,
+      "0.993": 4473,
+      "0.995": 13714,
+      "0.992": 32,
+      "0.99": 16,
+      "0.991": 5,
+      "0.97": 3,
+      "0.98": 1
+    },
+    "screenSizes": {
+      "800x480": 1909,
+      "480x360": 370,
+      "1280x720": 4618,
+      "2560x1440": 411,
+      "782x480": 945,
+      "1920x1080": 3042,
+      "854x480": 1491,
+      "976x600": 656,
+      "1184x720": 1505,
+      "1794x1080": 121,
+      "960x540": 1153,
+      "2454x1600": 4,
+      "1280x800": 604,
+      "1208x720": 336,
+      "480x320": 98,
+      "2392x1440": 172,
+      "1280x736": 70,
+      "1196x720": 134,
+      "1776x1080": 505,
+      "1848x1200": 93,
+      "1024x600": 294,
+      "1812x1080": 469,
+      "1216x800": 337,
+      "1920x1200": 149,
+      "1193x720": 149,
+      "1232x800": 399,
+      "1024x768": 229,
+      "791x480": 94,
+      "1831x1200": 2,
+      "1199x720": 43,
+      "1024x720": 3,
+      "1824x1200": 438,
+      "1187x720": 186,
+      "1280x752": 63,
+      "888x540": 157,
+      "1824x1080": 10,
+      "2094x1080": 35,
+      "2076x1080": 59,
+      "1800x1080": 6,
+      "1024x552": 89,
+      "912x540": 1,
+      "320x240": 20,
+      "976x768": 46,
+      "1188x720": 77,
+      "897x540": 22,
+      "2560x1600": 58,
+      "786x480": 39,
+      "744x480": 8,
+      "1200x720": 19,
+      "2478x1600": 5,
+      "2048x1536": 114,
+      "2416x1440": 32,
+      "1219x800": 12,
+      "904x540": 17,
+      "1208x800": 10,
+      "1920x1128": 10,
+      "985x600": 1,
+      "1184x768": 63,
+      "1217x800": 14,
+      "2672x1440": 15,
+      "2768x1440": 10,
+      "1212x800": 11,
+      "2008x1080": 44,
+      "1778x1080": 1,
+      "2792x1440": 10,
+      "982x600": 11,
+      "1202x720": 3,
+      "792x480": 56,
+      "2560x1518": 2,
+      "784x480": 17,
+      "1848x1080": 1,
+      "1202x800": 2,
+      "1280x684": 3,
+      "1172x720": 4,
+      "2678x1440": 18,
+      "1205x800": 30,
+      "960x600": 7,
+      "1758x1080": 8,
+      "1320x768": 2,
+      "1192x720": 45,
+      "1244x720": 3,
+      "1798x1080": 15,
+      "2368x1440": 18,
+      "1195x720": 3,
+      "640x360": 13,
+      "1198x720": 16,
+      "2464x1440": 4,
+      "970x600": 3,
+      "752x480": 5,
+      "1216x720": 6,
+      "1194x720": 12,
+      "1222x800": 2,
+      "1440x900": 14,
+      "886x540": 5,
+      "797x480": 1,
+      "1104x720": 1,
+      "1788x1080": 20,
+      "728x480": 3,
+      "1223x800": 9,
+      "1952x1536": 7,
+      "2048x1440": 1,
+      "1834x1200": 1,
+      "952x600": 5,
+      "1280x737": 1,
+      "800x432": 4,
+      "734x480": 17,
+      "1104x648": 3,
+      "1830x1200": 16,
+      "1280x768": 6,
+      "986x600": 2,
+      "1384x720": 3,
+      "970x576": 2,
+      "1600x900": 2,
+      "764x480": 8,
+      "1220x800": 25,
+      "1318x768": 5,
+      "1372x720": 2,
+      "1280x739": 3,
+      "1280x742": 2,
+      "720x405": 16,
+      "1190x720": 2,
+      "1368x900": 2,
+      "1976x1536": 1,
+      "1366x736": 3,
+      "2220x1080": 2,
+      "1280x732": 1,
+      "1849x1200": 1,
+      "1920x1104": 20,
+      "1795x1080": 1,
+      "1920x1008": 4,
+      "1152x600": 1,
+      "1024x576": 6,
+      "1803x1080": 1,
+      "1273x766": 1,
+      "1396x720": 27,
+      "1239x800": 1,
+      "1820x1080": 1,
+      "1235x800": 5,
+      "798x480": 1,
+      "1830x1080": 2,
+      "1280x755": 1,
+      "1356x720": 9,
+      "2257x1312": 1,
+      "1280x672": 1,
+      "2960x1440": 2,
+      "2016x1080": 7,
+      "1200x800": 5,
+      "732x412": 11,
+      "1020x607": 3,
+      "1280x740": 4,
+      "970x768": 2,
+      "2034x1080": 7,
+      "2448x1800": 53,
+      "1226x800": 1,
+      "1023x540": 1,
+      "816x486": 2,
+      "1806x1080": 6,
+      "1020x618": 3,
+      "2040x1080": 15,
+      "1808x1080": 3,
+      "800x444": 1,
+      "790x480": 2,
+      "1204x720": 1,
+      "2009x1080": 15,
+      "1344x720": 1,
+      "1787x1080": 4,
+      "979x600": 5,
+      "1823x1080": 1,
+      "1836x1200": 2,
+      "1839x1200": 2,
+      "1320x720": 5,
+      "2464x1600": 1,
+      "2004x1080": 2,
+      "1980x1080": 4,
+      "1024x558": 1,
+      "1842x1080": 1,
+      "1440x828": 1,
+      "2118x1080": 2,
+      "1992x1080": 1,
+      "1852x1200": 3,
+      "1920x1132": 1,
+      "2400x1440": 1,
+      "793x480": 1,
+      "1184x640": 1,
+      "1328x720": 1,
+      "772x480": 2,
+      "1600x960": 2,
+      "1332x720": 1,
+      "1201x676": 1,
+      "2032x1080": 3,
+      "1434x720": 2,
+      "1280x640": 1,
+      "1358x720": 1,
+      "2240x1080": 4,
+      "2376x1440": 1,
+      "2116x1080": 4,
+      "1913x1080": 1,
+      "2050x1080": 1,
+      "2150x1080": 1,
+      "2461x1600": 1,
+      "2560x1532": 1,
+      "1270x760": 1,
+      "2046x1080": 1,
+      "1280x760": 1
+    },
+    "platforms": {
+      "Android": 22909,
+      "iOS": 1
+    },
+    "remixes": 5870,
+    "scenes": 50220,
+    "objects": 302105,
+    "groups": 8577,
+    "looks": 539224,
+    "sounds": 101670,
+    "bricks": 3644850,
+    "brickUsage": {
+      "StartScript": 284914,
+      "BroadcastScript": 290476,
+      "WhenScript": 132998,
+      "SetYBrick": 15122,
+      "GlideToBrick": 54428,
+      "SetVariableBrick": 164996,
+      "BroadcastBrick": 118798,
+      "IfLogicBeginBrick": 170061,
+      "IfLogicEndBrick": 170071,
+      "RepeatBrick": 27630,
+      "DeleteItemOfUserListBrick": 774,
+      "LoopEndBrick": 139344,
+      "AddItemToUserListBrick": 7469,
+      "ChangeVariableBrick": 52731,
+      "BroadcastWaitBrick": 5801,
+      "IfLogicElseBrick": 93839,
+      "PlaySoundBrick": 63093,
+      "SetXBrick": 18182,
+      "SetLookByIndexBrick": 4975,
+      "HideBrick": 272842,
+      "PlaceAtBrick": 178618,
+      "SetLookBrick": 153657,
+      "NextLookBrick": 33842,
+      "ShowBrick": 158691,
+      "WaitBrick": 245845,
+      "ForeverBrick": 100604,
+      "SetSizeToBrick": 152192,
+      "PointInDirectionBrick": 6274,
+      "SetVolumeToBrick": 4936,
+      "WaitUntilBrick": 8388,
+      "ComeToFrontBrick": 16654,
+      "WhenConditionScript": 45111,
+      "SetTransparencyBrick": 23562,
+      "SceneStartBrick": 36500,
+      "TurnRightBrick": 6539,
+      "RepeatUntilBrick": 11110,
+      "ChangeTransparencyByNBrick": 4774,
+      "IfOnEdgeBounceBrick": 5616,
+      "GoNStepsBackBrick": 4924,
+      "ChangeXByNBrick": 20696,
+      "ChangeYByNBrick": 19094,
+      "ChangeSizeByNBrick": 16475,
+      "TurnLeftBrick": 5340,
+      "ShowTextBrick": 21980,
+      "HideTextBrick": 8212,
+      "SetBackgroundBrick": 28358,
+      "StopAllSoundsBrick": 7471,
+      "ChangeVolumeByNBrick": 959,
+      "MoveNStepsBrick": 5729,
+      "SceneTransitionBrick": 14820,
+      "ChangeColorByNBrick": 4003,
+      "AskSpeechBrick": 486,
+      "AskBrick": 4987,
+      "SetColorBrick": 1764,
+      "NoteBrick": 12395,
+      "SetBrightnessBrick": 14827,
+      "WhenTouchDownScript": 8724,
+      "VibrationBrick": 5456,
+      "SetVelocityBrick": 9135,
+      "PointToBrick": 3188,
+      "ChangeBrightnessByNBrick": 3692,
+      "ClearGraphicEffectBrick": 530,
+      "PreviousLookBrick": 2156,
+      "CollisionScript": 5805,
+      "SpeakBrick": 6058,
+      "WhenClonedScript": 5212,
+      "CloneBrick": 14846,
+      "DeleteThisCloneBrick": 2641,
+      "WhenBackgroundChangesScript": 28290,
+      "PlaySoundAndWaitBrick": 10767,
+      "StopScriptBrick": 6592,
+      "SpeakAndWaitBrick": 1049,
+      "CameraBrick": 563,
+      "ChooseCameraBrick": 474,
+      "FlashBrick": 2136,
+      "StampBrick": 1044,
+      "ClearBackgroundBrick": 1362,
+      "TurnLeftSpeedBrick": 724,
+      "TurnRightSpeedBrick": 910,
+      "GoToBrick": 13293,
+      "SetGravityBrick": 1524,
+      "SetPhysicsObjectTypeBrick": 9087,
+      "SetPenColorBrick": 1194,
+      "SetPenSizeBrick": 917,
+      "PenDownBrick": 1207,
+      "PenUpBrick": 968,
+      "SetMassBrick": 649,
+      "SetFrictionBrick": 508,
+      "SetBounceBrick": 1533,
+      "SayBubbleBrick": 2051,
+      "SayForBubbleBrick": 5630,
+      "SetRotationStyleBrick": 2698,
+      "ThinkBubbleBrick": 231,
+      "InsertItemIntoUserListBrick": 1972,
+      "SetBackgroundAndWaitBrick": 412,
+      "SetNfcTagBrick": 23,
+      "ThinkForBubbleBrick": 1045,
+      "ReplaceItemInUserListBrick": 893,
+      "PhiroMotorMoveForwardBrick": 128,
+      "PhiroMotorStopBrick": 108,
+      "PhiroMotorMoveBackwardBrick": 64,
+      "PhiroRGBLightBrick": 123,
+      "UserBrick": 1712,
+      "ArduinoSendPWMValueBrick": 243,
+      "ArduinoSendDigitalValueBrick": 43,
+      "SetBackgroundByIndexAndWaitBrick": 73,
+      "SetBackgroundByIndexBrick": 686,
+      "PhiroPlayToneBrick": 7,
+      "WhenNfcScript": 177,
+      "LegoNxtMotorTurnAngleBrick": 29,
+      "LegoNxtMotorMoveBrick": 40,
+      "LegoNxtMotorStopBrick": 44,
+      "LegoNxtPlayToneBrick": 11,
+      "WhenGamepadButtonScript": 4,
+      "RaspiInterruptScript": 2,
+      "DroneTakeOffLandBrick": 3,
+      "DroneSwitchCameraBrick": 4,
+      "DroneMoveUpBrick": 3,
+      "LegoEv3MotorMoveBrick": 9,
+      "LegoEv3MotorStopBrick": 5,
+      "LegoEv3PlayToneBrick": 1,
+      "LegoEv3SetLedBrick": 12,
+      "RaspiIfLogicBeginBrick": 1,
+      "RaspiSendDigitalValueBrick": 123,
+      "RaspiPwmBrick": 6,
+      "DroneMoveDownBrick": 2,
+      "DroneMoveForwardBrick": 2,
+      "DroneMoveBackwardBrick": 2,
+      "DroneMoveLeftBrick": 2,
+      "DroneMoveRightBrick": 2,
+      "DroneTurnLeftBrick": 2,
+      "DroneTurnRightBrick": 2,
+      "DroneEmergencyBrick": 2,
+      "PhiroIfLogicBeginBrick": 7
+    },
+    "formulaUsage": {
+      "NUMBER": 1662652,
+      "OPERATOR_MINUS": 293308,
+      "SENSOR_OBJECT_Y": 15790,
+      "FUNCTION_TRUE": 14245,
+      "FUNCTION_RAND": 54946,
+      "USER_VARIABLE": 316447,
+      "OPERATOR_PLUS": 23624,
+      "OPERATOR_SMALLER_THAN": 23766,
+      "OPERATOR_GREATER_THAN": 20638,
+      "FUNCTION_FALSE": 16458,
+      "OPERATOR_EQUAL": 174844,
+      "FUNCTION_LIST_ITEM": 3365,
+      "USER_LIST": 4431,
+      "SENSOR_OBJECT_X": 13814,
+      "SENSOR_OBJECT_TRANSPARENCY": 294,
+      "SENSOR_Y_INCLINATION": 1864,
+      "SENSOR_COLLIDES_WITH_EDGE": 1076,
+      "SENSOR_OBJECT_LOOK_NAME": 1008,
+      "STRING": 67856,
+      "BRACKET": 34977,
+      "OPERATOR_LOGICAL_AND": 32370,
+      "OPERATOR_LOGICAL_OR": 13174,
+      "OPERATOR_NOT_EQUAL": 4804,
+      "OPERATOR_SMALLER_OR_EQUAL": 6250,
+      "OPERATOR_GREATER_OR_EQUAL": 11371,
+      "FUNCTION_LENGTH": 234,
+      "OPERATOR_LOGICAL_NOT": 6315,
+      "SENSOR_FINGER_TOUCHED": 7502,
+      "COLLISION_FORMULA": 20371,
+      "SENSOR_COLLIDES_WITH_FINGER": 4356,
+      "FUNCTION_MULTI_FINGER_TOUCHED": 223,
+      "SENSOR_FINGER_X": 2329,
+      "SENSOR_LAST_FINGER_INDEX": 307,
+      "FUNCTION_MULTI_FINGER_Y": 105,
+      "FUNCTION_MULTI_FINGER_X": 239,
+      "OPERATOR_MULT": 24027,
+      "OPERATOR_DIVIDE": 8634,
+      "FUNCTION_JOIN": 3519,
+      "FUNCTION_ROUND": 1122,
+      "SENSOR_X_INCLINATION": 2337,
+      "FUNCTION_MOD": 4465,
+      "SENSOR_FINGER_Y": 1778,
+      "FUNCTION_MAX": 217,
+      "FUNCTION_MIN": 148,
+      "FUNCTION_ABS": 2410,
+      "SENSOR_COMPASS_DIRECTION": 123,
+      "FUNCTION_POWER": 782,
+      "SENSOR_OBJECT_ROTATION": 496,
+      "SENSOR_TIME_SECOND": 381,
+      "SENSOR_TIME_MINUTE": 325,
+      "SENSOR_TIME_HOUR": 319,
+      "SENSOR_DATE_WEEKDAY": 61,
+      "SENSOR_DATE_DAY": 160,
+      "SENSOR_DATE_MONTH": 762,
+      "SENSOR_DATE_YEAR": 95,
+      "SENSOR_LOUDNESS": 281,
+      "FUNCTION_SQRT": 455,
+      "SENSOR_OBJECT_ANGULAR_VELOCITY": 14,
+      "SENSOR_FACE_DETECTED": 112,
+      "SENSOR_FACE_SIZE": 19,
+      "SENSOR_FACE_Y_POSITION": 44,
+      "SENSOR_FACE_X_POSITION": 47,
+      "SENSOR_OBJECT_LOOK_NUMBER": 4544,
+      "SENSOR_X_ACCELERATION": 74,
+      "SENSOR_Y_ACCELERATION": 66,
+      "SENSOR_Z_ACCELERATION": 41,
+      "SENSOR_OBJECT_BACKGROUND_NAME": 100,
+      "FUNCTION_LETTER": 1288,
+      "FUNCTION_EXP": 53,
+      "FUNCTION_LN": 47,
+      "SENSOR_OBJECT_SIZE": 624,
+      "FUNCTION_SIN": 344,
+      "FUNCTION_NUMBER_OF_ITEMS": 722,
+      "SENSOR_OBJECT_X_VELOCITY": 245,
+      "SENSOR_OBJECT_BACKGROUND_NUMBER": 142,
+      "FUNCTION_CONTAINS": 218,
+      "SENSOR_OBJECT_COLOR": 117,
+      "SENSOR_OBJECT_LAYER": 53,
+      "FUNCTION_TAN": 12,
+      "FUNCTION_FLOOR": 278,
+      "SENSOR_EV3_SENSOR_4": 2,
+      "SENSOR_EV3_SENSOR_1": 2,
+      "SENSOR_EV3_SENSOR_3": 1,
+      "SENSOR_LONGITUDE": 24,
+      "SENSOR_LATITUDE": 24,
+      "SENSOR_LOCATION_ACCURACY": 27,
+      "FUNCTION_COS": 300,
+      "SENSOR_OBJECT_BRIGHTNESS": 81,
+      "SENSOR_OBJECT_Y_VELOCITY": 151,
+      "FUNCTION_ARCCOS": 11,
+      "FUNCTION_ARCTAN": 57,
+      "FUNCTION_CEIL": 20,
+      "SENSOR_NXT_SENSOR_4": 23,
+      "SENSOR_NXT_SENSOR_3": 12,
+      "SENSOR_NXT_SENSOR_2": 2,
+      "FUNCTION_PI": 13,
+      "SENSOR_PHIRO_SIDE_RIGHT": 5,
+      "SENSOR_NXT_SENSOR_1": 6,
+      "SENSOR_ALTITUDE": 10,
+      "FUNCTION_RASPIDIGITAL": 3,
+      "FUNCTION_LOG": 31,
+      "FUNCTION_ARCSIN": 1,
+      "SENSOR_PHIRO_BOTTOM_RIGHT": 3,
+      "SENSOR_PHIRO_SIDE_LEFT": 2,
+      "SENSOR_PHIRO_FRONT_RIGHT": 2,
+      "SENSOR_PHIRO_FRONT_LEFT": 2,
+      "SENSOR_PHIRO_BOTTOM_LEFT": 1,
+      "SENSOR_DRONE_BATTERY_STATUS": 1
+    },
+    "featureUsage": {
+      "variable": 10252,
+      "list": 491,
+      "phoneSensor": 1410,
+      "internalHardware": 2360,
+      "hardware": 2406,
+      "touch": 2557,
+      "text": 6487,
+      "textToSpeech": 332,
+      "finger": 2632,
+      "physics": 2891,
+      "clone": 1461,
+      "camera": 405,
+      "flash": 561,
+      "pen": 873,
+      "location": 99,
+      "dateTime": 292,
+      "faceDetection": 109,
+      "nfc": 62,
+      "phiro": 23,
+      "bluetooth": 54,
+      "externalHardware": 65,
+      "userBrick": 118,
+      "arduino": 19,
+      "lego": 15,
+      "wlan": 27,
+      "cast": 3,
+      "raspberryPi": 7,
+      "drone": 4
+    },
+    "objectVariables": 236686,
+    "objectLists": 163841,
+    "programVariables": 56592,
+    "programLists": 1326,
+    "timeline": {
+      "2017, week 44": {
+        "remixes": 139,
+        "new": 293
+      },
+      "2017, week 39": {
+        "remixes": 78,
+        "new": 299
+      },
+      "2017, week 46": {
+        "remixes": 125,
+        "new": 301
+      },
+      "2017, week 42": {
+        "remixes": 95,
+        "new": 347
+      },
+      "2017, week 35": {
+        "remixes": 115,
+        "new": 248
+      },
+      "2018, week 12": {
+        "remixes": 152,
+        "new": 376
+      },
+      "2018, week 24": {
+        "remixes": 100,
+        "new": 380
+      },
+      "2017, week 40": {
+        "remixes": 107,
+        "new": 297
+      },
+      "2017, week 29": {
+        "remixes": 100,
+        "new": 305
+      },
+      "2018, week 05": {
+        "remixes": 105,
+        "new": 220
+      },
+      "2018, week 16": {
+        "remixes": 98,
+        "new": 384
+      },
+      "2018, week 02": {
+        "remixes": 121,
+        "new": 346
+      },
+      "2018, week 19": {
+        "remixes": 94,
+        "new": 423
+      },
+      "2017, week 41": {
+        "remixes": 117,
+        "new": 388
+      },
+      "2017, week 36": {
+        "remixes": 94,
+        "new": 249
+      },
+      "2017, week 27": {
+        "remixes": 94,
+        "new": 266
+      },
+      "2017, week 43": {
+        "remixes": 99,
+        "new": 295
+      },
+      "2018, week 04": {
+        "remixes": 95,
+        "new": 295
+      },
+      "2017, week 37": {
+        "remixes": 88,
+        "new": 290
+      },
+      "2018, week 06": {
+        "remixes": 98,
+        "new": 300
+      },
+      "2017, week 48": {
+        "remixes": 166,
+        "new": 358
+      },
+      "2018, week 07": {
+        "remixes": 104,
+        "new": 348
+      },
+      "2017, week 30": {
+        "remixes": 124,
+        "new": 264
+      },
+      "2018, week 17": {
+        "remixes": 119,
+        "new": 384
+      },
+      "2018, week 08": {
+        "remixes": 111,
+        "new": 293
+      },
+      "2017, week 32": {
+        "remixes": 128,
+        "new": 319
+      },
+      "2017, week 34": {
+        "remixes": 98,
+        "new": 260
+      },
+      "2017, week 31": {
+        "remixes": 78,
+        "new": 267
+      },
+      "2018, week 21": {
+        "remixes": 97,
+        "new": 353
+      },
+      "2017, week 38": {
+        "remixes": 118,
+        "new": 324
+      },
+      "2017, week 47": {
+        "remixes": 156,
+        "new": 271
+      },
+      "2017, week 50": {
+        "remixes": 123,
+        "new": 388
+      },
+      "2017, week 28": {
+        "remixes": 117,
+        "new": 256
+      },
+      "2018, week 10": {
+        "remixes": 108,
+        "new": 376
+      },
+      "2018, week 11": {
+        "remixes": 158,
+        "new": 344
+      },
+      "2017, week 26": {
+        "remixes": 122,
+        "new": 254
+      },
+      "2017, week 45": {
+        "remixes": 121,
+        "new": 309
+      },
+      "2017, week 52": {
+        "remixes": 139,
+        "new": 375
+      },
+      "2017, week 49": {
+        "remixes": 129,
+        "new": 374
+      },
+      "2018, week 13": {
+        "remixes": 137,
+        "new": 388
+      },
+      "2017, week 51": {
+        "remixes": 123,
+        "new": 455
+      },
+      "2017, week 25": {
+        "remixes": 39,
+        "new": 147
+      },
+      "2017, week 33": {
+        "remixes": 107,
+        "new": 290
+      },
+      "2018, week 14": {
+        "remixes": 110,
+        "new": 397
+      },
+      "2018, week 01": {
+        "remixes": 134,
+        "new": 331
+      },
+      "2018, week 15": {
+        "remixes": 103,
+        "new": 384
+      },
+      "2018, week 20": {
+        "remixes": 99,
+        "new": 293
+      },
+      "2018, week 22": {
+        "remixes": 82,
+        "new": 340
+      },
+      "2018, week 09": {
+        "remixes": 85,
+        "new": 345
+      },
+      "2017, week 01": {
+        "remixes": 20,
+        "new": 44
+      },
+      "2018, week 03": {
+        "remixes": 86,
+        "new": 332
+      },
+      "2018, week 23": {
+        "remixes": 125,
+        "new": 321
+      },
+      "2018, week 18": {
+        "remixes": 135,
+        "new": 363
+      },
+      "2018, week 25": {
+        "remixes": 55,
+        "new": 191
+      }
+    }
+  },
+  "lastYear": {
+    "programs": 20296,
+    "programsWithMultipleScenes": 2143,
+    "programsWithGroups": 402,
+    "programsInLandscape": 5977,
+    "languages": {
+      "0.992": 7611,
+      "0.993": 6614,
+      "0.991": 3724,
+      "0.99": 2257,
+      "0.97": 16,
+      "0.98": 69,
+      "0.96": 3,
+      "0.95": 1,
+      "0.994": 1
+    },
+    "screenSizes": {
+      "1184x720": 1230,
+      "960x540": 1408,
+      "1920x1080": 2320,
+      "1824x1200": 274,
+      "1280x720": 3236,
+      "480x320": 176,
+      "1776x1080": 480,
+      "1232x800": 633,
+      "320x240": 32,
+      "888x540": 253,
+      "800x480": 2214,
+      "2560x1440": 660,
+      "1280x800": 764,
+      "782x480": 1172,
+      "904x540": 22,
+      "854x480": 1381,
+      "1024x768": 327,
+      "1205x800": 31,
+      "1184x768": 258,
+      "752x480": 31,
+      "2560x1600": 92,
+      "1212x800": 13,
+      "976x600": 629,
+      "1024x600": 283,
+      "2392x1440": 197,
+      "1216x800": 280,
+      "1848x1200": 72,
+      "976x768": 82,
+      "1318x768": 1,
+      "1812x1080": 197,
+      "1193x720": 39,
+      "744x480": 19,
+      "886x540": 10,
+      "754x480": 1,
+      "1188x720": 64,
+      "784x480": 17,
+      "772x480": 3,
+      "1280x768": 16,
+      "1104x720": 2,
+      "2048x1536": 61,
+      "1794x1080": 149,
+      "1830x1200": 1,
+      "1224x800": 1,
+      "1208x800": 11,
+      "1202x800": 3,
+      "1920x1200": 38,
+      "1187x720": 39,
+      "786x480": 57,
+      "1798x1080": 3,
+      "785x480": 16,
+      "1196x720": 109,
+      "1952x1536": 8,
+      "734x480": 23,
+      "912x540": 9,
+      "764x480": 28,
+      "2368x1440": 5,
+      "1024x552": 97,
+      "791x480": 47,
+      "800x444": 1,
+      "1280x736": 35,
+      "1803x1080": 6,
+      "1219x800": 13,
+      "1280x739": 1,
+      "1200x720": 34,
+      "2560x1532": 5,
+      "728x480": 4,
+      "897x540": 21,
+      "1208x720": 164,
+      "1199x720": 33,
+      "1280x752": 66,
+      "743x480": 1,
+      "1872x1080": 1,
+      "1196x768": 2,
+      "1824x1080": 14,
+      "1200x800": 1,
+      "970x600": 1,
+      "1920x1104": 10,
+      "667x375": 30,
+      "1104x648": 4,
+      "1920x1128": 8,
+      "1834x1200": 8,
+      "568x320": 21,
+      "1821x1080": 5,
+      "1194x720": 5,
+      "1232x720": 1,
+      "758x480": 3,
+      "762x480": 3,
+      "480x360": 53,
+      "1920x1114": 1,
+      "958x600": 2,
+      "982x600": 4,
+      "1217x800": 2,
+      "2464x1600": 7,
+      "960x600": 4,
+      "640x360": 1,
+      "1800x1080": 1,
+      "745x480": 1,
+      "1844x1200": 1,
+      "1803x1200": 1,
+      "1007x600": 3,
+      "1024x720": 6,
+      "1220x800": 6,
+      "2048x1440": 2,
+      "1752x1080": 13,
+      "800x400": 1,
+      "967x600": 1,
+      "2560x1536": 1,
+      "1024x540": 7,
+      "1220x720": 2,
+      "1222x800": 1,
+      "1836x1280": 1,
+      "1813x1080": 1,
+      "1920x1081": 4,
+      "2464x1440": 5,
+      "1830x1080": 7,
+      "1788x1080": 3,
+      "1831x1200": 2,
+      "800x432": 2,
+      "1836x1200": 1,
+      "1806x1080": 1,
+      "1202x720": 1,
+      "493x320": 1,
+      "797x480": 1,
+      "1710x962": 1,
+      "973x600": 1,
+      "2560x1504": 2,
+      "1280x737": 1,
+      "1787x1080": 3,
+      "1280x684": 1,
+      "2008x1080": 3,
+      "1976x1536": 1,
+      "2678x1440": 1,
+      "1920x1011": 1,
+      "1778x1080": 3,
+      "792x480": 1,
+      "1080x830": 1
+    },
+    "platforms": {
+      "Android": 20237,
+      "iOS": 59
+    },
+    "remixes": 5635,
+    "scenes": 22438,
+    "objects": 181814,
+    "groups": 3028,
+    "looks": 319628,
+    "sounds": 61308,
+    "bricks": 2444029,
+    "brickUsage": {
+      "WhenTouchDownScript": 8427,
+      "StartScript": 176518,
+      "BroadcastScript": 195754,
+      "BroadcastBrick": 88962,
+      "ChangeSizeByNBrick": 7080,
+      "WaitBrick": 127030,
+      "BroadcastWaitBrick": 6877,
+      "HideBrick": 176909,
+      "PlaceAtBrick": 124177,
+      "SetLookBrick": 108824,
+      "ShowBrick": 102402,
+      "ComeToFrontBrick": 9681,
+      "GlideToBrick": 54834,
+      "PointInDirectionBrick": 6172,
+      "RepeatBrick": 12829,
+      "TurnLeftBrick": 4800,
+      "LoopEndBrick": 79929,
+      "SetTransparencyBrick": 16250,
+      "GoNStepsBackBrick": 3096,
+      "ChangeTransparencyByNBrick": 2599,
+      "SetSizeToBrick": 96539,
+      "NextLookBrick": 20748,
+      "SetVariableBrick": 141813,
+      "ForeverBrick": 64134,
+      "IfLogicBeginBrick": 148957,
+      "IfLogicElseBrick": 110767,
+      "IfLogicEndBrick": 148974,
+      "ChangeXByNBrick": 8839,
+      "ChangeYByNBrick": 10780,
+      "WhenClonedScript": 2246,
+      "RepeatUntilBrick": 2961,
+      "CloneBrick": 2084,
+      "DeleteThisCloneBrick": 1039,
+      "PointToBrick": 1763,
+      "MoveNStepsBrick": 4088,
+      "PlaySoundBrick": 36867,
+      "TurnRightBrick": 2830,
+      "StopScriptBrick": 2105,
+      "ChangeVariableBrick": 40112,
+      "IfOnEdgeBounceBrick": 4091,
+      "SetYBrick": 12789,
+      "WhenScript": 85319,
+      "SetXBrick": 10434,
+      "StopAllSoundsBrick": 4296,
+      "SetVolumeToBrick": 1901,
+      "ShowTextBrick": 12846,
+      "HideTextBrick": 3785,
+      "SpeakBrick": 6923,
+      "SetRotationStyleBrick": 888,
+      "NoteBrick": 13272,
+      "DeleteItemOfUserListBrick": 888,
+      "AddItemToUserListBrick": 22037,
+      "SceneStartBrick": 11223,
+      "VibrationBrick": 1706,
+      "CameraBrick": 1140,
+      "ChooseCameraBrick": 897,
+      "FlashBrick": 2482,
+      "ArduinoSendPWMValueBrick": 248,
+      "TurnLeftSpeedBrick": 583,
+      "TurnRightSpeedBrick": 398,
+      "CollisionScript": 3242,
+      "SetPhysicsObjectTypeBrick": 6120,
+      "SetMassBrick": 463,
+      "SetBounceBrick": 825,
+      "SetVelocityBrick": 4715,
+      "SetFrictionBrick": 214,
+      "ClearGraphicEffectBrick": 535,
+      "ChangeColorByNBrick": 1522,
+      "PlaySoundAndWaitBrick": 2567,
+      "SetGravityBrick": 973,
+      "ChangeVolumeByNBrick": 264,
+      "SetBrightnessBrick": 4467,
+      "PhiroRGBLightBrick": 104,
+      "PhiroMotorMoveBackwardBrick": 50,
+      "PhiroMotorStopBrick": 124,
+      "PhiroMotorMoveForwardBrick": 108,
+      "ChangeBrightnessByNBrick": 960,
+      "ReplaceItemInUserListBrick": 765,
+      "InsertItemIntoUserListBrick": 127,
+      "SetColorBrick": 1904,
+      "WhenNfcScript": 20,
+      "PhiroPlayToneBrick": 19,
+      "UserBrick": 526,
+      "ArduinoSendDigitalValueBrick": 54,
+      "WaitUntilBrick": 1597,
+      "PhiroIfLogicBeginBrick": 2,
+      "AskBrick": 3240,
+      "RaspiInterruptScript": 4,
+      "RaspiSendDigitalValueBrick": 14,
+      "RaspiPwmBrick": 7,
+      "RaspiIfLogicBeginBrick": 7,
+      "LegoNxtMotorTurnAngleBrick": 28,
+      "LegoNxtMotorMoveBrick": 89,
+      "PreviousLookBrick": 973,
+      "SceneTransitionBrick": 4395,
+      "LegoNxtMotorStopBrick": 49,
+      "LegoNxtPlayToneBrick": 24,
+      "WhenBackgroundChangesScript": 6556,
+      "SetBackgroundBrick": 10044,
+      "SetPenSizeBrick": 346,
+      "SetPenColorBrick": 502,
+      "PenDownBrick": 639,
+      "ClearBackgroundBrick": 508,
+      "SayForBubbleBrick": 3585,
+      "WhenConditionScript": 11824,
+      "StampBrick": 110,
+      "SayBubbleBrick": 683,
+      "GoToBrick": 7508,
+      "SetBackgroundAndWaitBrick": 156,
+      "ThinkBubbleBrick": 123,
+      "PenUpBrick": 273,
+      "SpeakAndWaitBrick": 607,
+      "ThinkForBubbleBrick": 273,
+      "LegoEv3MotorStopBrick": 43,
+      "LegoEv3MotorMoveBrick": 48,
+      "LegoEv3PlayToneBrick": 11,
+      "AskSpeechBrick": 143,
+      "LegoEv3SetLedBrick": 2,
+      "SetNfcTagBrick": 3
+    },
+    "formulaUsage": {
+      "NUMBER": 1167464,
+      "OPERATOR_MINUS": 218174,
+      "SENSOR_OBJECT_LAYER": 20,
+      "FUNCTION_ROUND": 820,
+      "OPERATOR_DIVIDE": 9119,
+      "OPERATOR_MULT": 26872,
+      "USER_VARIABLE": 288564,
+      "SENSOR_X_INCLINATION": 3684,
+      "OPERATOR_GREATER_THAN": 25401,
+      "FUNCTION_ABS": 2543,
+      "SENSOR_Y_INCLINATION": 1904,
+      "OPERATOR_LOGICAL_AND": 41656,
+      "BRACKET": 52022,
+      "OPERATOR_SMALLER_OR_EQUAL": 5459,
+      "SENSOR_OBJECT_X": 19863,
+      "OPERATOR_SMALLER_THAN": 25905,
+      "OPERATOR_GREATER_OR_EQUAL": 15225,
+      "SENSOR_OBJECT_Y": 23931,
+      "OPERATOR_LOGICAL_NOT": 6684,
+      "SENSOR_FINGER_TOUCHED": 1853,
+      "OPERATOR_PLUS": 25188,
+      "FUNCTION_POWER": 537,
+      "FUNCTION_TRUE": 21466,
+      "FUNCTION_SQRT": 564,
+      "SENSOR_OBJECT_ROTATION": 620,
+      "FUNCTION_RAND": 45019,
+      "FUNCTION_FALSE": 18433,
+      "OPERATOR_LOGICAL_OR": 10813,
+      "OPERATOR_EQUAL": 127522,
+      "FUNCTION_SIN": 285,
+      "FUNCTION_COS": 254,
+      "SENSOR_Z_ACCELERATION": 54,
+      "STRING": 38974,
+      "COLLISION_FORMULA": 4429,
+      "FUNCTION_MAX": 163,
+      "FUNCTION_LIST_ITEM": 2666,
+      "USER_LIST": 4280,
+      "FUNCTION_NUMBER_OF_ITEMS": 642,
+      "FUNCTION_CONTAINS": 954,
+      "FUNCTION_MOD": 3717,
+      "SENSOR_OBJECT_SIZE": 813,
+      "FUNCTION_MIN": 118,
+      "FUNCTION_FLOOR": 122,
+      "SENSOR_COMPASS_DIRECTION": 157,
+      "FUNCTION_CEIL": 19,
+      "OPERATOR_NOT_EQUAL": 4396,
+      "FUNCTION_ARDUINODIGITAL": 39,
+      "FUNCTION_ARDUINOANALOG": 18,
+      "SENSOR_FACE_DETECTED": 105,
+      "FUNCTION_PI": 7,
+      "SENSOR_FACE_X_POSITION": 45,
+      "SENSOR_FACE_Y_POSITION": 36,
+      "SENSOR_OBJECT_COLOR": 17,
+      "SENSOR_FINGER_X": 1270,
+      "FUNCTION_MULTI_FINGER_X": 242,
+      "SENSOR_Y_ACCELERATION": 91,
+      "SENSOR_X_ACCELERATION": 105,
+      "SENSOR_OBJECT_BRIGHTNESS": 51,
+      "SENSOR_LOUDNESS": 252,
+      "SENSOR_OBJECT_X_VELOCITY": 115,
+      "SENSOR_OBJECT_Y_VELOCITY": 77,
+      "SENSOR_OBJECT_ANGULAR_VELOCITY": 12,
+      "SENSOR_PHIRO_BOTTOM_LEFT": 5,
+      "SENSOR_FACE_SIZE": 28,
+      "FUNCTION_JOIN": 544,
+      "FUNCTION_ARCTAN": 16,
+      "FUNCTION_LENGTH": 43,
+      "FUNCTION_LETTER": 365,
+      "FUNCTION_MULTI_FINGER_TOUCHED": 100,
+      "SENSOR_LAST_FINGER_INDEX": 252,
+      "FUNCTION_MULTI_FINGER_Y": 212,
+      "SENSOR_FINGER_Y": 1330,
+      "FUNCTION_EXP": 7,
+      "SENSOR_OBJECT_TRANSPARENCY": 211,
+      "FUNCTION_LOG": 32,
+      "FUNCTION_LN": 4,
+      "FUNCTION_TAN": 8,
+      "FUNCTION_ARCSIN": 6,
+      "SENSOR_NXT_SENSOR_4": 11,
+      "SENSOR_TIME_HOUR": 130,
+      "SENSOR_TIME_MINUTE": 224,
+      "SENSOR_TIME_SECOND": 221,
+      "SENSOR_OBJECT_LOOK_NAME": 185,
+      "SENSOR_OBJECT_LOOK_NUMBER": 434,
+      "SENSOR_LOCATION_ACCURACY": 10,
+      "SENSOR_ALTITUDE": 7,
+      "SENSOR_LATITUDE": 9,
+      "SENSOR_LONGITUDE": 9,
+      "SENSOR_NXT_SENSOR_1": 41,
+      "SENSOR_NXT_SENSOR_2": 2,
+      "SENSOR_NXT_SENSOR_3": 6,
+      "SENSOR_OBJECT_BACKGROUND_NAME": 25,
+      "SENSOR_OBJECT_BACKGROUND_NUMBER": 49,
+      "SENSOR_DATE_YEAR": 64,
+      "SENSOR_DATE_MONTH": 61,
+      "SENSOR_DATE_DAY": 64,
+      "SENSOR_DATE_WEEKDAY": 94,
+      "SENSOR_PHIRO_BOTTOM_RIGHT": 4,
+      "SENSOR_PHIRO_SIDE_RIGHT": 3,
+      "SENSOR_PHIRO_SIDE_LEFT": 3,
+      "SENSOR_OBJECT_DISTANCE_TO": 1,
+      "SENSOR_EV3_SENSOR_1": 11,
+      "SENSOR_COLLIDES_WITH_FINGER": 475,
+      "SENSOR_COLLIDES_WITH_EDGE": 97,
+      "SENSOR_PHIRO_FRONT_LEFT": 3,
+      "SENSOR_PHIRO_FRONT_RIGHT": 2,
+      "SENSOR_EV3_SENSOR_4": 13,
+      "SENSOR_EV3_SENSOR_3": 41,
+      "FUNCTION_ARCCOS": 1
+    },
+    "featureUsage": {
+      "variable": 8454,
+      "phoneSensor": 1978,
+      "internalHardware": 3390,
+      "hardware": 3481,
+      "clone": 715,
+      "finger": 936,
+      "text": 5476,
+      "touch": 902,
+      "list": 408,
+      "camera": 697,
+      "flash": 817,
+      "location": 139,
+      "arduino": 46,
+      "bluetooth": 121,
+      "externalHardware": 126,
+      "physics": 2373,
+      "phiro": 47,
+      "faceDetection": 113,
+      "nfc": 12,
+      "userBrick": 12,
+      "raspberryPi": 11,
+      "wlan": 53,
+      "lego": 46,
+      "pen": 717,
+      "dateTime": 78,
+      "textToSpeech": 108
+    },
+    "objectVariables": 127484,
+    "objectLists": 88000,
+    "programVariables": 49433,
+    "programLists": 917,
+    "timeline": {
+      "2016, week 44": {
+        "remixes": 156,
+        "new": 318
+      },
+      "2017, week 18": {
+        "remixes": 107,
+        "new": 273
+      },
+      "2016, week 45": {
+        "remixes": 126,
+        "new": 322
+      },
+      "2016, week 42": {
+        "remixes": 124,
+        "new": 301
+      },
+      "2016, week 33": {
+        "remixes": 119,
+        "new": 195
+      },
+      "2016, week 46": {
+        "remixes": 141,
+        "new": 263
+      },
+      "2016, week 30": {
+        "remixes": 91,
+        "new": 164
+      },
+      "2017, week 11": {
+        "remixes": 146,
+        "new": 355
+      },
+      "2016, week 49": {
+        "remixes": 127,
+        "new": 322
+      },
+      "2016, week 43": {
+        "remixes": 163,
+        "new": 597
+      },
+      "2016, week 34": {
+        "remixes": 132,
+        "new": 193
+      },
+      "2016, week 50": {
+        "remixes": 144,
+        "new": 269
+      },
+      "2016, week 26": {
+        "remixes": 54,
+        "new": 162
+      },
+      "2016, week 48": {
+        "remixes": 134,
+        "new": 324
+      },
+      "2017, week 12": {
+        "remixes": 123,
+        "new": 375
+      },
+      "2016, week 37": {
+        "remixes": 96,
+        "new": 217
+      },
+      "2016, week 53": {
+        "remixes": 90,
+        "new": 274
+      },
+      "2016, week 27": {
+        "remixes": 77,
+        "new": 162
+      },
+      "2016, week 29": {
+        "remixes": 86,
+        "new": 153
+      },
+      "2016, week 39": {
+        "remixes": 54,
+        "new": 160
+      },
+      "2016, week 32": {
+        "remixes": 86,
+        "new": 233
+      },
+      "2016, week 36": {
+        "remixes": 86,
+        "new": 198
+      },
+      "2016, week 28": {
+        "remixes": 90,
+        "new": 172
+      },
+      "2016, week 40": {
+        "remixes": 58,
+        "new": 131
+      },
+      "2016, week 38": {
+        "remixes": 90,
+        "new": 248
+      },
+      "2016, week 35": {
+        "remixes": 115,
+        "new": 246
+      },
+      "2017, week 19": {
+        "remixes": 124,
+        "new": 352
+      },
+      "2017, week 09": {
+        "remixes": 141,
+        "new": 350
+      },
+      "2016, week 31": {
+        "remixes": 90,
+        "new": 179
+      },
+      "2017, week 05": {
+        "remixes": 116,
+        "new": 377
+      },
+      "2017, week 10": {
+        "remixes": 87,
+        "new": 294
+      },
+      "2016, week 41": {
+        "remixes": 87,
+        "new": 256
+      },
+      "2017, week 20": {
+        "remixes": 99,
+        "new": 346
+      },
+      "2017, week 13": {
+        "remixes": 113,
+        "new": 244
+      },
+      "2017, week 04": {
+        "remixes": 104,
+        "new": 409
+      },
+      "2016, week 47": {
+        "remixes": 85,
+        "new": 296
+      },
+      "2017, week 24": {
+        "remixes": 105,
+        "new": 320
+      },
+      "2017, week 03": {
+        "remixes": 132,
+        "new": 294
+      },
+      "2017, week 16": {
+        "remixes": 67,
+        "new": 274
+      },
+      "2017, week 21": {
+        "remixes": 132,
+        "new": 336
+      },
+      "2016, week 52": {
+        "remixes": 133,
+        "new": 288
+      },
+      "2017, week 07": {
+        "remixes": 112,
+        "new": 339
+      },
+      "2017, week 08": {
+        "remixes": 107,
+        "new": 308
+      },
+      "2017, week 23": {
+        "remixes": 122,
+        "new": 274
+      },
+      "2017, week 14": {
+        "remixes": 87,
+        "new": 309
+      },
+      "2017, week 17": {
+        "remixes": 79,
+        "new": 254
+      },
+      "2016, week 51": {
+        "remixes": 91,
+        "new": 269
+      },
+      "2017, week 22": {
+        "remixes": 146,
+        "new": 330
+      },
+      "2017, week 02": {
+        "remixes": 127,
+        "new": 285
+      },
+      "2017, week 06": {
+        "remixes": 132,
+        "new": 375
+      },
+      "2017, week 01": {
+        "remixes": 84,
+        "new": 289
+      },
+      "2017, week 15": {
+        "remixes": 76,
+        "new": 272
+      },
+      "2017, week 25": {
+        "remixes": 42,
+        "new": 115
+      }
+    }
+  },
+  "currentMonth": {
+    "programs": 1929,
+    "programsWithMultipleScenes": 741,
+    "programsWithGroups": 71,
+    "programsInLandscape": 706,
+    "languages": {
+      "0.995": 1919,
+      "0.993": 4,
+      "0.994": 3,
+      "0.992": 1,
+      "0.99": 1,
+      "0.991": 1
+    },
+    "screenSizes": {
+      "1920x1080": 308,
+      "2560x1440": 51,
+      "480x360": 29,
+      "2392x1440": 20,
+      "1280x800": 32,
+      "960x540": 110,
+      "854x480": 115,
+      "1812x1080": 50,
+      "1776x1080": 45,
+      "1920x1200": 24,
+      "800x480": 124,
+      "1208x720": 53,
+      "1794x1080": 15,
+      "1280x720": 339,
+      "1216x800": 18,
+      "782x480": 39,
+      "1024x600": 19,
+      "1232x800": 46,
+      "1280x752": 5,
+      "888x540": 9,
+      "1184x720": 130,
+      "1199x720": 6,
+      "792x480": 8,
+      "976x600": 37,
+      "1193x720": 24,
+      "1824x1200": 28,
+      "1332x720": 1,
+      "1201x676": 1,
+      "2008x1080": 3,
+      "1184x768": 3,
+      "2560x1600": 16,
+      "1187x720": 16,
+      "1024x552": 4,
+      "1952x1536": 1,
+      "1196x720": 8,
+      "1192x720": 4,
+      "1188x720": 12,
+      "2032x1080": 3,
+      "904x540": 7,
+      "897x540": 3,
+      "480x320": 7,
+      "744x480": 2,
+      "1200x720": 2,
+      "1920x1104": 1,
+      "1434x720": 2,
+      "2094x1080": 6,
+      "2076x1080": 16,
+      "2672x1440": 1,
+      "1788x1080": 5,
+      "1024x768": 30,
+      "1280x640": 1,
+      "1358x720": 1,
+      "2240x1080": 4,
+      "2009x1080": 4,
+      "2004x1080": 1,
+      "1758x1080": 6,
+      "1848x1200": 4,
+      "2034x1080": 3,
+      "1212x800": 1,
+      "1320x720": 2,
+      "2048x1536": 4,
+      "1600x900": 1,
+      "1217x800": 1,
+      "1798x1080": 2,
+      "1194x720": 3,
+      "2376x1440": 1,
+      "1787x1080": 1,
+      "2040x1080": 3,
+      "2678x1440": 3,
+      "2116x1080": 4,
+      "734x480": 12,
+      "1913x1080": 1,
+      "1205x800": 2,
+      "2050x1080": 1,
+      "791x480": 5,
+      "1318x768": 2,
+      "2150x1080": 1,
+      "2461x1600": 1,
+      "2560x1532": 1,
+      "1396x720": 1,
+      "1280x736": 3,
+      "1270x760": 1,
+      "764x480": 1,
+      "2016x1080": 2,
+      "2046x1080": 1,
+      "976x768": 1,
+      "1198x720": 2,
+      "2768x1440": 1,
+      "800x432": 1,
+      "1280x760": 1
+    },
+    "platforms": {
+      "Android": 1928,
+      "iOS": 1
+    },
+    "remixes": 434,
+    "scenes": 4890,
+    "objects": 27269,
+    "groups": 610,
+    "looks": 52360,
+    "sounds": 9646,
+    "bricks": 338574,
+    "brickUsage": {
+      "StartScript": 26782,
+      "BroadcastScript": 28913,
+      "WhenConditionScript": 6138,
+      "WhenScript": 11859,
+      "SetVariableBrick": 9707,
+      "SceneTransitionBrick": 1446,
+      "HideTextBrick": 591,
+      "IfLogicBeginBrick": 9869,
+      "ShowTextBrick": 1829,
+      "IfLogicEndBrick": 9871,
+      "BroadcastBrick": 11075,
+      "IfLogicElseBrick": 4270,
+      "TurnLeftBrick": 877,
+      "SetSizeToBrick": 13257,
+      "ForeverBrick": 9295,
+      "ChangeColorByNBrick": 1061,
+      "LoopEndBrick": 13344,
+      "PlaceAtBrick": 14167,
+      "SetTransparencyBrick": 1934,
+      "AskSpeechBrick": 50,
+      "AskBrick": 390,
+      "SetLookBrick": 16325,
+      "HideBrick": 25209,
+      "ShowBrick": 15724,
+      "WaitUntilBrick": 926,
+      "SetColorBrick": 96,
+      "ChangeTransparencyByNBrick": 382,
+      "RepeatBrick": 2559,
+      "WaitBrick": 30778,
+      "RepeatUntilBrick": 1490,
+      "ChangeVariableBrick": 4200,
+      "SetVolumeToBrick": 707,
+      "PlaySoundBrick": 6094,
+      "StopAllSoundsBrick": 662,
+      "SetBackgroundBrick": 3420,
+      "TurnRightBrick": 885,
+      "NoteBrick": 498,
+      "ChangeVolumeByNBrick": 224,
+      "SetBrightnessBrick": 1982,
+      "ChangeSizeByNBrick": 1716,
+      "MoveNStepsBrick": 846,
+      "IfOnEdgeBounceBrick": 934,
+      "TurnRightSpeedBrick": 165,
+      "SetYBrick": 2020,
+      "ChangeYByNBrick": 1725,
+      "BroadcastWaitBrick": 473,
+      "ChangeXByNBrick": 2030,
+      "SetXBrick": 3802,
+      "SetVelocityBrick": 737,
+      "NextLookBrick": 3593,
+      "UserBrick": 82,
+      "SceneStartBrick": 4048,
+      "SetPhysicsObjectTypeBrick": 867,
+      "SetRotationStyleBrick": 397,
+      "GlideToBrick": 4491,
+      "PointInDirectionBrick": 596,
+      "VibrationBrick": 321,
+      "PhiroRGBLightBrick": 38,
+      "PhiroMotorStopBrick": 6,
+      "PhiroMotorMoveBackwardBrick": 13,
+      "PhiroMotorMoveForwardBrick": 31,
+      "PhiroPlayToneBrick": 1,
+      "ClearGraphicEffectBrick": 50,
+      "WhenTouchDownScript": 996,
+      "CollisionScript": 616,
+      "StopScriptBrick": 753,
+      "SetBounceBrick": 288,
+      "SetGravityBrick": 332,
+      "TurnLeftSpeedBrick": 163,
+      "ChangeBrightnessByNBrick": 541,
+      "PlaySoundAndWaitBrick": 926,
+      "GoToBrick": 1443,
+      "SayForBubbleBrick": 873,
+      "WhenClonedScript": 916,
+      "CloneBrick": 1218,
+      "SetLookByIndexBrick": 642,
+      "WhenBackgroundChangesScript": 1740,
+      "ComeToFrontBrick": 950,
+      "ClearBackgroundBrick": 323,
+      "PenUpBrick": 98,
+      "SetPenSizeBrick": 83,
+      "PointToBrick": 530,
+      "ThinkForBubbleBrick": 50,
+      "SpeakBrick": 473,
+      "SetFrictionBrick": 160,
+      "GoNStepsBackBrick": 654,
+      "PreviousLookBrick": 333,
+      "SayBubbleBrick": 409,
+      "DeleteThisCloneBrick": 479,
+      "WhenNfcScript": 145,
+      "SpeakAndWaitBrick": 235,
+      "SetMassBrick": 201,
+      "ReplaceItemInUserListBrick": 201,
+      "DeleteItemOfUserListBrick": 219,
+      "AddItemToUserListBrick": 2365,
+      "StampBrick": 268,
+      "InsertItemIntoUserListBrick": 427,
+      "SetPenColorBrick": 119,
+      "PenDownBrick": 151,
+      "CameraBrick": 45,
+      "ChooseCameraBrick": 56,
+      "FlashBrick": 130,
+      "SetBackgroundByIndexAndWaitBrick": 5,
+      "SetBackgroundAndWaitBrick": 19,
+      "SetBackgroundByIndexBrick": 13,
+      "ThinkBubbleBrick": 20,
+      "ArduinoSendPWMValueBrick": 96,
+      "DroneSwitchCameraBrick": 1,
+      "WhenGamepadButtonScript": 1
+    },
+    "formulaUsage": {
+      "STRING": 6723,
+      "NUMBER": 154162,
+      "OPERATOR_EQUAL": 12680,
+      "USER_VARIABLE": 19027,
+      "OPERATOR_MINUS": 26454,
+      "OPERATOR_LOGICAL_AND": 1667,
+      "BRACKET": 1252,
+      "OPERATOR_LOGICAL_OR": 1231,
+      "OPERATOR_NOT_EQUAL": 234,
+      "OPERATOR_SMALLER_THAN": 2181,
+      "OPERATOR_GREATER_THAN": 1154,
+      "OPERATOR_SMALLER_OR_EQUAL": 539,
+      "OPERATOR_GREATER_OR_EQUAL": 927,
+      "FUNCTION_LENGTH": 17,
+      "FUNCTION_RAND": 3863,
+      "SENSOR_OBJECT_LOOK_NAME": 78,
+      "OPERATOR_LOGICAL_NOT": 283,
+      "SENSOR_FINGER_TOUCHED": 827,
+      "COLLISION_FORMULA": 2463,
+      "SENSOR_COLLIDES_WITH_FINGER": 392,
+      "OPERATOR_MULT": 1042,
+      "SENSOR_X_INCLINATION": 278,
+      "SENSOR_OBJECT_Y": 945,
+      "FUNCTION_PI": 1,
+      "SENSOR_OBJECT_X": 844,
+      "SENSOR_Y_INCLINATION": 176,
+      "FUNCTION_ABS": 78,
+      "OPERATOR_PLUS": 1247,
+      "SENSOR_FINGER_Y": 183,
+      "SENSOR_LAST_FINGER_INDEX": 19,
+      "FUNCTION_MAX": 44,
+      "FUNCTION_MIN": 38,
+      "FUNCTION_MULTI_FINGER_Y": 42,
+      "FUNCTION_MULTI_FINGER_X": 31,
+      "SENSOR_OBJECT_LOOK_NUMBER": 292,
+      "SENSOR_OBJECT_X_VELOCITY": 31,
+      "SENSOR_OBJECT_SIZE": 14,
+      "SENSOR_OBJECT_BRIGHTNESS": 2,
+      "FUNCTION_FALSE": 572,
+      "FUNCTION_TRUE": 702,
+      "FUNCTION_MOD": 82,
+      "SENSOR_TIME_SECOND": 18,
+      "FUNCTION_COS": 88,
+      "FUNCTION_SIN": 93,
+      "FUNCTION_FLOOR": 23,
+      "OPERATOR_DIVIDE": 275,
+      "SENSOR_COLLIDES_WITH_EDGE": 135,
+      "FUNCTION_MULTI_FINGER_TOUCHED": 20,
+      "SENSOR_OBJECT_ROTATION": 25,
+      "FUNCTION_ROUND": 48,
+      "SENSOR_DATE_MONTH": 18,
+      "SENSOR_FINGER_X": 215,
+      "SENSOR_TIME_HOUR": 8,
+      "SENSOR_TIME_MINUTE": 5,
+      "SENSOR_OBJECT_BACKGROUND_NUMBER": 2,
+      "SENSOR_OBJECT_BACKGROUND_NAME": 6,
+      "FUNCTION_LIST_ITEM": 241,
+      "USER_LIST": 282,
+      "SENSOR_FACE_DETECTED": 39,
+      "SENSOR_FACE_Y_POSITION": 21,
+      "SENSOR_FACE_X_POSITION": 21,
+      "SENSOR_DATE_YEAR": 1,
+      "SENSOR_OBJECT_TRANSPARENCY": 14,
+      "FUNCTION_POWER": 26,
+      "FUNCTION_SQRT": 12,
+      "SENSOR_OBJECT_COLOR": 11,
+      "FUNCTION_JOIN": 203,
+      "SENSOR_FACE_SIZE": 3,
+      "SENSOR_COMPASS_DIRECTION": 7,
+      "SENSOR_DATE_WEEKDAY": 1,
+      "SENSOR_X_ACCELERATION": 7,
+      "SENSOR_Y_ACCELERATION": 7,
+      "SENSOR_Z_ACCELERATION": 3,
+      "FUNCTION_NUMBER_OF_ITEMS": 29,
+      "SENSOR_LOUDNESS": 9,
+      "FUNCTION_CONTAINS": 7,
+      "FUNCTION_EXP": 1,
+      "FUNCTION_CEIL": 6,
+      "FUNCTION_LOG": 4,
+      "SENSOR_DATE_DAY": 2,
+      "SENSOR_OBJECT_Y_VELOCITY": 17
+    },
+    "featureUsage": {
+      "variable": 909,
+      "textToSpeech": 20,
+      "text": 559,
+      "finger": 265,
+      "touch": 332,
+      "physics": 343,
+      "phoneSensor": 220,
+      "internalHardware": 343,
+      "hardware": 351,
+      "userBrick": 10,
+      "phiro": 5,
+      "bluetooth": 8,
+      "externalHardware": 9,
+      "dateTime": 14,
+      "clone": 209,
+      "pen": 122,
+      "nfc": 26,
+      "list": 99,
+      "camera": 47,
+      "flash": 43,
+      "faceDetection": 34,
+      "location": 6,
+      "arduino": 3,
+      "drone": 1,
+      "wlan": 2,
+      "cast": 1
+    },
+    "objectVariables": 21961,
+    "objectLists": 15701,
+    "programVariables": 4175,
+    "programLists": 211,
+    "timeline": {
+      "06-11": {
+        "remixes": 14,
+        "new": 58
+      },
+      "05-25": {
+        "remixes": 13,
+        "new": 47
+      },
+      "06-14": {
+        "remixes": 3,
+        "new": 46
+      },
+      "05-23": {
+        "remixes": 10,
+        "new": 59
+      },
+      "05-24": {
+        "remixes": 10,
+        "new": 53
+      },
+      "06-02": {
+        "remixes": 12,
+        "new": 40
+      },
+      "06-12": {
+        "remixes": 27,
+        "new": 50
+      },
+      "06-05": {
+        "remixes": 9,
+        "new": 56
+      },
+      "06-15": {
+        "remixes": 8,
+        "new": 49
+      },
+      "05-29": {
+        "remixes": 10,
+        "new": 51
+      },
+      "05-31": {
+        "remixes": 11,
+        "new": 43
+      },
+      "05-30": {
+        "remixes": 8,
+        "new": 76
+      },
+      "05-28": {
+        "remixes": 9,
+        "new": 53
+      },
+      "06-18": {
+        "remixes": 19,
+        "new": 69
+      },
+      "06-03": {
+        "remixes": 20,
+        "new": 50
+      },
+      "06-19": {
+        "remixes": 14,
+        "new": 48
+      },
+      "06-09": {
+        "remixes": 22,
+        "new": 52
+      },
+      "06-01": {
+        "remixes": 16,
+        "new": 33
+      },
+      "06-04": {
+        "remixes": 16,
+        "new": 52
+      },
+      "05-22": {
+        "remixes": 21,
+        "new": 59
+      },
+      "06-06": {
+        "remixes": 16,
+        "new": 47
+      },
+      "05-27": {
+        "remixes": 16,
+        "new": 44
+      },
+      "06-13": {
+        "remixes": 19,
+        "new": 59
+      },
+      "06-10": {
+        "remixes": 14,
+        "new": 66
+      },
+      "06-08": {
+        "remixes": 24,
+        "new": 31
+      },
+      "06-07": {
+        "remixes": 18,
+        "new": 33
+      },
+      "05-21": {
+        "remixes": 4,
+        "new": 0
+      },
+      "05-26": {
+        "remixes": 14,
+        "new": 45
+      },
+      "06-16": {
+        "remixes": 15,
+        "new": 52
+      },
+      "06-17": {
+        "remixes": 12,
+        "new": 53
+      },
+      "06-20": {
+        "remixes": 10,
+        "new": 21
+      }
+    }
+  },
+  "lastMonth": {
+    "programs": 2070,
+    "programsWithMultipleScenes": 693,
+    "programsWithGroups": 132,
+    "programsInLandscape": 763,
+    "languages": {
+      "0.992": 4,
+      "0.995": 2050,
+      "0.993": 7,
+      "0.994": 5,
+      "0.97": 1,
+      "0.99": 2,
+      "0.98": 1
+    },
+    "screenSizes": {
+      "1184x720": 110,
+      "1920x1080": 256,
+      "1280x720": 418,
+      "800x480": 131,
+      "2560x1600": 16,
+      "2560x1440": 49,
+      "1812x1080": 55,
+      "1824x1200": 103,
+      "976x600": 49,
+      "1794x1080": 17,
+      "854x480": 119,
+      "2076x1080": 12,
+      "1280x752": 6,
+      "1024x552": 9,
+      "2040x1080": 3,
+      "1208x720": 33,
+      "792x480": 6,
+      "960x540": 122,
+      "1848x1200": 19,
+      "1216x800": 18,
+      "1024x600": 31,
+      "1232x800": 35,
+      "1188x720": 10,
+      "1280x736": 10,
+      "1280x800": 46,
+      "782x480": 65,
+      "2392x1440": 7,
+      "1920x1200": 19,
+      "480x360": 23,
+      "1776x1080": 50,
+      "480x320": 6,
+      "791x480": 9,
+      "1184x768": 7,
+      "764x480": 1,
+      "1193x720": 21,
+      "1187x720": 14,
+      "979x600": 3,
+      "2094x1080": 6,
+      "1192x720": 13,
+      "888x540": 17,
+      "1788x1080": 8,
+      "786x480": 1,
+      "952x600": 3,
+      "1223x800": 1,
+      "2118x1080": 2,
+      "1024x768": 19,
+      "2678x1440": 4,
+      "1992x1080": 1,
+      "1217x800": 2,
+      "2416x1440": 1,
+      "2672x1440": 1,
+      "1220x800": 8,
+      "1205x800": 4,
+      "1280x768": 5,
+      "904x540": 1,
+      "1196x720": 11,
+      "1280x740": 1,
+      "897x540": 4,
+      "2792x1440": 2,
+      "1396x720": 2,
+      "2048x1536": 5,
+      "886x540": 2,
+      "1980x1080": 2,
+      "1368x900": 1,
+      "1219x800": 1,
+      "1852x1200": 3,
+      "1920x1132": 1,
+      "2009x1080": 4,
+      "2400x1440": 1,
+      "793x480": 1,
+      "1212x800": 1,
+      "1320x720": 2,
+      "732x412": 2,
+      "1200x720": 2,
+      "1808x1080": 2,
+      "976x768": 2,
+      "1798x1080": 2,
+      "1199x720": 2,
+      "1194x720": 1,
+      "1184x640": 1,
+      "1328x720": 1,
+      "772x480": 2,
+      "1600x960": 2,
+      "1172x720": 1,
+      "960x600": 1
+    },
+    "platforms": {
+      "Android": 2070
+    },
+    "remixes": 486,
+    "scenes": 5012,
+    "objects": 29849,
+    "groups": 1231,
+    "looks": 51416,
+    "sounds": 10045,
+    "bricks": 362811,
+    "brickUsage": {
+      "BroadcastScript": 29687,
+      "StartScript": 28724,
+      "WhenScript": 13192,
+      "SetLookBrick": 15791,
+      "PlaySoundBrick": 6482,
+      "SetVolumeToBrick": 707,
+      "PlaceAtBrick": 17893,
+      "SetSizeToBrick": 15565,
+      "ShowBrick": 15879,
+      "HideBrick": 27024,
+      "BroadcastBrick": 12988,
+      "ForeverBrick": 8803,
+      "LoopEndBrick": 13465,
+      "IfOnEdgeBounceBrick": 629,
+      "GoNStepsBackBrick": 533,
+      "ChangeXByNBrick": 2481,
+      "ChangeYByNBrick": 2123,
+      "ChangeSizeByNBrick": 1849,
+      "WaitBrick": 28820,
+      "NextLookBrick": 3013,
+      "SetTransparencyBrick": 3662,
+      "TurnLeftBrick": 785,
+      "TurnRightBrick": 504,
+      "SetYBrick": 1525,
+      "NoteBrick": 1911,
+      "VibrationBrick": 297,
+      "ChangeVariableBrick": 5435,
+      "SetVariableBrick": 12200,
+      "ShowTextBrick": 2174,
+      "IfLogicBeginBrick": 13291,
+      "IfLogicEndBrick": 13297,
+      "SetBackgroundBrick": 2766,
+      "AskBrick": 273,
+      "StopScriptBrick": 534,
+      "FlashBrick": 140,
+      "WhenClonedScript": 1112,
+      "ComeToFrontBrick": 2484,
+      "BroadcastWaitBrick": 590,
+      "IfLogicElseBrick": 6421,
+      "RepeatBrick": 3345,
+      "RepeatUntilBrick": 1317,
+      "CloneBrick": 528,
+      "SetLookByIndexBrick": 361,
+      "DeleteThisCloneBrick": 369,
+      "SceneTransitionBrick": 1144,
+      "WhenTouchDownScript": 1361,
+      "CollisionScript": 657,
+      "SceneStartBrick": 4279,
+      "SetPhysicsObjectTypeBrick": 795,
+      "SetFrictionBrick": 85,
+      "SetBounceBrick": 138,
+      "SetVelocityBrick": 2291,
+      "PointInDirectionBrick": 766,
+      "SetBrightnessBrick": 2026,
+      "PlaySoundAndWaitBrick": 1593,
+      "ChangeVolumeByNBrick": 327,
+      "GlideToBrick": 4124,
+      "SetBackgroundByIndexBrick": 17,
+      "WhenConditionScript": 6316,
+      "ClearGraphicEffectBrick": 53,
+      "MoveNStepsBrick": 505,
+      "HideTextBrick": 651,
+      "GoToBrick": 1053,
+      "SayForBubbleBrick": 669,
+      "SetXBrick": 3675,
+      "SetRotationStyleBrick": 218,
+      "StopAllSoundsBrick": 891,
+      "PointToBrick": 421,
+      "AskSpeechBrick": 42,
+      "CameraBrick": 35,
+      "ChooseCameraBrick": 32,
+      "SpeakBrick": 361,
+      "AddItemToUserListBrick": 202,
+      "SpeakAndWaitBrick": 53,
+      "SayBubbleBrick": 289,
+      "PreviousLookBrick": 410,
+      "TurnLeftSpeedBrick": 78,
+      "TurnRightSpeedBrick": 75,
+      "ChangeBrightnessByNBrick": 319,
+      "WaitUntilBrick": 801,
+      "WhenBackgroundChangesScript": 2891,
+      "ChangeTransparencyByNBrick": 616,
+      "SetGravityBrick": 136,
+      "ChangeColorByNBrick": 371,
+      "UserBrick": 29,
+      "InsertItemIntoUserListBrick": 35,
+      "PenUpBrick": 53,
+      "SetPenColorBrick": 87,
+      "PenDownBrick": 79,
+      "ClearBackgroundBrick": 104,
+      "DeleteItemOfUserListBrick": 50,
+      "SetPenSizeBrick": 65,
+      "SetColorBrick": 117,
+      "ThinkBubbleBrick": 24,
+      "SetBackgroundAndWaitBrick": 77,
+      "StampBrick": 109,
+      "ThinkForBubbleBrick": 40,
+      "SetMassBrick": 76,
+      "ReplaceItemInUserListBrick": 39,
+      "WhenNfcScript": 47,
+      "ArduinoSendPWMValueBrick": 2,
+      "ArduinoSendDigitalValueBrick": 2,
+      "PhiroIfLogicBeginBrick": 6,
+      "PhiroRGBLightBrick": 5,
+      "PhiroPlayToneBrick": 5,
+      "PhiroMotorStopBrick": 4,
+      "PhiroMotorMoveBackwardBrick": 4,
+      "PhiroMotorMoveForwardBrick": 4,
+      "SetBackgroundByIndexAndWaitBrick": 2,
+      "DroneSwitchCameraBrick": 1,
+      "DroneTakeOffLandBrick": 1,
+      "DroneMoveUpBrick": 1,
+      "DroneMoveDownBrick": 1,
+      "DroneMoveForwardBrick": 1,
+      "DroneMoveBackwardBrick": 1,
+      "DroneMoveLeftBrick": 1,
+      "DroneMoveRightBrick": 1,
+      "DroneTurnLeftBrick": 1,
+      "DroneTurnRightBrick": 1,
+      "DroneEmergencyBrick": 1
+    },
+    "formulaUsage": {
+      "NUMBER": 166083,
+      "OPERATOR_MINUS": 28479,
+      "STRING": 6582,
+      "FUNCTION_RAND": 3789,
+      "OPERATOR_EQUAL": 15561,
+      "USER_VARIABLE": 22633,
+      "SENSOR_OBJECT_Y": 916,
+      "SENSOR_OBJECT_X": 946,
+      "SENSOR_COLLIDES_WITH_FINGER": 413,
+      "SENSOR_OBJECT_ANGULAR_VELOCITY": 1,
+      "OPERATOR_LOGICAL_OR": 812,
+      "COLLISION_FORMULA": 3578,
+      "SENSOR_OBJECT_LOOK_NUMBER": 214,
+      "OPERATOR_GREATER_THAN": 1396,
+      "OPERATOR_LOGICAL_AND": 2527,
+      "OPERATOR_SMALLER_THAN": 1645,
+      "OPERATOR_LOGICAL_NOT": 498,
+      "OPERATOR_MULT": 1393,
+      "OPERATOR_DIVIDE": 313,
+      "OPERATOR_GREATER_OR_EQUAL": 983,
+      "OPERATOR_SMALLER_OR_EQUAL": 442,
+      "OPERATOR_PLUS": 1221,
+      "FUNCTION_TRUE": 1584,
+      "FUNCTION_FALSE": 1753,
+      "SENSOR_X_INCLINATION": 134,
+      "SENSOR_Y_INCLINATION": 115,
+      "SENSOR_OBJECT_SIZE": 21,
+      "SENSOR_OBJECT_BRIGHTNESS": 2,
+      "OPERATOR_NOT_EQUAL": 512,
+      "BRACKET": 2048,
+      "FUNCTION_MOD": 132,
+      "FUNCTION_COS": 17,
+      "FUNCTION_SIN": 21,
+      "FUNCTION_FLOOR": 4,
+      "SENSOR_FINGER_TOUCHED": 1023,
+      "USER_LIST": 42,
+      "SENSOR_FINGER_Y": 154,
+      "SENSOR_FINGER_X": 170,
+      "FUNCTION_ROUND": 54,
+      "SENSOR_COLLIDES_WITH_EDGE": 121,
+      "FUNCTION_JOIN": 225,
+      "SENSOR_OBJECT_ROTATION": 52,
+      "FUNCTION_CONTAINS": 4,
+      "FUNCTION_LENGTH": 9,
+      "FUNCTION_LETTER": 5,
+      "FUNCTION_LIST_ITEM": 33,
+      "SENSOR_LAST_FINGER_INDEX": 16,
+      "FUNCTION_MULTI_FINGER_TOUCHED": 14,
+      "FUNCTION_POWER": 10,
+      "FUNCTION_MULTI_FINGER_X": 8,
+      "FUNCTION_MULTI_FINGER_Y": 6,
+      "SENSOR_DATE_DAY": 5,
+      "SENSOR_TIME_HOUR": 11,
+      "SENSOR_TIME_SECOND": 5,
+      "SENSOR_OBJECT_TRANSPARENCY": 32,
+      "SENSOR_OBJECT_LOOK_NAME": 203,
+      "SENSOR_COMPASS_DIRECTION": 10,
+      "SENSOR_DATE_WEEKDAY": 1,
+      "SENSOR_DATE_MONTH": 52,
+      "SENSOR_OBJECT_X_VELOCITY": 32,
+      "FUNCTION_ABS": 50,
+      "SENSOR_X_ACCELERATION": 4,
+      "SENSOR_Y_ACCELERATION": 5,
+      "SENSOR_Z_ACCELERATION": 3,
+      "SENSOR_OBJECT_Y_VELOCITY": 31,
+      "FUNCTION_MAX": 11,
+      "FUNCTION_MIN": 9,
+      "FUNCTION_SQRT": 2,
+      "SENSOR_TIME_MINUTE": 8,
+      "SENSOR_LOUDNESS": 7,
+      "FUNCTION_NUMBER_OF_ITEMS": 2,
+      "SENSOR_FACE_DETECTED": 2,
+      "SENSOR_DATE_YEAR": 2,
+      "SENSOR_PHIRO_BOTTOM_RIGHT": 3,
+      "SENSOR_PHIRO_SIDE_RIGHT": 4,
+      "SENSOR_PHIRO_SIDE_LEFT": 2,
+      "SENSOR_PHIRO_FRONT_RIGHT": 2,
+      "SENSOR_PHIRO_FRONT_LEFT": 2,
+      "FUNCTION_TAN": 4,
+      "SENSOR_PHIRO_BOTTOM_LEFT": 1,
+      "SENSOR_OBJECT_BACKGROUND_NUMBER": 1,
+      "SENSOR_OBJECT_COLOR": 2,
+      "SENSOR_FACE_X_POSITION": 3,
+      "SENSOR_FACE_Y_POSITION": 3,
+      "SENSOR_DRONE_BATTERY_STATUS": 1
+    },
+    "featureUsage": {
+      "variable": 912,
+      "text": 621,
+      "flash": 51,
+      "internalHardware": 172,
+      "hardware": 173,
+      "clone": 159,
+      "touch": 246,
+      "finger": 284,
+      "physics": 283,
+      "phoneSensor": 88,
+      "textToSpeech": 30,
+      "camera": 27,
+      "list": 51,
+      "userBrick": 12,
+      "pen": 77,
+      "dateTime": 21,
+      "location": 8,
+      "faceDetection": 4,
+      "nfc": 12,
+      "arduino": 2,
+      "bluetooth": 3,
+      "externalHardware": 4,
+      "phiro": 3,
+      "drone": 1,
+      "wlan": 1
+    },
+    "objectVariables": 25604,
+    "objectLists": 17702,
+    "programVariables": 4402,
+    "programLists": 94,
+    "timeline": {
+      "05-11": {
+        "remixes": 16,
+        "new": 54
+      },
+      "04-27": {
+        "remixes": 13,
+        "new": 43
+      },
+      "05-20": {
+        "remixes": 12,
+        "new": 62
+      },
+      "05-06": {
+        "remixes": 17,
+        "new": 70
+      },
+      "05-15": {
+        "remixes": 10,
+        "new": 46
+      },
+      "04-24": {
+        "remixes": 12,
+        "new": 62
+      },
+      "04-23": {
+        "remixes": 27,
+        "new": 72
+      },
+      "05-08": {
+        "remixes": 13,
+        "new": 57
+      },
+      "05-07": {
+        "remixes": 17,
+        "new": 70
+      },
+      "04-28": {
+        "remixes": 21,
+        "new": 55
+      },
+      "05-17": {
+        "remixes": 22,
+        "new": 46
+      },
+      "05-16": {
+        "remixes": 14,
+        "new": 42
+      },
+      "05-09": {
+        "remixes": 12,
+        "new": 53
+      },
+      "05-13": {
+        "remixes": 11,
+        "new": 52
+      },
+      "05-04": {
+        "remixes": 24,
+        "new": 40
+      },
+      "05-21": {
+        "remixes": 14,
+        "new": 39
+      },
+      "05-02": {
+        "remixes": 27,
+        "new": 60
+      },
+      "04-22": {
+        "remixes": 13,
+        "new": 66
+      },
+      "04-30": {
+        "remixes": 14,
+        "new": 63
+      },
+      "04-29": {
+        "remixes": 14,
+        "new": 46
+      },
+      "04-21": {
+        "remixes": 1,
+        "new": 3
+      },
+      "04-26": {
+        "remixes": 16,
+        "new": 41
+      },
+      "04-25": {
+        "remixes": 19,
+        "new": 48
+      },
+      "05-01": {
+        "remixes": 16,
+        "new": 51
+      },
+      "05-03": {
+        "remixes": 26,
+        "new": 50
+      },
+      "05-19": {
+        "remixes": 25,
+        "new": 58
+      },
+      "05-05": {
+        "remixes": 17,
+        "new": 55
+      },
+      "05-12": {
+        "remixes": 13,
+        "new": 69
+      },
+      "05-14": {
+        "remixes": 2,
+        "new": 17
+      },
+      "05-10": {
+        "remixes": 11,
+        "new": 56
+      },
+      "05-18": {
+        "remixes": 17,
+        "new": 38
+      }
+    }
+  }
+}
