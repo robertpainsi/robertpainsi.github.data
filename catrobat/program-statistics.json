@@ -1,5 +1,5 @@
 {
-  "updated": 1592503331688,
+  "updated": 1592505773953,
   "overall": {
     "type": "overall",
     "hasLastData": false,
@@ -6827,179 +6827,183 @@
     "features": {
       "list": {
         "name": "List",
-        "color": "#f24e50"
+        "color": "f24e50"
       },
       "variable": {
         "name": "Variable",
-        "color": "#f24e50"
+        "color": "f24e50"
       },
       "text": {
         "name": "Text",
-        "color": "#f99761"
+        "color": "f99761"
       },
       "clone": {
         "name": "Clone",
-        "color": "#f99761"
+        "color": "f99761"
       },
       "pen": {
         "name": "Pen",
-        "color": "#305716"
+        "color": "305716"
       },
       "physics": {
         "name": "Physics",
-        "color": "#408ac5"
+        "color": "408ac5"
       },
       "touch": {
         "name": "Touch",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "finger": {
         "name": "Finger",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "faceDetection": {
         "name": "Face detection",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "dateTime": {
         "name": "Date-Time",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "textToSpeech": {
         "name": "Text to speech",
-        "color": "#f24e50"
+        "color": "f24e50"
       },
       "cast": {
         "name": "Cast",
-        "color": "#886a4a"
+        "color": "886a4a"
       },
       "userBrick": {
         "name": "User brick",
-        "color": "#98c204"
+        "color": "98c204"
       },
       "embroidery": {
         "name": "Embroidery",
-        "color": "#cc73a1"
+        "color": "cc73a1"
       },
       "hardware": {
         "name": "Hardware",
-        "color": "#ff0000,"
+        "color": "ff0000,"
       },
       "externalHardware": {
         "name": "External hardware",
-        "color": "#ff0000,"
+        "color": "ff0000,"
       },
       "internalHardware": {
         "name": "Internal hardware",
-        "color": "#ff0000,"
+        "color": "ff0000,"
       },
       "bluetooth": {
         "name": "Bluetooth",
-        "color": "#26a6ae"
+        "color": "26a6ae"
       },
       "wlan": {
         "name": "WLAN",
-        "color": "#26a6ae"
+        "color": "26a6ae"
       },
       "nfc": {
         "name": "NFC",
-        "color": "#26a6ae"
+        "color": "26a6ae"
+      },
+      "web": {
+        "name": "Web",
+        "color": "d26666"
       },
       "camera": {
         "name": "Camera",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "flash": {
         "name": "Flash",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "location": {
         "name": "Location",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "phoneSensor": {
         "name": "Phone sensor",
-        "color": "#6b72cc"
+        "color": "6b72cc"
       },
       "arduino": {
         "name": "Arduino",
-        "color": "#26a6ae"
+        "color": "26a6ae"
       },
       "drone": {
         "name": "Drone",
-        "color": "#26a6ae"
+        "color": "26a6ae"
       },
       "lego": {
         "name": "Lego",
-        "color": "#fccb41"
+        "color": "fccb41"
       },
       "phiro": {
         "name": "Phiro",
-        "color": "#fccb41"
+        "color": "fccb41"
       },
       "raspberryPi": {
         "name": "Raspberry Pi",
-        "color": "#26a6ae"
+        "color": "26a6ae"
       }
     },
     "bricks": {
       "StartScript": {
         "name": "When scene starts",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "WhenScript": {
         "name": "When tapped",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "WhenTouchDownScript": {
         "name": "When stage is tapped",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "BroadcastScript": {
         "name": "When you receive",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "BroadcastBrick": {
         "name": "Broadcast",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "BroadcastWaitBrick": {
         "name": "Broadcast and wait",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "WhenConditionScript": {
         "name": "When _ becomes true",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "WhenBounceOffScript": {
         "name": "When you bounce off",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "WhenBackgroundChangesScript": {
         "name": "When background changes to",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": []
       },
       "WhenClonedScript": {
         "name": "When you start as a clone",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "clone"
         ]
       },
       "WhenNfcScript": {
         "name": "When NFC",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "nfc",
           "internalHardware",
@@ -7008,7 +7012,7 @@
       },
       "RaspiInterruptScript": {
         "name": "When Raspberry Pi pin changes to",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "raspberryPi",
           "wlan",
@@ -7018,7 +7022,7 @@
       },
       "WhenGamepadButtonScript": {
         "name": "When gamepad button",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "cast",
           "wlan",
@@ -7028,67 +7032,67 @@
       },
       "WaitBrick": {
         "name": "Wait",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "NoteBrick": {
         "name": "Note",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "ForeverBrick": {
         "name": "Forever",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "LoopEndBrick": {
         "name": "End of loop",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "IfLogicBeginBrick": {
         "name": "If",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "IfLogicElseBrick": {
         "name": "Else",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "IfLogicEndBrick": {
         "name": "End If",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "WaitUntilBrick": {
         "name": "Wait until _ is true",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "RepeatBrick": {
         "name": "Repeat",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "RepeatUntilBrick": {
         "name": "Repeat until _ is true",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "SceneStartBrick": {
         "name": "Start scene",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "SceneTransitionBrick": {
         "name": "Continue scene",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "PhiroIfLogicBeginBrick": {
         "name": "If Phiro sensor is activated",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "phiro",
           "bluetooth",
@@ -7098,26 +7102,26 @@
       },
       "StopScriptBrick": {
         "name": "Stop script",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "CloneBrick": {
         "name": "Create clone",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "clone"
         ]
       },
       "DeleteThisCloneBrick": {
         "name": "Delete this clone",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "clone"
         ]
       },
       "SetNfcTagBrick": {
         "name": "Wait for next NFC tag to write",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "nfc",
           "internalHardware",
@@ -7126,7 +7130,7 @@
       },
       "RaspiIfLogicBeginBrick": {
         "name": "If Raspberry Pi pin is true",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "raspberryPi",
           "wlan",
@@ -7136,183 +7140,183 @@
       },
       "PlaceAtBrick": {
         "name": "Place at",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SetXBrick": {
         "name": "Set x",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SetYBrick": {
         "name": "Set y",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "ChangeXByNBrick": {
         "name": "Change x",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "ChangeYByNBrick": {
         "name": "Change y",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "GoToBrick": {
         "name": "Go to",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "IfOnEdgeBounceBrick": {
         "name": "If on edge, bounce",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "MoveNStepsBrick": {
         "name": "Move _ steps",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "TurnLeftBrick": {
         "name": "Turn left",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "TurnRightBrick": {
         "name": "Turn right",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "PointInDirectionBrick": {
         "name": "Point in direction",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "PointToBrick": {
         "name": "Point towards",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SetRotationStyleBrick": {
         "name": "Set rotation style",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "GlideToBrick": {
         "name": "Glide to",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "GoNStepsBackBrick": {
         "name": "Go back _ layers",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "ComeToFrontBrick": {
         "name": "Go to front",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "VibrationBrick": {
         "name": "Vibrate",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SetPhysicsObjectTypeBrick": {
         "name": "Set your motion type",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SetVelocityBrick": {
         "name": "Set velocity",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "TurnLeftSpeedBrick": {
         "name": "Spin left",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "TurnRightSpeedBrick": {
         "name": "Spin right",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SetGravityBrick": {
         "name": "Set gravity",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SetMassBrick": {
         "name": "Set mass",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SetBounceBrick": {
         "name": "Set bounce factor",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SetFrictionBrick": {
         "name": "Set friction",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "PlaySoundBrick": {
         "name": "Start sound",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "PlaySoundAndWaitBrick": {
         "name": "Start sound and wait",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "StopAllSoundsBrick": {
         "name": "Stop all sounds",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "SetVolumeToBrick": {
         "name": "Set volume",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "ChangeVolumeByNBrick": {
         "name": "Change volume",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "SpeakBrick": {
         "name": "Speak",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "SpeakAndWaitBrick": {
         "name": "Speak and wait",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "PhiroPlayToneBrick": {
         "name": "Play Phiro music tone",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": [
           "phiro",
           "bluetooth",
@@ -7322,7 +7326,7 @@
       },
       "AskSpeechBrick": {
         "name": "Ask speech",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": [
           "variable",
           "textToSpeech"
@@ -7330,131 +7334,131 @@
       },
       "SetLookBrick": {
         "name": "Switch to look",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetLookByIndexBrick": {
         "name": "Switch to look #",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "NextLookBrick": {
         "name": "Next look",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "PreviousLookBrick": {
         "name": "Previous look",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetSizeToBrick": {
         "name": "Set size",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ChangeSizeByNBrick": {
         "name": "Change size",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "HideBrick": {
         "name": "Hide",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ShowBrick": {
         "name": "Show",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "AskBrick": {
         "name": "Ask",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "variable"
         ]
       },
       "SayBubbleBrick": {
         "name": "Say",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SayForBubbleBrick": {
         "name": "Say for _ seconds",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ThinkBubbleBrick": {
         "name": "Think",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ThinkForBubbleBrick": {
         "name": "Think for _ seconds",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetTransparencyBrick": {
         "name": "Set transparency",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ChangeTransparencyByNBrick": {
         "name": "Change transparency",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetBrightnessBrick": {
         "name": "Set brightness",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ChangeBrightnessByNBrick": {
         "name": "Change brightness",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetColorBrick": {
         "name": "Set color",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ChangeColorByNBrick": {
         "name": "Change color",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "ClearBackgroundBrick": {
         "name": "Clear graphic effects",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "pen"
         ]
       },
       "SetBackgroundBrick": {
         "name": "Set background",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetBackgroundAndWaitBrick": {
         "name": "Set background and wait",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetBackgroundByIndexBrick": {
         "name": "Set background to #",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SetBackgroundByIndexAndWaitBrick": {
         "name": "Set background to # and wait",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "CameraBrick": {
         "name": "Turn camera on/off",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "camera",
           "internalHardware",
@@ -7463,7 +7467,7 @@
       },
       "ChooseCameraBrick": {
         "name": "Use front/back camera",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "camera",
           "internalHardware",
@@ -7472,7 +7476,7 @@
       },
       "FlashBrick": {
         "name": "Turn flashlight",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "flash",
           "internalHardware",
@@ -7481,7 +7485,7 @@
       },
       "LookRequestBrick": {
         "name": "Get image and use as current look",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "web",
           "wlan",
@@ -7490,7 +7494,7 @@
       },
       "BackgroundRequestBrick": {
         "name": "Get image and use as current background",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "web",
           "wlan",
@@ -7499,7 +7503,7 @@
       },
       "PhiroRGBLightBrick": {
         "name": "Set Phiro light",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": [
           "phiro",
           "bluetooth",
@@ -7509,155 +7513,155 @@
       },
       "PenDownBrick": {
         "name": "Pen down",
-        "color": "#305716",
+        "color": "305716",
         "features": [
           "pen"
         ]
       },
       "PenUpBrick": {
         "name": "Pen up",
-        "color": "#305716",
+        "color": "305716",
         "features": [
           "pen"
         ]
       },
       "SetPenSizeBrick": {
         "name": "Set pen size",
-        "color": "#305716",
+        "color": "305716",
         "features": [
           "pen"
         ]
       },
       "SetPenColorBrick": {
         "name": "Set pen color",
-        "color": "#305716",
+        "color": "305716",
         "features": [
           "pen"
         ]
       },
       "StampBrick": {
         "name": "Stamp",
-        "color": "#305716",
+        "color": "305716",
         "features": []
       },
       "PenClearBrick": {
         "name": "Clear",
-        "color": "#305716",
+        "color": "305716",
         "features": []
       },
       "ClearGraphicEffectBrick": {
         "name": "Clear",
-        "color": "#305716",
+        "color": "305716",
         "features": []
       },
       "SetVariableBrick": {
         "name": "Set variable",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "ChangeVariableBrick": {
         "name": "Change variable",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "ShowTextBrick": {
         "name": "Show variable",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "ShowTextColorSizeAlignmentBrick": {
         "name": "Show variable at position with size and aligned",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "HideTextBrick": {
         "name": "Hide variable",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "WriteVariableOnDeviceBrick": {
         "name": "Write variable on device",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "ReadVariableFromDeviceBrick": {
         "name": "Read variable from device",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "AddItemToUserListBrick": {
         "name": "Add to list",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "DeleteItemOfUserListBrick": {
         "name": "Delete from list",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "ClearUserListBrick": {
         "name": "Delete all items from list",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "InsertItemIntoUserListBrick": {
         "name": "Insert into list",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "ReplaceItemInUserListBrick": {
         "name": "Replace item in list",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "WriteListOnDeviceBrick": {
         "name": "Write list on device",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "ReadListFromDeviceBrick": {
         "name": "Read list from device",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "StoreCSVIntoUserListBrick": {
         "name": "Store column of comma-separated values",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "WebRequestBrick": {
         "name": "Send web request",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable",
           "web",
@@ -7667,7 +7671,7 @@
       },
       "LegoNxtMotorMoveBrick": {
         "name": "Set NXT motor speed",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7678,7 +7682,7 @@
       },
       "LegoNxtMotorStopBrick": {
         "name": "Stop NXT motor",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7689,7 +7693,7 @@
       },
       "LegoNxtMotorTurnAngleBrick": {
         "name": "Turn NXT motor",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7700,7 +7704,7 @@
       },
       "LegoNxtPlayToneBrick": {
         "name": "Play NXT tone",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7711,7 +7715,7 @@
       },
       "LegoEv3MotorTurnAngleBrick": {
         "name": "Turn EV3 motor",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7722,7 +7726,7 @@
       },
       "LegoEv3MotorMoveBrick": {
         "name": "Set EV3 motor speed",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7733,7 +7737,7 @@
       },
       "LegoEv3MotorStopBrick": {
         "name": "Stop EV3 motor",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7744,7 +7748,7 @@
       },
       "LegoEv3PlayToneBrick": {
         "name": "Play EV3 tone",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7755,7 +7759,7 @@
       },
       "LegoEv3SetLedBrick": {
         "name": "Set EV3 LED status",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -7766,14 +7770,14 @@
       },
       "UserBrick": {
         "name": "My bricks",
-        "color": "#98c204",
+        "color": "98c204",
         "features": [
           "userBrick"
         ]
       },
       "DroneTakeOffLandBrick": {
         "name": "Take off / land AR.Drone 2.0",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7783,7 +7787,7 @@
       },
       "DroneEmergencyBrick": {
         "name": "Emergency AR.Drone 2.0",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7793,7 +7797,7 @@
       },
       "DroneMoveUpBrick": {
         "name": "Move AR.Drone 2.0 up",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7803,7 +7807,7 @@
       },
       "DroneMoveDownBrick": {
         "name": "Move AR.Drone 2.0 down",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7813,7 +7817,7 @@
       },
       "DroneMoveLeftBrick": {
         "name": "Move AR.Drone 2.0 left",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7823,7 +7827,7 @@
       },
       "DroneMoveRightBrick": {
         "name": "Move AR.Drone 2.0 right",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7833,7 +7837,7 @@
       },
       "DroneMoveForwardBrick": {
         "name": "Move AR.Drone 2.0 forward",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7843,7 +7847,7 @@
       },
       "DroneMoveBackwardBrick": {
         "name": "Move AR.Drone 2.0 backward",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7853,7 +7857,7 @@
       },
       "DroneTurnLeftBrick": {
         "name": "Turn AR.Drone 2.0 left",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7863,7 +7867,7 @@
       },
       "DroneTurnRightBrick": {
         "name": "Turn AR.Drone 2.0 right",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7873,7 +7877,7 @@
       },
       "DroneFlipBrick": {
         "name": "Flip AR.Drone 2.0",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7883,7 +7887,7 @@
       },
       "DronePlayLedAnimationBrick": {
         "name": "Play AR.Drone 2.0 flash animation",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7893,7 +7897,7 @@
       },
       "DroneSwitchCameraBrick": {
         "name": "Switch AR.Drone 2.0 camera",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7903,7 +7907,7 @@
       },
       "JumpingSumoMoveForwardBrick": {
         "name": "Move Jumping Sumo forward",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7913,7 +7917,7 @@
       },
       "JumpingSumoMoveBackwardBrick": {
         "name": "Move Jumping Sumo backward",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7923,7 +7927,7 @@
       },
       "JumpingSumoAnimationsBrick": {
         "name": "Animations Jumping Sumo",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7933,7 +7937,7 @@
       },
       "JumpingSumoSoundBrick": {
         "name": "Jumping Sumo Sound and Volume",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7943,7 +7947,7 @@
       },
       "JumpingSumoNoSoundBrick": {
         "name": "No Jumping Sumo sound",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7953,7 +7957,7 @@
       },
       "JumpingSumoJumpLongBrick": {
         "name": "Jump Jumping Sumo long",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7963,7 +7967,7 @@
       },
       "JumpingSumoJumpHighBrick": {
         "name": "Jump Jumping Sumo high",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7973,7 +7977,7 @@
       },
       "JumpingSumoRotateLeftBrick": {
         "name": "Turn Jumping Sumo left",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7983,7 +7987,7 @@
       },
       "JumpingSumoRotateRightBrick": {
         "name": "Turn Jumping Sumo right",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -7993,7 +7997,7 @@
       },
       "JumpingSumoTurnBrick": {
         "name": "Flip Jumping Sumo",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8003,7 +8007,7 @@
       },
       "JumpingSumoTakingPictureBrick": {
         "name": "Taking picture Jumping Sumo",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8013,7 +8017,7 @@
       },
       "PhiroMotorMoveBackwardBrick": {
         "name": "Move Phiro motor backward",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8023,7 +8027,7 @@
       },
       "PhiroMotorMoveForwardBrick": {
         "name": "Move Phiro motor forward",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8033,7 +8037,7 @@
       },
       "PhiroMotorStopBrick": {
         "name": "Stop Phiro motor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8043,7 +8047,7 @@
       },
       "ArduinoSendDigitalValueBrick": {
         "name": "Set Arduino digital pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "arduino",
           "bluetooth",
@@ -8053,7 +8057,7 @@
       },
       "ArduinoSendPWMValueBrick": {
         "name": "Set Arduino PWM~ pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "arduino",
           "bluetooth",
@@ -8063,7 +8067,7 @@
       },
       "RaspiPwmBrick": {
         "name": "Set Raspberry Pi PWM pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "raspberryPi",
           "wlan",
@@ -8073,7 +8077,7 @@
       },
       "RaspiSendDigitalValueBrick": {
         "name": "Set Raspberry Pi pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "raspberryPi",
           "wlan",
@@ -8083,35 +8087,35 @@
       },
       "StitchBrick": {
         "name": "Stitch",
-        "color": "#cc73a1",
+        "color": "cc73a1",
         "features": [
           "embroidery"
         ]
       },
       "RunningStitchBrick": {
         "name": "Start running stitch with length",
-        "color": "#cc73a1",
+        "color": "cc73a1",
         "features": [
           "embroidery"
         ]
       },
       "ZigZagStitchBrick": {
         "name": "Start zigzag stitch with length and width",
-        "color": "#cc73a1",
+        "color": "cc73a1",
         "features": [
           "embroidery"
         ]
       },
       "TripleStitchBrick": {
         "name": "Start triple stitch with length",
-        "color": "#cc73a1",
+        "color": "cc73a1",
         "features": [
           "embroidery"
         ]
       },
       "StopRunningStitchBrick": {
         "name": "Stop current stitch",
-        "color": "#cc73a1",
+        "color": "cc73a1",
         "features": [
           "embroidery"
         ]
@@ -8120,230 +8124,230 @@
     "formulas": {
       "NUMBER": {
         "name": "Number",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "STRING": {
         "name": "Text",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "text"
         ]
       },
       "BRACKET": {
         "name": "()",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "USER_LIST": {
         "name": "List",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "USER_VARIABLE": {
         "name": "Variable",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "variable"
         ]
       },
       "COLLISION_FORMULA": {
         "name": "touches actor or object",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "touch"
         ]
       },
       "FUNCTION_ABS": {
         "name": "absolute value",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_ARCCOS": {
         "name": "arccosine",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_ARCSIN": {
         "name": "arcsine",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_ARCTAN": {
         "name": "arctangent",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_ARCTAN2": {
         "name": "arctangent2",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_CEIL": {
         "name": "ceiling",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_COS": {
         "name": "cosine",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_EXP": {
         "name": "exponent",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_FALSE": {
         "name": "false",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_FLOOR": {
         "name": "floor",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_LN": {
         "name": "natural logarithm",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_LOG": {
         "name": "decimal logarithm",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_MAX": {
         "name": "maximum of",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_MIN": {
         "name": "minimum of",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_MOD": {
         "name": "modulo",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_PI": {
         "name": "pi",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_POWER": {
         "name": "power",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_RAND": {
         "name": "random value",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_ROUND": {
         "name": "round",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_SIN": {
         "name": "sine",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_SQRT": {
         "name": "square root",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_TAN": {
         "name": "tangent",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_TRUE": {
         "name": "true",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "FUNCTION_JOIN": {
         "name": "join",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "text"
         ]
       },
       "FUNCTION_REGEX": {
         "name": "regular expression",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "text"
         ]
       },
       "FUNCTION_LENGTH": {
         "name": "length",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "text"
         ]
       },
       "FUNCTION_LETTER": {
         "name": "letter",
-        "color": "#f99761",
+        "color": "f99761",
         "features": [
           "text"
         ]
       },
       "FUNCTION_CONTAINS": {
         "name": "contains",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "FUNCTION_LIST_ITEM": {
         "name": "item",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "FUNCTION_NUMBER_OF_ITEMS": {
         "name": "number of items",
-        "color": "#f24e50",
+        "color": "f24e50",
         "features": [
           "list"
         ]
       },
       "FUNCTION_MULTI_FINGER_TOUCHED": {
         "name": "stage is touched",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "finger"
         ]
       },
       "FUNCTION_MULTI_FINGER_X": {
         "name": "stage touch x",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "finger"
         ]
       },
       "FUNCTION_MULTI_FINGER_Y": {
         "name": "stage touch y",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "finger"
         ]
       },
       "FUNCTION_ARDUINOANALOG": {
         "name": "arduino analog pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "arduino",
           "bluetooth",
@@ -8353,7 +8357,7 @@
       },
       "FUNCTION_ARDUINODIGITAL": {
         "name": "arduino digital pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "arduino",
           "bluetooth",
@@ -8363,7 +8367,7 @@
       },
       "FUNCTION_RASPIDIGITAL": {
         "name": "raspberry pi pin",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "raspberryPi",
           "wlan",
@@ -8373,170 +8377,170 @@
       },
       "OPERATOR_DIVIDE": {
         "name": "÷",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_EQUAL": {
         "name": "=",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_GREATER_OR_EQUAL": {
         "name": "≥",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_GREATER_THAN": {
         "name": ">",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_LOGICAL_AND": {
         "name": "and",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_LOGICAL_NOT": {
         "name": "not",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_LOGICAL_OR": {
         "name": "or",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_MINUS": {
         "name": "-",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_MULT": {
         "name": "×",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_NOT_EQUAL": {
         "name": "≠",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_PLUS": {
         "name": "+",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_SMALLER_OR_EQUAL": {
         "name": "≤",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "OPERATOR_SMALLER_THAN": {
         "name": "<",
-        "color": "#f99761",
+        "color": "f99761",
         "features": []
       },
       "SENSOR_LOUDNESS": {
         "name": "loudness",
-        "color": "#8f4cba",
+        "color": "8f4cba",
         "features": []
       },
       "SENSOR_OBJECT_BACKGROUND_NAME": {
         "name": "background name",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_BACKGROUND_NUMBER": {
         "name": "background number",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_BRIGHTNESS": {
         "name": "brightness",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_COLOR": {
         "name": "color",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_LAYER": {
         "name": "layer",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SENSOR_OBJECT_LOOK_NAME": {
         "name": "look name",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_LOOK_NUMBER": {
         "name": "look number",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_ROTATION": {
         "name": "direction",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SENSOR_OBJECT_SIZE": {
         "name": "size",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_TRANSPARENCY": {
         "name": "transparency",
-        "color": "#6b9c49",
+        "color": "6b9c49",
         "features": []
       },
       "SENSOR_OBJECT_X": {
         "name": "position x",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SENSOR_OBJECT_Y": {
         "name": "position y",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SENSOR_OBJECT_DISTANCE_TO": {
         "name": "distance to touch position",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": []
       },
       "SENSOR_OBJECT_ANGULAR_VELOCITY": {
         "name": "angular velocity",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SENSOR_OBJECT_X_VELOCITY": {
         "name": "x velocity",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SENSOR_OBJECT_Y_VELOCITY": {
         "name": "y velocity",
-        "color": "#408ac5",
+        "color": "408ac5",
         "features": [
           "physics"
         ]
       },
       "SENSOR_COLLIDES_WITH_EDGE": {
         "name": "touches edge",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "touch"
         ]
       },
       "SENSOR_COLLIDES_WITH_FINGER": {
         "name": "touches finger",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "touch",
           "finger"
@@ -8544,84 +8548,84 @@
       },
       "SENSOR_FINGER_TOUCHED": {
         "name": "stage is touched",
-        "color": "#cf5717",
+        "color": "cf5717",
         "features": [
           "finger"
         ]
       },
       "SENSOR_FINGER_X": {
         "name": "stage touch x",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "finger"
         ]
       },
       "SENSOR_FINGER_Y": {
         "name": "stage touch y",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "finger"
         ]
       },
       "SENSOR_LAST_FINGER_INDEX": {
         "name": "last stage touch index",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "finger"
         ]
       },
       "SENSOR_DATE_DAY": {
         "name": "day",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_DATE_MONTH": {
         "name": "month",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_DATE_WEEKDAY": {
         "name": "weekday",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_DATE_YEAR": {
         "name": "year",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_TIME_HOUR": {
         "name": "hour",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_TIME_MINUTE": {
         "name": "minute",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_TIME_SECOND": {
         "name": "second",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "dateTime"
         ]
       },
       "SENSOR_FACE_DETECTED": {
         "name": "face is visible",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "faceDetection",
           "internalHardware",
@@ -8630,7 +8634,7 @@
       },
       "SENSOR_FACE_SIZE": {
         "name": "face size",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "faceDetection",
           "internalHardware",
@@ -8639,7 +8643,7 @@
       },
       "SENSOR_FACE_X_POSITION": {
         "name": "face x position",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "faceDetection",
           "internalHardware",
@@ -8648,7 +8652,7 @@
       },
       "SENSOR_FACE_Y_POSITION": {
         "name": "face y position",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "faceDetection",
           "internalHardware",
@@ -8657,7 +8661,7 @@
       },
       "SENSOR_X_ACCELERATION": {
         "name": "acceleration x",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "phoneSensor",
           "internalHardware",
@@ -8666,7 +8670,7 @@
       },
       "SENSOR_X_INCLINATION": {
         "name": "inclination x",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "phoneSensor",
           "internalHardware",
@@ -8675,7 +8679,7 @@
       },
       "SENSOR_Y_ACCELERATION": {
         "name": "acceleration y",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "phoneSensor",
           "internalHardware",
@@ -8684,7 +8688,7 @@
       },
       "SENSOR_Y_INCLINATION": {
         "name": "inclination y",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "phoneSensor",
           "internalHardware",
@@ -8693,7 +8697,7 @@
       },
       "SENSOR_Z_ACCELERATION": {
         "name": "acceleration z",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "phoneSensor",
           "internalHardware",
@@ -8702,7 +8706,7 @@
       },
       "SENSOR_ALTITUDE": {
         "name": "altitude",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "location",
           "internalHardware",
@@ -8711,7 +8715,7 @@
       },
       "SENSOR_LONGITUDE": {
         "name": "longitude",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "location",
           "internalHardware",
@@ -8720,7 +8724,7 @@
       },
       "SENSOR_COMPASS_DIRECTION": {
         "name": "compass direction",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "location",
           "internalHardware",
@@ -8729,7 +8733,7 @@
       },
       "SENSOR_LATITUDE": {
         "name": "latitude",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "location",
           "internalHardware",
@@ -8738,7 +8742,7 @@
       },
       "SENSOR_LOCATION_ACCURACY": {
         "name": "location accuracy",
-        "color": "#6b72cc",
+        "color": "6b72cc",
         "features": [
           "location",
           "internalHardware",
@@ -8747,7 +8751,7 @@
       },
       "SENSOR_NFC_TAG_ID": {
         "name": "nfc tag id",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "nfc",
           "internalHardware",
@@ -8756,7 +8760,7 @@
       },
       "SENSOR_NFC_TAG_MESSAGE": {
         "name": "nfc tag message",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "nfc",
           "internalHardware",
@@ -8765,7 +8769,7 @@
       },
       "SENSOR_DRONE_INITIALIZED": {
         "name": "drone initialized",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8775,7 +8779,7 @@
       },
       "SENSOR_DRONE_BATTERY_STATUS": {
         "name": "drone battery status",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8785,7 +8789,7 @@
       },
       "SENSOR_DRONE_USB_ACTIVE": {
         "name": "drone usb active",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8795,7 +8799,7 @@
       },
       "SENSOR_DRONE_USB_REMAINING_TIME": {
         "name": "drone usb remaining time",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8805,7 +8809,7 @@
       },
       "SENSOR_DRONE_CAMERA_READY": {
         "name": "drone camera ready",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8815,7 +8819,7 @@
       },
       "SENSOR_DRONE_RECORD_READY": {
         "name": "drone record ready",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8825,7 +8829,7 @@
       },
       "SENSOR_DRONE_RECORDING": {
         "name": "drone camera recording",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8835,7 +8839,7 @@
       },
       "SENSOR_DRONE_NUM_FRAMES": {
         "name": "drone camera number of frames",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8845,7 +8849,7 @@
       },
       "SENSOR_DRONE_FLYING": {
         "name": "drone flying",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8855,7 +8859,7 @@
       },
       "SENSOR_DRONE_EMERGENCY_STATE": {
         "name": "drone emergency state",
-        "color": "#aea626",
+        "color": "aea626",
         "features": [
           "drone",
           "wlan",
@@ -8865,7 +8869,7 @@
       },
       "SENSOR_EV3_SENSOR_1": {
         "name": "EV3 touch",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8876,7 +8880,7 @@
       },
       "SENSOR_EV3_SENSOR_2": {
         "name": "EV3 infrared",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8887,7 +8891,7 @@
       },
       "SENSOR_EV3_SENSOR_3": {
         "name": "EV3 color",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8898,7 +8902,7 @@
       },
       "SENSOR_EV3_SENSOR_4": {
         "name": "EV3 ambient color",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8909,7 +8913,7 @@
       },
       "SENSOR_NXT_SENSOR_1": {
         "name": "NXT touch",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8920,7 +8924,7 @@
       },
       "SENSOR_NXT_SENSOR_2": {
         "name": "NXT sound",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8931,7 +8935,7 @@
       },
       "SENSOR_NXT_SENSOR_3": {
         "name": "NXT light",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8942,7 +8946,7 @@
       },
       "SENSOR_NXT_SENSOR_4": {
         "name": "NXT light active",
-        "color": "#fccb41",
+        "color": "fccb41",
         "features": [
           "lego",
           "bluetooth",
@@ -8953,7 +8957,7 @@
       },
       "SENSOR_PHIRO_BOTTOM_LEFT": {
         "name": "Phiro bottom Left Sensor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8963,7 +8967,7 @@
       },
       "SENSOR_PHIRO_BOTTOM_RIGHT": {
         "name": "Phiro bottom right sensor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8973,7 +8977,7 @@
       },
       "SENSOR_PHIRO_FRONT_LEFT": {
         "name": "Phiro front left sensor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8983,7 +8987,7 @@
       },
       "SENSOR_PHIRO_FRONT_RIGHT": {
         "name": "Phiro front right sensor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -8993,7 +8997,7 @@
       },
       "SENSOR_PHIRO_SIDE_LEFT": {
         "name": "Phiro side left sensor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -9003,7 +9007,7 @@
       },
       "SENSOR_PHIRO_SIDE_RIGHT": {
         "name": "Phiro side right sensor",
-        "color": "#26a6ae",
+        "color": "26a6ae",
         "features": [
           "phiro",
           "bluetooth",
@@ -9013,7 +9017,7 @@
       },
       "SENSOR_GAMEPAD_A_PRESSED": {
         "name": "gamepad A pressed",
-        "color": "#886a4a",
+        "color": "886a4a",
         "features": [
           "cast",
           "wlan",
@@ -9023,7 +9027,7 @@
       },
       "SENSOR_GAMEPAD_B_PRESSED": {
         "name": "gamepad B pressed",
-        "color": "#886a4a",
+        "color": "886a4a",
         "features": [
           "cast",
           "wlan",
@@ -9033,7 +9037,7 @@
       },
       "SENSOR_GAMEPAD_UP_PRESSED": {
         "name": "gamepad up pressed",
-        "color": "#886a4a",
+        "color": "886a4a",
         "features": [
           "cast",
           "wlan",
@@ -9043,7 +9047,7 @@
       },
       "SENSOR_GAMEPAD_DOWN_PRESSED": {
         "name": "gamepad down pressed",
-        "color": "#886a4a",
+        "color": "886a4a",
         "features": [
           "cast",
           "wlan",
@@ -9053,7 +9057,7 @@
       },
       "SENSOR_GAMEPAD_LEFT_PRESSED": {
         "name": "gamepad left pressed",
-        "color": "#886a4a",
+        "color": "886a4a",
         "features": [
           "cast",
           "wlan",
@@ -9063,7 +9067,7 @@
       },
       "SENSOR_GAMEPAD_RIGHT_PRESSED": {
         "name": "gamepad right pressed",
-        "color": "#886a4a",
+        "color": "886a4a",
         "features": [
           "cast",
           "wlan",
